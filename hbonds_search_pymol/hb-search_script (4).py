@@ -5,7 +5,7 @@
 
 # ### Initialization
 
-# In[1]:
+# In[26]:
 
 
 import pandas as pd
@@ -17,11 +17,11 @@ import platform
 
 # ### Functions
 
-# In[33]:
+# In[27]:
 
 
 
-"""def form(pdbstr, x):
+def form(pdbstr, x):
     '''
     Part of lambda function to format dataframe to Pymol compatible form:
     from "A:183:LEU:O" to "/2akr/A/A/LEU`183/O"
@@ -69,36 +69,49 @@ def hbsearch(pdbstr:str) -> pd.DataFrame():
     
     return df_hbond
 
-cmd.extend('hbsearch', hbsearch)"""
+#cmd.extend('hbsearch', hbsearch)
 
 
-# In[43]:
+# In[39]:
 
 
 def changeDirectory(programDirectory = "."):
     
-    cmd.cd(programDirectory)
+    cmd.cd(os.path.normpath(programDirectory))
     os.chdir(os.path.normpath(programDirectory))
     # Usefull if we want to give an error! To tell the person in which directory they are located!
     cwd = os.getcwd()
-changeDirectory()
 
 
-# In[55]:
+# In[40]:
 
 
-def startHBsearch():
+def fetch(pdbID, object_name = ""):
+    if object_name == "":
+        object_name = pdbID
+        
+    cmd.cd(os.path.normpath("./pdb_files/"))
+    cmd.fetch(pdbID, type= "pdb", name = object_name)
+    cmd.cd(os.path.normpath(".."))
+    
+    return object_name
+
+
+# In[41]:
+
+
+def startHBsearch(pdbID):
 
     # Setting environment variable
     os.environ['PSE_FILE'] = 'period-table-info.txt'
     # Determine operation system
     system = platform.system()
     # Executing hb_search
-    hbs = subprocess.run(os.path.normpath(f"./{system}/hb-search -hb hb-define.txt 4awn.pdb"), capture_output=True, shell=True, check = True, text = True).stdout
+    hbs = subprocess.run(os.path.normpath(f"./{system}/hb-search -hb hb-define.txt ./pdb_files/{pdbID}.pdb"), capture_output=True, shell=True, check = True, text = True).stdout
     return hbs
 
 
-# In[62]:
+# In[42]:
 
 
 def readInHBS(hbsfile):
@@ -110,10 +123,9 @@ def readInHBS(hbsfile):
     df = pd.DataFrame(hbs_split, columns = HEAD_LST)
     df = df[df["IDENT"] == "HBOND"]
     return df
-readInHBS(startHBsearch())
 
 
-# In[69]:
+# In[43]:
 
 
 def prepareLists(dataframe):
@@ -133,39 +145,39 @@ def prepareLists(dataframe):
 
     
     return acceptor, donor
-acceptor, donor = prepareLists(readInHBS(startHBsearch()))
 
 
-# In[74]:
+# In[44]:
 
 
-def displayDistances(acceptor, donor, obj = "4awn"):
+def displayDistances(acceptor, donor, object_name):
     
     bondList = []
     
     for i in range(len(acceptor)):
         print(acceptor[i], donor[i])
         cmd.distance(f"HydrogenBond{i}", 
-                     f"{obj}//{acceptor[i][0]}/{acceptor[i][1]}/{acceptor[i][3]}", 
-                     f"{obj}//{donor[i][0]}/{donor[i][1]}/{donor[i][3]}", )
+                     f"{object_name}//{acceptor[i][0]}/{acceptor[i][1]}/{acceptor[i][3]}", 
+                     f"{object_name}//{donor[i][0]}/{donor[i][1]}/{donor[i][3]}", )
 
         bondList.append(f"HydrogenBond{i}")
     cmd.group("HydrogenBonds", " ".join(bondList))
     cmd.hide("labels", "HydrogenBonds")
 
 
-# In[75]:
+# In[45]:
 
 
-def main():
+def main(pdbID = "", object_name = "" ):
     changeDirectory()
-    hbs_output = startHBsearch()
+    objectName = fetch(pdbID, object_name)
+    hbs_output = startHBsearch(pdbID)
     hbs_dataframe = readInHBS(hbs_output)
     acceptor, donor = prepareLists(hbs_dataframe)
-    displayDistances(acceptor, donor)
+    displayDistances(acceptor, donor, objectName)
 
 
-# In[76]:
+# In[46]:
 
 
 cmd.extend("hbsearch", main)
