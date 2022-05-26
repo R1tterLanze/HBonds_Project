@@ -112,10 +112,10 @@ def fetch(pdbID: str, object_name: str = ""):
     cmd.cd(os.path.normpath(".."))
 
 
-# In[58]:
+# In[1]:
 
 
-def startHBsearch(molecule: str, hb_file: str = "hb-define.txt", solvent_key:str = "NONE", pse_file:str ="period-table-info.txt", connections: str = "0" ):
+def startHBsearch(molecule: str, hb_file: str, solvent_key:str, pse_file:str, connections: str):
 
     # Setting environment variable
     os.environ['PSE_FILE'] = pse_file
@@ -180,10 +180,13 @@ def displayDistances(acceptor: List, donor: List, object_name: str):
     cmd.hide("labels", f"{object_name}_HydrogenBonds")
 
 
-# In[68]:
+# In[4]:
 
 
-def main(molecule:str, molecule_name = "", directory:str = ".", use_object: str = "0", remove_object = "0", hb_file: str = "hb-define.txt", solvent_key:str = "NONE", pse_file:str ="period-table-info.txt", connections: str = "0"):
+def main(molecule:str, molecule_name = "", directory:str = ".", 
+         use_object: str = "0", remove_object = "1", hb_file: str = "hb-define.txt", 
+         solvent_key:str = "NONE", pse_file:str ="period-table-info.txt", connections: str = "0"):
+    
     changeDirectory(directory)
     
     print(molecule_name)
@@ -205,7 +208,7 @@ def main(molecule:str, molecule_name = "", directory:str = ".", use_object: str 
         removeObject(molecule)
 
 
-# In[67]:
+# In[5]:
 
 
 cmd.extend("hbsearch", main)
