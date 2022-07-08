@@ -5,7 +5,7 @@
 
 # ### Initialization
 
-# In[52]:
+# In[73]:
 
 
 import pandas as pd
@@ -18,7 +18,7 @@ from typing import List
 
 # ### Functions
 
-# In[53]:
+# In[20]:
 
 
 """
@@ -73,7 +73,7 @@ def hbsearch(pdbstr:str) -> pd.DataFrame():
 #cmd.extend('hbsearch', hbsearch)"""
 
 
-# In[54]:
+# In[74]:
 
 
 def changeDirectory(programDirectory: str = "."):
@@ -84,7 +84,7 @@ def changeDirectory(programDirectory: str = "."):
     #cwd = os.getcwd()
 
 
-# In[55]:
+# In[75]:
 
 
 def useObject(input_molecule: str):
@@ -92,7 +92,7 @@ def useObject(input_molecule: str):
     cmd.save(os.path.normpath(f"./pdb_files/{input_molecule}.pdb"), input_molecule)
 
 
-# In[69]:
+# In[76]:
 
 
 def removeObject(input_molecule: str):
@@ -100,19 +100,19 @@ def removeObject(input_molecule: str):
     os.remove(os.path.normpath(f"./pdb_files/{input_molecule}.pdb"))
 
 
-# In[57]:
+# In[77]:
 
 
-def fetch(pdbID: str, object_name: str = ""):
+def fetchPDB(pdbID: str, object_name: str = ""):
     if object_name == "":
         object_name = pdbID
-        
-    cmd.cd(os.path.normpath("./pdb_files/"))
-    cmd.fetch(pdbID, type= "pdb", name = object_name)
-    cmd.cd(os.path.normpath(".."))
+    #setting fetch_path to desired folder
+    cmd.set("fetch_path", os.path.normpath("./pdb_files/"))
+    #fetching pdb file if not in folder
+    cmd.fetch(pdbID, name = object_name, type = "pdb")
 
 
-# In[1]:
+# In[78]:
 
 
 def startHBsearch(molecule: str, hb_file: str, solvent_key:str, pse_file:str, connections: str):
@@ -126,7 +126,7 @@ def startHBsearch(molecule: str, hb_file: str, solvent_key:str, pse_file:str, co
     return hbs_output
 
 
-# In[59]:
+# In[79]:
 
 
 def readInHBS(hbs_output: str):
@@ -140,7 +140,7 @@ def readInHBS(hbs_output: str):
     return df
 
 
-# In[60]:
+# In[80]:
 
 
 def prepareLists(dataframe: pd.DataFrame):
@@ -162,7 +162,7 @@ def prepareLists(dataframe: pd.DataFrame):
     return acceptor, donor
 
 
-# In[64]:
+# In[81]:
 
 
 def displayDistances(acceptor: List, donor: List, object_name: str):
@@ -170,7 +170,7 @@ def displayDistances(acceptor: List, donor: List, object_name: str):
     bondList = []
     
     for i in range(len(acceptor)): #modify with zip
-        print(acceptor[i], donor[i])
+        
         cmd.distance(f"{object_name}_hydrogenBond_{i}", 
                      f"{object_name}//{acceptor[i][0]}/{acceptor[i][1]}/{acceptor[i][3]}", 
                      f"{object_name}//{donor[i][0]}/{donor[i][1]}/{donor[i][3]}", )
@@ -180,7 +180,23 @@ def displayDistances(acceptor: List, donor: List, object_name: str):
     cmd.hide("labels", f"{object_name}_HydrogenBonds")
 
 
-# In[4]:
+# In[90]:
+
+
+def showSticks(acceptor: List,donor: List, object_name: str):
+    
+    stickList = []
+    
+    for i in range(len(acceptor)):
+        stickList.append(f"/{object_name}//{acceptor[i][0]}/{acceptor[i][1]}")
+        stickList.append(f"/{object_name}//{donor[i][0]}/{donor[i][1]}") 
+    print(stickList)
+    cmd.select(f"Connections_Sticks_{object_name}", " ".join(stickList))
+    cmd.show("sticks", f"Connections_Sticks_{object_name}")
+    cmd.deselect()
+
+
+# In[86]:
 
 
 def main(molecule:str, molecule_name = "", directory:str = ".", 
@@ -191,7 +207,7 @@ def main(molecule:str, molecule_name = "", directory:str = ".",
     
     print(molecule_name)
     if use_object == "0":
-        fetch(molecule, molecule_name)
+        fetchPDB(molecule, molecule_name)
     elif use_object == "1":
         useObject(molecule)
         
@@ -201,23 +217,25 @@ def main(molecule:str, molecule_name = "", directory:str = ".",
     
     if molecule_name == "":
         displayDistances(acceptor, donor, molecule)
+        showSticks(acceptor,donor, molecule)
     else:
         displayDistances(acceptor, donor, molecule_name)
+        showSticks(acceptor,donor, molecule_name)
     
     if remove_object == "1":
         removeObject(molecule)
 
 
-# In[5]:
+# In[87]:
 
 
 cmd.extend("hbsearch", main)
 
 
-# In[ ]:
+# In[72]:
 
 
-# hbsearch 
+
 
 
 # ### Main body
