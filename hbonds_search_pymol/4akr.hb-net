@@ -1,0 +1,4009 @@
+Number of Donors:             2270
+Number of Acceptors:          2360
+Number of Hydrogen Bonds:     2716
+=======================================================================
+Number of Nodes in Proton Transfer Network:     1278
+Proton Transfer Network is symmetric.
+=======================================================================
+Proton Transfer Network -- Connections
+Node   1  A:3:SER:OG     :  A:6:GLU:OE1     
+Node   2  A:4:ASN:OD1    : 
+Node   3  A:4:ASN:ND2    : 
+Node   4  A:5:GLN:OE1    : 
+Node   5  A:5:GLN:NE2    : 
+Node   6  A:6:GLU:OE1    :  A:2004:HOH:O     A:3:SER:OG      
+Node   7  A:6:GLU:OE2    :  A:2004:HOH:O    
+Node   8  A:9:GLN:OE1    : 
+Node   9  A:9:GLN:NE2    : 
+Node  10  A:12:THR:OG1   :  A:2005:HOH:O    
+Node  11  A:13:ASN:OD1   : 
+Node  12  A:13:ASN:ND2   : 
+Node  13  A:17:ASN:OD1   :  B:20:GLN:NE2    
+Node  14  A:17:ASN:ND2   : 
+Node  15  A:21:CYS:SG    : 
+Node  16  A:22:GLU:OE1   :  B:15:ARG:NH2     B:15:ARG:NE     
+Node  17  A:22:GLU:OE2   :  A:193:HIS:NE2    A:164:SER:OG    
+Node  18  A:25:GLU:OE1   : 
+Node  19  A:25:GLU:OE2   : 
+Node  20  A:28:SER:OG    : 
+Node  21  A:29:ASP:OD1   :  A:2011:HOH:O    
+Node  22  A:29:ASP:OD2   :  B:11:ASP:OD1    
+Node  23  A:31:ARG:NE    :  A:2012:HOH:O    
+Node  24  A:31:ARG:NH1   : 
+Node  25  A:31:ARG:NH2   :  A:2012:HOH:O    
+Node  26  A:36:SER:OG    :  A:38:SER:OG     
+Node  27  A:37:GLU:OE1   : 
+Node  28  A:37:GLU:OE2   : 
+Node  29  A:38:SER:OG    :  A:36:SER:OG     
+Node  30  A:41:ASN:OD1   : 
+Node  31  A:41:ASN:ND2   : 
+Node  32  A:43:SER:OG    : 
+Node  33  A:46:SER:OG    : 
+Node  34  A:47:THR:OG1   : 
+Node  35  A:49:ARG:NE    :  A:76:ASN:ND2     A:73:GLU:OE1    
+Node  36  A:49:ARG:NH1   : 
+Node  37  A:49:ARG:NH2   :  A:73:GLU:OE2    
+Node  38  A:50:GLU:OE1   :  A:70:LYS:NZ     
+Node  39  A:50:GLU:OE2   :  A:70:LYS:NZ     
+Node  40  A:51:TYR:OH    :  A:2010:HOH:O    
+Node  41  A:52:ASN:OD1   : 
+Node  42  A:52:ASN:ND2   : 
+Node  43  A:53:THR:OG1   : 
+Node  44  A:54:SER:OG    :  A:2006:HOH:O    
+Node  45  A:55:GLN:OE1   :  A:2010:HOH:O     A:2008:HOH:O     A:166:ARG:NE    
+Node  46  A:55:GLN:NE2   :  A:2019:HOH:O     A:2008:HOH:O    
+Node  47  A:58:SER:OG    :  A:2022:HOH:O     A:2021:HOH:O     A:2020:HOH:O    
+Node  48  A:60:GLN:OE1   :  A:2025:HOH:O     C:266:ASN:OD1   
+Node  49  A:60:GLN:NE2   :  A:2021:HOH:O    
+Node  50  A:61:THR:OG1   :  A:86:GLN:OE1    
+Node  51  A:62:SER:OG    :  C:269:LYS:NZ     A:100:GLU:OE1   
+Node  52  A:63:LYS:NZ    :  A:2028:HOH:O    
+Node  53  A:65:SER:OG    :  A:2029:HOH:O    
+Node  54  A:69:THR:OG1   :  A:138:TYR:OH    
+Node  55  A:70:LYS:NZ    :  A:50:GLU:OE2     A:50:GLU:OE1    
+Node  56  A:71:GLU:OE1   : 
+Node  57  A:71:GLU:OE2   : 
+Node  58  A:73:GLU:OE1   :  A:79:TYR:OH      A:49:ARG:NE     
+Node  59  A:73:GLU:OE2   :  A:49:ARG:NH2    
+Node  60  A:75:SER:OG    : 
+Node  61  A:76:ASN:OD1   :  A:2017:HOH:O     A:77:ASN:OD1    
+Node  62  A:76:ASN:ND2   :  A:2017:HOH:O     A:49:ARG:NE     
+Node  63  A:77:ASN:OD1   :  A:76:ASN:OD1    
+Node  64  A:77:ASN:ND2   :  A:2033:HOH:O    
+Node  65  A:78:GLU:OE1   : 
+Node  66  A:78:GLU:OE2   :  A:2035:HOH:O    
+Node  67  A:79:TYR:OH    :  A:73:GLU:OE1    
+Node  68  A:81:ASP:OD1   :  A:2030:HOH:O    
+Node  69  A:81:ASP:OD2   :  A:2030:HOH:O     A:86:GLN:OE1     A:84:ASN:OD1    
+Node  70  A:83:LYS:NZ    :  A:123:THR:OG1   
+Node  71  A:84:ASN:OD1   :  A:2027:HOH:O     A:81:ASP:OD2    
+Node  72  A:84:ASN:ND2   :  A:2036:HOH:O     A:2028:HOH:O    
+Node  73  A:85:LYS:NZ    : 
+Node  74  A:86:GLN:OE1   :  A:81:ASP:OD2     A:61:THR:OG1    
+Node  75  A:86:GLN:NE2   :  A:2037:HOH:O    
+Node  76  A:89:THR:OG1   : 
+Node  77  A:90:TYR:OH    : 
+Node  78  A:91:ASP:OD1   : 
+Node  79  A:91:ASP:OD2   :  A:2038:HOH:O    
+Node  80  A:92:HIS:ND1   :  A:2015:HOH:O    
+Node  81  A:92:HIS:NE2   : 
+Node  82  A:94:LYS:NZ    : 
+Node  83  A:95:GLN:OE1   : 
+Node  84  A:95:GLN:NE2   : 
+Node  85  A:96:GLU:OE1   :  A:2039:HOH:O    
+Node  86  A:96:GLU:OE2   :  A:2039:HOH:O    
+Node  87  A:98:THR:OG1   :  A:2042:HOH:O    
+Node  88  A:100:GLU:OE1  :  A:2037:HOH:O     C:269:LYS:NZ     A:62:SER:OG     
+Node  89  A:100:GLU:OE2  :  C:269:LYS:NZ    
+Node  90  A:101:ARG:NE   : 
+Node  91  A:101:ARG:NH1  :  A:104:SER:OG    
+Node  92  A:101:ARG:NH2  :  A:2035:HOH:O    
+Node  93  A:102:SER:OG   :  A:2043:HOH:O    
+Node  94  A:104:SER:OG   :  A:106:GLU:OE2    A:101:ARG:NH1   
+Node  95  A:106:GLU:OE1  : 
+Node  96  A:106:GLU:OE2  :  A:104:SER:OG    
+Node  97  A:108:GLU:OE1  :  A:141:LYS:NZ    
+Node  98  A:108:GLU:OE2  :  A:140:THR:OG1   
+Node  99  A:109:GLN:OE1  :  A:2049:HOH:O    
+Node 100  A:109:GLN:NE2  :  A:2051:HOH:O    
+Node 101  A:110:ASP:OD1  :  A:141:LYS:NZ    
+Node 102  A:110:ASP:OD2  :  A:141:LYS:NZ    
+Node 103  A:112:GLU:OE1  :  A:2047:HOH:O     A:115:ARG:NE    
+Node 104  A:112:GLU:OE2  :  A:2052:HOH:O     A:115:ARG:NH2    A:115:ARG:NE    
+Node 105  A:113:GLN:OE1  : 
+Node 106  A:113:GLN:NE2  :  A:2053:HOH:O    
+Node 107  A:114:TYR:OH   :  A:2074:HOH:O    
+Node 108  A:115:ARG:NE   :  A:112:GLU:OE2    A:112:GLU:OE1   
+Node 109  A:115:ARG:NH1  :  A:119:ASP:OD2   
+Node 110  A:115:ARG:NH2  :  A:119:ASP:OD2    A:112:GLU:OE2   
+Node 111  A:119:ASP:OD1  :  A:2054:HOH:O    
+Node 112  A:119:ASP:OD2  :  A:2054:HOH:O     A:115:ARG:NH2    A:115:ARG:NH1   
+Node 113  A:120:GLU:OE1  :  A:2055:HOH:O    
+Node 114  A:120:GLU:OE2  : 
+Node 115  A:121:GLU:OE1  :  A:2058:HOH:O     A:2057:HOH:O     A:2056:HOH:O    
+Node 116  A:121:GLU:OE2  :  A:124:LYS:NZ    
+Node 117  A:123:THR:OG1  :  A:83:LYS:NZ     
+Node 118  A:124:LYS:NZ   :  A:2058:HOH:O     A:121:GLU:OE2   
+Node 119  A:125:TYR:OH   :  A:2061:HOH:O     B:246:ARG:NH2    A:232:GLU:OE1   
+Node 120  A:126:CYS:SG   :  A:2062:HOH:O    
+Node 121  A:127:ASN:OD1  :  A:2063:HOH:O     A:2062:HOH:O    
+Node 122  A:127:ASN:ND2  : 
+Node 123  A:128:GLU:OE1  : 
+Node 124  A:128:GLU:OE2  : 
+Node 125  A:129:TYR:OH   : 
+Node 126  A:130:TYR:OH   :  B:246:ARG:NE     A:232:GLU:OE1    A:169:SER:OG    
+                            A:167:TRP:NE1   
+Node 127  A:132:ASN:OD1  : 
+Node 128  A:132:ASN:ND2  : 
+Node 129  A:135:SER:OG   :  A:2063:HOH:O    
+Node 130  A:138:TYR:OH   :  A:69:THR:OG1    
+Node 131  A:140:THR:OG1  :  A:108:GLU:OE2   
+Node 132  A:141:LYS:NZ   :  A:110:ASP:OD2    A:110:ASP:OD1    A:108:GLU:OE1   
+Node 133  A:143:SER:OG   : 
+Node 134  A:144:GLU:OE1  : 
+Node 135  A:144:GLU:OE2  : 
+Node 136  A:147:LYS:NZ   : 
+Node 137  A:149:THR:OG1  : 
+Node 138  A:151:CYS:SG   : 
+Node 139  A:153:SER:OG   :  A:166:ARG:NH1   
+Node 140  A:154:THR:OG1  :  A:2064:HOH:O    
+Node 141  A:155:CYS:SG   :  A:2065:HOH:O     A:2022:HOH:O     A:2020:HOH:O    
+Node 142  A:157:TYR:OH   : 
+Node 143  A:158:LYS:NZ   : 
+Node 144  A:160:ASN:OD1  : 
+Node 145  A:160:ASN:ND2  : 
+Node 146  A:163:TYR:OH   : 
+Node 147  A:164:SER:OG   :  A:22:GLU:OE2    
+Node 148  A:166:ARG:NE   :  A:55:GLN:OE1    
+Node 149  A:166:ARG:NH1  :  A:2020:HOH:O     A:153:SER:OG    
+Node 150  A:166:ARG:NH2  :  A:2020:HOH:O     A:2010:HOH:O    
+Node 151  A:167:TRP:NE1  :  A:169:SER:OG     A:130:TYR:OH    
+Node 152  A:168:ARG:NE   :  A:2069:HOH:O    
+Node 153  A:168:ARG:NH1  :  A:189:GLN:OE1   
+Node 154  A:168:ARG:NH2  :  A:2070:HOH:O     A:2069:HOH:O     A:191:ASN:ND2   
+Node 155  A:169:SER:OG   :  A:232:GLU:OE2    A:167:TRP:NE1    A:130:TYR:OH    
+Node 156  A:171:TRP:NE1  :  A:232:GLU:OE2   
+Node 157  A:172:THR:OG1  :  A:2071:HOH:O    
+Node 158  A:173:CYS:SG   :  A:184:SER:OG    
+Node 159  A:174:THR:OG1  :  A:2073:HOH:O    
+Node 160  A:176:LYS:NZ   : 
+Node 161  A:179:SER:OG   : 
+Node 162  A:181:ASN:OD1  : 
+Node 163  A:181:ASN:ND2  : 
+Node 164  A:183:THR:OG1  :  A:2072:HOH:O    
+Node 165  A:184:SER:OG   :  A:2077:HOH:O     A:173:CYS:SG    
+Node 166  A:185:ASN:OD1  :  A:2078:HOH:O    
+Node 167  A:185:ASN:ND2  :  A:2079:HOH:O     A:209:GLN:OE1   
+Node 168  A:187:LYS:NZ   : 
+Node 169  A:189:GLN:OE1  :  A:2080:HOH:O     A:168:ARG:NH1   
+Node 170  A:189:GLN:NE2  : 
+Node 171  A:191:ASN:OD1  :  A:203:ASN:OD1   
+Node 172  A:191:ASN:ND2  :  A:2069:HOH:O     A:168:ARG:NH2   
+Node 173  A:193:HIS:ND1  : 
+Node 174  A:193:HIS:NE2  :  A:22:GLU:OE2    
+Node 175  A:194:TYR:OH   :  A:196:GLU:OE1   
+Node 176  A:196:GLU:OE1  :  A:194:TYR:OH    
+Node 177  A:196:GLU:OE2  : 
+Node 178  A:197:ASP:OD1  : 
+Node 179  A:197:ASP:OD2  : 
+Node 180  A:199:ASN:OD1  :  A:201:GLN:NE2   
+Node 181  A:199:ASN:ND2  :  A:2084:HOH:O    
+Node 182  A:201:GLN:OE1  :  A:2007:HOH:O    
+Node 183  A:201:GLN:NE2  :  A:199:ASN:OD1   
+Node 184  A:203:ASN:OD1  :  A:191:ASN:OD1   
+Node 185  A:203:ASN:ND2  : 
+Node 186  A:204:THR:OG1  :  A:2081:HOH:O    
+Node 187  A:206:THR:OG1  :  A:2081:HOH:O    
+Node 188  A:207:GLN:OE1  :  A:2088:HOH:O    
+Node 189  A:207:GLN:NE2  : 
+Node 190  A:208:LYS:NZ   : 
+Node 191  A:209:GLN:OE1  :  A:185:ASN:ND2   
+Node 192  A:209:GLN:NE2  : 
+Node 193  A:210:THR:OG1  :  A:2077:HOH:O    
+Node 194  A:211:THR:OG1  : 
+Node 195  A:212:SER:OG   :  A:2089:HOH:O     A:2077:HOH:O    
+Node 196  A:214:SER:OG   :  A:2074:HOH:O    
+Node 197  A:216:ASP:OD1  :  A:219:SER:OG    
+Node 198  A:216:ASP:OD2  :  A:219:SER:OG     A:218:GLN:OE1   
+Node 199  A:218:GLN:OE1  :  A:216:ASP:OD2   
+Node 200  A:218:GLN:NE2  : 
+Node 201  A:219:SER:OG   :  A:216:ASP:OD2    A:216:ASP:OD1   
+Node 202  A:220:THR:OG1  :  A:2074:HOH:O    
+Node 203  A:223:ASN:OD1  : 
+Node 204  A:223:ASN:ND2  : 
+Node 205  A:226:LYS:NZ   : 
+Node 206  A:230:LYS:NZ   : 
+Node 207  A:232:GLU:OE1  :  A:130:TYR:OH     A:125:TYR:OH    
+Node 208  A:232:GLU:OE2  :  A:171:TRP:NE1    A:169:SER:OG    
+Node 209  A:234:ASN:OD1  : 
+Node 210  A:234:ASN:ND2  : 
+Node 211  A:236:HIS:ND1  :  B:246:ARG:NH1   
+Node 212  A:236:HIS:NE2  :  B:243:ASN:OD1   
+Node 213  A:237:THR:OG1  : 
+Node 214  A:240:ASP:OD1  :  B:243:ASN:ND2    B:243:ASN:OD1   
+Node 215  A:240:ASP:OD2  : 
+Node 216  A:241:ASN:OD1  : 
+Node 217  A:241:ASN:ND2  : 
+Node 218  A:242:ASN:OD1  : 
+Node 219  A:242:ASN:ND2  :  A:2091:HOH:O    
+Node 220  A:243:TYR:OH   :  B:238:THR:OG1   
+Node 221  A:244:SER:OG   : 
+Node 222  A:245:THR:OG1  : 
+Node 223  A:248:ASP:OD1  : 
+Node 224  A:248:ASP:OD2  : 
+Node 225  A:249:THR:OG1  :  A:250:THR:OG1   
+Node 226  A:250:THR:OG1  :  A:249:THR:OG1   
+Node 227  A:252:LYS:NZ   : 
+Node 228  A:255:ARG:NE   :  B:223:GLU:OE1    B:107:TYR:OH    
+Node 229  A:255:ARG:NH1  : 
+Node 230  A:255:ARG:NH2  :  B:224:SER:OG     B:107:TYR:OH    
+Node 231  A:256:ARG:NE   : 
+Node 232  A:256:ARG:NH1  :  B:113:GLU:OE2    B:113:GLU:OE1   
+Node 233  A:256:ARG:NH2  : 
+Node 234  A:261:ASN:OD1  : 
+Node 235  A:261:ASN:ND2  : 
+Node 236  A:262:ARG:NE   : 
+Node 237  A:262:ARG:NH1  : 
+Node 238  A:262:ARG:NH2  : 
+Node 239  A:263:THR:OG1  : 
+Node 240  A:264:LYS:NZ   : 
+Node 241  A:266:ASN:OD1  : 
+Node 242  A:266:ASN:ND2  : 
+Node 243  A:267:TRP:NE1  :  B:220:GLU:OE1   
+Node 244  A:268:GLN:OE1  : 
+Node 245  A:268:GLN:NE2  :  B:209:ASP:OD1   
+Node 246  A:269:LYS:NZ   : 
+Node 247  B:2:THR:OG1    :  B:5:GLN:OE1     
+Node 248  B:3:GLU:OE1    : 
+Node 249  B:3:GLU:OE2    : 
+Node 250  B:4:LYS:NZ     : 
+Node 251  B:5:GLN:OE1    :  B:2:THR:OG1     
+Node 252  B:5:GLN:NE2    : 
+Node 253  B:7:SER:OG     : 
+Node 254  B:8:CYS:SG     : 
+Node 255  B:9:CYS:SG     : 
+Node 256  B:11:ASP:OD1   :  A:2011:HOH:O     B:15:ARG:NH1     A:29:ASP:OD2    
+Node 257  B:11:ASP:OD2   : 
+Node 258  B:14:ARG:NE    : 
+Node 259  B:14:ARG:NH1   : 
+Node 260  B:14:ARG:NH2   : 
+Node 261  B:15:ARG:NE    :  A:22:GLU:OE1    
+Node 262  B:15:ARG:NH1   :  B:11:ASP:OD1    
+Node 263  B:15:ARG:NH2   :  A:22:GLU:OE1    
+Node 264  B:19:SER:OG    :  B:2005:HOH:O    
+Node 265  B:20:GLN:OE1   :  B:24:ASN:ND2    
+Node 266  B:20:GLN:NE2   :  B:2005:HOH:O     A:17:ASN:OD1    
+Node 267  B:22:GLU:OE1   : 
+Node 268  B:22:GLU:OE2   :  B:48:LYS:NZ     
+Node 269  B:23:ASP:OD1   : 
+Node 270  B:23:ASP:OD2   : 
+Node 271  B:24:ASN:OD1   : 
+Node 272  B:24:ASN:ND2   :  B:2003:HOH:O     B:20:GLN:OE1    
+Node 273  B:30:ASP:OD1   :  B:2010:HOH:O    
+Node 274  B:30:ASP:OD2   :  B:2008:HOH:O    
+Node 275  B:34:ASP:OD1   : 
+Node 276  B:34:ASP:OD2   : 
+Node 277  B:36:THR:OG1   : 
+Node 278  B:37:GLU:OE1   : 
+Node 279  B:37:GLU:OE2   : 
+Node 280  B:38:ASP:OD1   : 
+Node 281  B:38:ASP:OD2   : 
+Node 282  B:41:SER:OG    :  B:2011:HOH:O    
+Node 283  B:42:SER:OG    : 
+Node 284  B:44:ASP:OD1   :  B:2012:HOH:O    
+Node 285  B:44:ASP:OD2   :  B:2013:HOH:O     B:174:THR:OG1   
+Node 286  B:45:GLN:OE1   :  B:2015:HOH:O     B:2007:HOH:O    
+Node 287  B:45:GLN:NE2   : 
+Node 288  B:48:LYS:NZ    :  B:22:GLU:OE2    
+Node 289  B:51:TYR:OH    : 
+Node 290  B:52:ASP:OD1   : 
+Node 291  B:52:ASP:OD2   :  B:76:SER:OG      B:73:SER:OG      B:55:SER:OG     
+Node 292  B:55:SER:OG    :  B:2021:HOH:O     B:52:ASP:OD2    
+Node 293  B:56:LYS:NZ    : 
+Node 294  B:57:LYS:NZ    :  B:105:GLU:OE2    B:105:GLU:OE1   
+Node 295  B:58:ASP:OD1   : 
+Node 296  B:58:ASP:OD2   :  B:2022:HOH:O    
+Node 297  B:59:TYR:OH    :  B:2023:HOH:O     B:2018:HOH:O    
+Node 298  B:62:CYS:SG    :  B:65:ASN:OD1    
+Node 299  B:63:ASP:OD1   :  B:2024:HOH:O    
+Node 300  B:63:ASP:OD2   :  B:2011:HOH:O    
+Node 301  B:64:TYR:OH    : 
+Node 302  B:65:ASN:OD1   :  B:62:CYS:SG     
+Node 303  B:65:ASN:ND2   :  B:120:TYR:OH    
+Node 304  B:66:ARG:NE    : 
+Node 305  B:66:ARG:NH1   :  B:2024:HOH:O     B:71:TYR:OH     
+Node 306  B:66:ARG:NH2   : 
+Node 307  B:67:ASP:OD1   : 
+Node 308  B:67:ASP:OD2   : 
+Node 309  B:69:ASP:OD1   : 
+Node 310  B:69:ASP:OD2   : 
+Node 311  B:70:SER:OG    :  B:2026:HOH:O    
+Node 312  B:71:TYR:OH    :  B:66:ARG:NH1    
+Node 313  B:72:ARG:NE    : 
+Node 314  B:72:ARG:NH1   :  B:97:GLU:OE2     B:97:GLU:OE1    
+Node 315  B:72:ARG:NH2   :  B:97:GLU:OE2    
+Node 316  B:73:SER:OG    :  B:52:ASP:OD2    
+Node 317  B:75:TRP:NE1   : 
+Node 318  B:76:SER:OG    :  B:52:ASP:OD2    
+Node 319  B:77:ASN:OD1   : 
+Node 320  B:77:ASN:ND2   :  B:2031:HOH:O    
+Node 321  B:78:LYS:NZ    : 
+Node 322  B:79:TYR:OH    : 
+Node 323  B:80:ASP:OD1   :  B:2032:HOH:O    
+Node 324  B:80:ASP:OD2   :  B:2018:HOH:O    
+Node 325  B:84:SER:OG    :  B:2037:HOH:O    
+Node 326  B:87:CYS:SG    : 
+Node 327  B:88:TYR:OH    :  B:2035:HOH:O    
+Node 328  B:90:SER:OG    :  B:123:ASP:OD2   
+Node 329  B:91:SER:OG    : 
+Node 330  B:92:LYS:NZ    : 
+Node 331  B:94:ARG:NE    :  B:2031:HOH:O    
+Node 332  B:94:ARG:NH1   :  B:97:GLU:OE1    
+Node 333  B:94:ARG:NH2   :  B:2031:HOH:O     B:2028:HOH:O     B:2027:HOH:O    
+Node 334  B:95:ASP:OD1   : 
+Node 335  B:95:ASP:OD2   : 
+Node 336  B:97:GLU:OE1   :  B:94:ARG:NH1     B:72:ARG:NH1    
+Node 337  B:97:GLU:OE2   :  B:72:ARG:NH2     B:72:ARG:NH1    
+Node 338  B:99:GLN:OE1   : 
+Node 339  B:99:GLN:NE2   :  B:212:CYS:SG    
+Node 340  B:101:ASN:OD1  : 
+Node 341  B:101:ASN:ND2  : 
+Node 342  B:102:GLU:OE1  : 
+Node 343  B:102:GLU:OE2  : 
+Node 344  B:105:GLU:OE1  :  B:57:LYS:NZ     
+Node 345  B:105:GLU:OE2  :  B:57:LYS:NZ     
+Node 346  B:107:TYR:OH   :  B:223:GLU:OE1    A:255:ARG:NH2    A:255:ARG:NE    
+Node 347  B:109:ASN:OD1  : 
+Node 348  B:109:ASN:ND2  : 
+Node 349  B:111:TYR:OH   :  B:220:GLU:OE2   
+Node 350  B:113:GLU:OE1  :  A:256:ARG:NH1   
+Node 351  B:113:GLU:OE2  :  A:256:ARG:NH1   
+Node 352  B:117:SER:OG   : 
+Node 353  B:118:SER:OG   :  B:120:TYR:OH    
+Node 354  B:120:TYR:OH   :  B:118:SER:OG     B:65:ASN:ND2    
+Node 355  B:121:CYS:SG   : 
+Node 356  B:122:TRP:NE1  : 
+Node 357  B:123:ASP:OD1  :  B:2041:HOH:O    
+Node 358  B:123:ASP:OD2  :  B:90:SER:OG     
+Node 359  B:125:ASP:OD1  : 
+Node 360  B:125:ASP:OD2  : 
+Node 361  B:126:ASP:OD1  : 
+Node 362  B:126:ASP:OD2  : 
+Node 363  B:127:ASN:OD1  : 
+Node 364  B:127:ASN:ND2  : 
+Node 365  B:135:LYS:NZ   :  B:152:ASP:OD2    B:152:ASP:OD1   
+Node 366  B:136:LYS:NZ   : 
+Node 367  B:137:THR:OG1  : 
+Node 368  B:138:GLN:OE1  : 
+Node 369  B:138:GLN:NE2  : 
+Node 370  B:139:ASP:OD1  : 
+Node 371  B:139:ASP:OD2  : 
+Node 372  B:148:ARG:NE   : 
+Node 373  B:148:ARG:NH1  : 
+Node 374  B:148:ARG:NH2  : 
+Node 375  B:150:THR:OG1  : 
+Node 376  B:151:TRP:NE1  :  B:153:SER:OG    
+Node 377  B:152:ASP:OD1  :  B:2044:HOH:O     B:135:LYS:NZ    
+Node 378  B:152:ASP:OD2  :  B:2042:HOH:O     B:135:LYS:NZ    
+Node 379  B:153:SER:OG   :  B:223:GLU:OE2    B:151:TRP:NE1   
+Node 380  B:155:HIS:ND1  : 
+Node 381  B:155:HIS:NE2  :  B:173:SER:OG    
+Node 382  B:158:GLU:OE1  : 
+Node 383  B:158:GLU:OE2  : 
+Node 384  B:160:LYS:NZ   : 
+Node 385  B:163:LYS:NZ   : 
+Node 386  B:164:LYS:NZ   : 
+Node 387  B:165:ASP:OD1  : 
+Node 388  B:165:ASP:OD2  : 
+Node 389  B:166:LYS:NZ   : 
+Node 390  B:169:TYR:OH   :  B:214:ASN:ND2    B:211:HIS:ND1   
+Node 391  B:170:LYS:NZ   : 
+Node 392  B:172:THR:OG1  :  B:198:GLN:OE1   
+Node 393  B:173:SER:OG   :  B:155:HIS:NE2   
+Node 394  B:174:THR:OG1  :  B:2013:HOH:O     B:196:THR:OG1    B:44:ASP:OD2    
+Node 395  B:178:SER:OG   : 
+Node 396  B:180:GLU:OE1  : 
+Node 397  B:180:GLU:OE2  : 
+Node 398  B:181:THR:OG1  :  B:183:ASN:ND2   
+Node 399  B:182:ASP:OD1  : 
+Node 400  B:182:ASP:OD2  : 
+Node 401  B:183:ASN:OD1  :  B:186:THR:OG1   
+Node 402  B:183:ASN:ND2  :  B:186:THR:OG1    B:181:THR:OG1   
+Node 403  B:184:ASP:OD1  : 
+Node 404  B:184:ASP:OD2  : 
+Node 405  B:185:ASN:OD1  : 
+Node 406  B:185:ASN:ND2  : 
+Node 407  B:186:THR:OG1  :  B:183:ASN:ND2    B:183:ASN:OD1   
+Node 408  B:188:LYS:NZ   :  B:190:ASN:ND2   
+Node 409  B:190:ASN:OD1  : 
+Node 410  B:190:ASN:ND2  :  B:188:LYS:NZ    
+Node 411  B:194:SER:OG   : 
+Node 412  B:196:THR:OG1  :  B:174:THR:OG1   
+Node 413  B:197:ARG:NE   : 
+Node 414  B:197:ARG:NH1  : 
+Node 415  B:197:ARG:NH2  : 
+Node 416  B:198:GLN:OE1  :  B:172:THR:OG1   
+Node 417  B:198:GLN:NE2  : 
+Node 418  B:199:ASP:OD1  :  B:2049:HOH:O    
+Node 419  B:199:ASP:OD2  : 
+Node 420  B:200:GLU:OE1  : 
+Node 421  B:200:GLU:OE2  : 
+Node 422  B:201:LYS:NZ   : 
+Node 423  B:202:GLU:OE1  : 
+Node 424  B:202:GLU:OE2  : 
+Node 425  B:203:TYR:OH   : 
+Node 426  B:204:THR:OG1  : 
+Node 427  B:206:ASN:OD1  : 
+Node 428  B:206:ASN:ND2  : 
+Node 429  B:207:GLU:OE1  : 
+Node 430  B:207:GLU:OE2  : 
+Node 431  B:209:ASP:OD1  :  A:268:GLN:NE2   
+Node 432  B:209:ASP:OD2  : 
+Node 433  B:210:THR:OG1  : 
+Node 434  B:211:HIS:ND1  :  B:169:TYR:OH    
+Node 435  B:211:HIS:NE2  : 
+Node 436  B:212:CYS:SG   :  B:2050:HOH:O     B:99:GLN:NE2    
+Node 437  B:214:ASN:OD1  : 
+Node 438  B:214:ASN:ND2  :  B:169:TYR:OH    
+Node 439  B:217:LYS:NZ   : 
+Node 440  B:220:GLU:OE1  :  B:2051:HOH:O     A:267:TRP:NE1   
+Node 441  B:220:GLU:OE2  :  B:111:TYR:OH    
+Node 442  B:221:ASP:OD1  : 
+Node 443  B:221:ASP:OD2  : 
+Node 444  B:223:GLU:OE1  :  B:107:TYR:OH     A:255:ARG:NE    
+Node 445  B:223:GLU:OE2  :  B:153:SER:OG    
+Node 446  B:224:SER:OG   :  A:255:ARG:NH2   
+Node 447  B:225:LYS:NZ   : 
+Node 448  B:227:ARG:NE   : 
+Node 449  B:227:ARG:NH1  : 
+Node 450  B:227:ARG:NH2  : 
+Node 451  B:228:GLN:OE1  : 
+Node 452  B:228:GLN:NE2  :  B:2052:HOH:O    
+Node 453  B:229:THR:OG1  :  B:2052:HOH:O    
+Node 454  B:231:GLU:OE1  : 
+Node 455  B:231:GLU:OE2  : 
+Node 456  B:232:THR:OG1  :  B:2054:HOH:O    
+Node 457  B:234:TYR:OH   : 
+Node 458  B:237:LYS:NZ   :  B:240:GLU:OE2    B:240:GLU:OE1   
+Node 459  B:238:THR:OG1  :  A:243:TYR:OH    
+Node 460  B:239:LYS:NZ   : 
+Node 461  B:240:GLU:OE1  :  B:237:LYS:NZ    
+Node 462  B:240:GLU:OE2  :  B:237:LYS:NZ    
+Node 463  B:243:ASN:OD1  :  A:240:ASP:OD1    A:236:HIS:NE2   
+Node 464  B:243:ASN:ND2  :  A:240:ASP:OD1   
+Node 465  B:244:THR:OG1  : 
+Node 466  B:246:ARG:NE   :  A:130:TYR:OH    
+Node 467  B:246:ARG:NH1  :  A:236:HIS:ND1   
+Node 468  B:246:ARG:NH2  :  A:2061:HOH:O     A:125:TYR:OH    
+Node 469  B:247:ASN:OD1  :  B:249:THR:OG1   
+Node 470  B:247:ASN:ND2  : 
+Node 471  B:249:THR:OG1  :  B:247:ASN:OD1   
+Node 472  B:251:ASN:OD1  : 
+Node 473  B:251:ASN:ND2  : 
+Node 474  B:252:SER:OG   : 
+Node 475  C:3:SER:OG     :  C:6:GLU:OE1     
+Node 476  C:4:ASN:OD1    :  C:2002:HOH:O    
+Node 477  C:4:ASN:ND2    :  C:2006:HOH:O    
+Node 478  C:5:GLN:OE1    : 
+Node 479  C:5:GLN:NE2    :  C:2007:HOH:O    
+Node 480  C:6:GLU:OE1    :  C:3:SER:OG      
+Node 481  C:6:GLU:OE2    : 
+Node 482  C:9:GLN:OE1    : 
+Node 483  C:9:GLN:NE2    : 
+Node 484  C:12:THR:OG1   : 
+Node 485  C:13:ASN:OD1   : 
+Node 486  C:13:ASN:ND2   : 
+Node 487  C:17:ASN:OD1   :  C:2011:HOH:O    
+Node 488  C:17:ASN:ND2   :  D:20:GLN:NE2    
+Node 489  C:21:CYS:SG    : 
+Node 490  C:22:GLU:OE1   :  D:15:ARG:NH1    
+Node 491  C:22:GLU:OE2   :  C:193:HIS:ND1    C:164:SER:OG    
+Node 492  C:25:GLU:OE1   : 
+Node 493  C:25:GLU:OE2   :  C:2018:HOH:O    
+Node 494  C:28:SER:OG    : 
+Node 495  C:29:ASP:OD1   : 
+Node 496  C:29:ASP:OD2   :  D:11:ASP:OD1    
+Node 497  C:31:ARG:NE    : 
+Node 498  C:31:ARG:NH1   : 
+Node 499  C:31:ARG:NH2   : 
+Node 500  C:36:SER:OG    :  C:2021:HOH:O     C:38:SER:OG     
+Node 501  C:37:GLU:OE1   : 
+Node 502  C:37:GLU:OE2   : 
+Node 503  C:38:SER:OG    :  C:2022:HOH:O     C:36:SER:OG     
+Node 504  C:41:ASN:OD1   : 
+Node 505  C:41:ASN:ND2   : 
+Node 506  C:43:SER:OG    : 
+Node 507  C:46:SER:OG    :  C:2028:HOH:O    
+Node 508  C:47:THR:OG1   :  C:2029:HOH:O    
+Node 509  C:49:ARG:NE    :  C:73:GLU:OE2    
+Node 510  C:49:ARG:NH1   : 
+Node 511  C:49:ARG:NH2   :  C:73:GLU:OE2     C:73:GLU:OE1    
+Node 512  C:50:GLU:OE1   :  C:70:LYS:NZ     
+Node 513  C:50:GLU:OE2   :  C:70:LYS:NZ     
+Node 514  C:51:TYR:OH    :  C:2015:HOH:O    
+Node 515  C:52:ASN:OD1   :  C:2030:HOH:O    
+Node 516  C:52:ASN:ND2   :  C:92:HIS:ND1    
+Node 517  C:53:THR:OG1   :  C:70:LYS:NZ     
+Node 518  C:54:SER:OG    :  C:70:LYS:NZ     
+Node 519  C:55:GLN:OE1   :  C:2032:HOH:O     C:2013:HOH:O    
+Node 520  C:55:GLN:NE2   :  C:2015:HOH:O     C:166:ARG:NE    
+Node 521  C:58:SER:OG    :  C:2037:HOH:O     C:2036:HOH:O     C:2035:HOH:O    
+                            C:2034:HOH:O    
+Node 522  C:60:GLN:OE1   : 
+Node 523  C:60:GLN:NE2   : 
+Node 524  C:61:THR:OG1   :  C:86:GLN:NE2    
+Node 525  C:62:SER:OG    :  C:100:GLU:OE1   
+Node 526  C:63:LYS:NZ    : 
+Node 527  C:65:SER:OG    : 
+Node 528  C:69:THR:OG1   :  C:138:TYR:OH    
+Node 529  C:70:LYS:NZ    :  C:54:SER:OG      C:53:THR:OG1     C:50:GLU:OE2    
+                            C:50:GLU:OE1    
+Node 530  C:71:GLU:OE1   : 
+Node 531  C:71:GLU:OE2   :  C:2044:HOH:O     C:2043:HOH:O    
+Node 532  C:73:GLU:OE1   :  C:49:ARG:NH2    
+Node 533  C:73:GLU:OE2   :  C:79:TYR:OH      C:49:ARG:NH2     C:49:ARG:NE     
+Node 534  C:75:SER:OG    :  C:78:GLU:OE1    
+Node 535  C:76:ASN:OD1   :  C:2025:HOH:O     C:77:ASN:OD1    
+Node 536  C:76:ASN:ND2   :  C:2028:HOH:O    
+Node 537  C:77:ASN:OD1   :  C:76:ASN:OD1    
+Node 538  C:77:ASN:ND2   :  C:2047:HOH:O    
+Node 539  C:78:GLU:OE1   :  C:75:SER:OG     
+Node 540  C:78:GLU:OE2   :  C:2050:HOH:O     C:2049:HOH:O    
+Node 541  C:79:TYR:OH    :  C:92:HIS:NE2     C:73:GLU:OE2    
+Node 542  C:81:ASP:OD1   :  C:84:ASN:ND2    
+Node 543  C:81:ASP:OD2   :  C:86:GLN:NE2     C:84:ASN:ND2    
+Node 544  C:83:LYS:NZ    :  C:123:THR:OG1   
+Node 545  C:84:ASN:OD1   : 
+Node 546  C:84:ASN:ND2   :  C:81:ASP:OD2     C:81:ASP:OD1    
+Node 547  C:85:LYS:NZ    : 
+Node 548  C:86:GLN:OE1   :  C:100:GLU:OE1   
+Node 549  C:86:GLN:NE2   :  C:81:ASP:OD2     C:61:THR:OG1    
+Node 550  C:89:THR:OG1   :  C:2051:HOH:O    
+Node 551  C:90:TYR:OH    : 
+Node 552  C:91:ASP:OD1   : 
+Node 553  C:91:ASP:OD2   : 
+Node 554  C:92:HIS:ND1   :  C:52:ASN:ND2    
+Node 555  C:92:HIS:NE2   :  C:79:TYR:OH     
+Node 556  C:94:LYS:NZ    : 
+Node 557  C:95:GLN:OE1   : 
+Node 558  C:95:GLN:NE2   :  C:2030:HOH:O    
+Node 559  C:96:GLU:OE1   : 
+Node 560  C:96:GLU:OE2   : 
+Node 561  C:98:THR:OG1   : 
+Node 562  C:100:GLU:OE1  :  C:86:GLN:OE1     C:62:SER:OG     
+Node 563  C:100:GLU:OE2  : 
+Node 564  C:101:ARG:NE   :  C:2050:HOH:O    
+Node 565  C:101:ARG:NH1  :  C:106:GLU:OE2    C:106:GLU:OE1    C:104:SER:OG    
+Node 566  C:101:ARG:NH2  :  C:2050:HOH:O     C:2049:HOH:O     C:106:GLU:OE2   
+Node 567  C:102:SER:OG   : 
+Node 568  C:104:SER:OG   :  C:2055:HOH:O     C:101:ARG:NH1   
+Node 569  C:106:GLU:OE1  :  C:101:ARG:NH1   
+Node 570  C:106:GLU:OE2  :  C:101:ARG:NH2    C:101:ARG:NH1   
+Node 571  C:108:GLU:OE1  :  C:141:LYS:NZ    
+Node 572  C:108:GLU:OE2  : 
+Node 573  C:109:GLN:OE1  : 
+Node 574  C:109:GLN:NE2  : 
+Node 575  C:110:ASP:OD1  : 
+Node 576  C:110:ASP:OD2  : 
+Node 577  C:112:GLU:OE1  :  C:115:ARG:NE    
+Node 578  C:112:GLU:OE2  :  C:115:ARG:NH2   
+Node 579  C:113:GLN:OE1  : 
+Node 580  C:113:GLN:NE2  : 
+Node 581  C:114:TYR:OH   : 
+Node 582  C:115:ARG:NE   :  C:112:GLU:OE1   
+Node 583  C:115:ARG:NH1  :  C:119:ASP:OD2   
+Node 584  C:115:ARG:NH2  :  C:112:GLU:OE2   
+Node 585  C:119:ASP:OD1  :  C:2056:HOH:O    
+Node 586  C:119:ASP:OD2  :  C:2056:HOH:O     C:115:ARG:NH1   
+Node 587  C:120:GLU:OE1  : 
+Node 588  C:120:GLU:OE2  : 
+Node 589  C:121:GLU:OE1  :  C:2058:HOH:O     C:2057:HOH:O    
+Node 590  C:121:GLU:OE2  :  C:124:LYS:NZ    
+Node 591  C:123:THR:OG1  :  C:83:LYS:NZ     
+Node 592  C:124:LYS:NZ   :  C:2058:HOH:O     C:121:GLU:OE2   
+Node 593  C:125:TYR:OH   :  D:246:ARG:NH2    C:232:GLU:OE1   
+Node 594  C:126:CYS:SG   :  C:2063:HOH:O     C:2059:HOH:O    
+Node 595  C:127:ASN:OD1  :  C:2059:HOH:O    
+Node 596  C:127:ASN:ND2  : 
+Node 597  C:128:GLU:OE1  : 
+Node 598  C:128:GLU:OE2  :  C:129:TYR:OH    
+Node 599  C:129:TYR:OH   :  C:128:GLU:OE2   
+Node 600  C:130:TYR:OH   :  D:246:ARG:NE     C:232:GLU:OE1    C:169:SER:OG    
+                            C:167:TRP:NE1   
+Node 601  C:132:ASN:OD1  : 
+Node 602  C:132:ASN:ND2  :  C:2062:HOH:O    
+Node 603  C:135:SER:OG   :  C:2063:HOH:O    
+Node 604  C:138:TYR:OH   :  C:69:THR:OG1    
+Node 605  C:140:THR:OG1  :  C:2044:HOH:O     C:2043:HOH:O    
+Node 606  C:141:LYS:NZ   :  C:108:GLU:OE1   
+Node 607  C:143:SER:OG   :  C:2064:HOH:O    
+Node 608  C:144:GLU:OE1  : 
+Node 609  C:144:GLU:OE2  : 
+Node 610  C:147:LYS:NZ   : 
+Node 611  C:149:THR:OG1  :  C:2043:HOH:O    
+Node 612  C:151:CYS:SG   : 
+Node 613  C:153:SER:OG   :  C:166:ARG:NH1   
+Node 614  C:154:THR:OG1  :  C:2061:HOH:O    
+Node 615  C:155:CYS:SG   :  C:2061:HOH:O     C:2035:HOH:O     C:2034:HOH:O    
+Node 616  C:157:TYR:OH   : 
+Node 617  C:158:LYS:NZ   : 
+Node 618  C:160:ASN:OD1  :  C:2068:HOH:O    
+Node 619  C:160:ASN:ND2  : 
+Node 620  C:163:TYR:OH   : 
+Node 621  C:164:SER:OG   :  C:22:GLU:OE2    
+Node 622  C:166:ARG:NE   :  C:55:GLN:NE2    
+Node 623  C:166:ARG:NH1  :  C:2034:HOH:O     C:153:SER:OG    
+Node 624  C:166:ARG:NH2  :  C:2035:HOH:O     C:2015:HOH:O    
+Node 625  C:167:TRP:NE1  :  C:169:SER:OG     C:130:TYR:OH    
+Node 626  C:168:ARG:NE   :  C:2070:HOH:O    
+Node 627  C:168:ARG:NH1  :  C:2071:HOH:O     C:189:GLN:OE1   
+Node 628  C:168:ARG:NH2  :  C:2072:HOH:O     C:2071:HOH:O     C:2070:HOH:O    
+                            C:191:ASN:ND2   
+Node 629  C:169:SER:OG   :  C:232:GLU:OE2    C:167:TRP:NE1    C:130:TYR:OH    
+Node 630  C:171:TRP:NE1  :  C:232:GLU:OE2   
+Node 631  C:172:THR:OG1  :  C:2073:HOH:O    
+Node 632  C:173:CYS:SG   : 
+Node 633  C:174:THR:OG1  :  C:2074:HOH:O    
+Node 634  C:176:LYS:NZ   : 
+Node 635  C:179:SER:OG   : 
+Node 636  C:181:ASN:OD1  : 
+Node 637  C:181:ASN:ND2  : 
+Node 638  C:183:THR:OG1  : 
+Node 639  C:184:SER:OG   : 
+Node 640  C:185:ASN:OD1  :  C:209:GLN:OE1   
+Node 641  C:185:ASN:ND2  :  C:2075:HOH:O     C:2074:HOH:O    
+Node 642  C:187:LYS:NZ   :  C:2076:HOH:O    
+Node 643  C:189:GLN:OE1  :  C:168:ARG:NH1   
+Node 644  C:189:GLN:NE2  :  C:2078:HOH:O    
+Node 645  C:191:ASN:OD1  :  C:2078:HOH:O     C:2072:HOH:O     C:203:ASN:ND2   
+Node 646  C:191:ASN:ND2  :  C:168:ARG:NH2   
+Node 647  C:193:HIS:ND1  :  C:22:GLU:OE2    
+Node 648  C:193:HIS:NE2  : 
+Node 649  C:194:TYR:OH   :  C:196:GLU:OE1   
+Node 650  C:196:GLU:OE1  :  C:194:TYR:OH    
+Node 651  C:196:GLU:OE2  : 
+Node 652  C:197:ASP:OD1  : 
+Node 653  C:197:ASP:OD2  : 
+Node 654  C:199:ASN:OD1  :  C:201:GLN:NE2   
+Node 655  C:199:ASN:ND2  : 
+Node 656  C:201:GLN:OE1  :  C:2014:HOH:O    
+Node 657  C:201:GLN:NE2  :  C:2014:HOH:O     C:199:ASN:OD1   
+Node 658  C:203:ASN:OD1  :  C:2081:HOH:O    
+Node 659  C:203:ASN:ND2  :  C:191:ASN:OD1   
+Node 660  C:204:THR:OG1  : 
+Node 661  C:206:THR:OG1  :  C:2077:HOH:O    
+Node 662  C:207:GLN:OE1  : 
+Node 663  C:207:GLN:NE2  : 
+Node 664  C:208:LYS:NZ   :  C:2083:HOH:O    
+Node 665  C:209:GLN:OE1  :  C:2085:HOH:O     C:185:ASN:OD1   
+Node 666  C:209:GLN:NE2  :  C:2086:HOH:O    
+Node 667  C:210:THR:OG1  : 
+Node 668  C:211:THR:OG1  :  C:2086:HOH:O    
+Node 669  C:212:SER:OG   : 
+Node 670  C:214:SER:OG   : 
+Node 671  C:216:ASP:OD1  :  C:219:SER:OG    
+Node 672  C:216:ASP:OD2  :  C:219:SER:OG     C:218:GLN:OE1   
+Node 673  C:218:GLN:OE1  :  C:216:ASP:OD2   
+Node 674  C:218:GLN:NE2  : 
+Node 675  C:219:SER:OG   :  C:2087:HOH:O     C:216:ASP:OD2    C:216:ASP:OD1   
+Node 676  C:220:THR:OG1  : 
+Node 677  C:223:ASN:OD1  : 
+Node 678  C:223:ASN:ND2  : 
+Node 679  C:226:LYS:NZ   : 
+Node 680  C:230:LYS:NZ   : 
+Node 681  C:232:GLU:OE1  :  C:130:TYR:OH     C:125:TYR:OH    
+Node 682  C:232:GLU:OE2  :  C:171:TRP:NE1    C:169:SER:OG    
+Node 683  C:234:ASN:OD1  : 
+Node 684  C:234:ASN:ND2  : 
+Node 685  C:236:HIS:ND1  :  D:246:ARG:NH1   
+Node 686  C:236:HIS:NE2  : 
+Node 687  C:237:THR:OG1  : 
+Node 688  C:240:ASP:OD1  :  D:243:ASN:ND2    D:243:ASN:OD1   
+Node 689  C:240:ASP:OD2  :  C:2090:HOH:O    
+Node 690  C:241:ASN:OD1  :  C:2091:HOH:O    
+Node 691  C:241:ASN:ND2  : 
+Node 692  C:242:ASN:OD1  : 
+Node 693  C:242:ASN:ND2  :  C:2089:HOH:O    
+Node 694  C:243:TYR:OH   : 
+Node 695  C:244:SER:OG   : 
+Node 696  C:245:THR:OG1  : 
+Node 697  C:248:ASP:OD1  :  C:252:LYS:NZ    
+Node 698  C:248:ASP:OD2  : 
+Node 699  C:249:THR:OG1  : 
+Node 700  C:250:THR:OG1  : 
+Node 701  C:252:LYS:NZ   :  C:248:ASP:OD1   
+Node 702  C:255:ARG:NE   :  D:223:GLU:OE1   
+Node 703  C:255:ARG:NH1  :  D:224:SER:OG    
+Node 704  C:255:ARG:NH2  :  D:224:SER:OG     D:223:GLU:OE1    D:107:TYR:OH    
+Node 705  C:256:ARG:NE   : 
+Node 706  C:256:ARG:NH1  :  D:113:GLU:OE2    D:113:GLU:OE1   
+Node 707  C:256:ARG:NH2  : 
+Node 708  C:261:ASN:OD1  : 
+Node 709  C:261:ASN:ND2  :  C:2097:HOH:O    
+Node 710  C:262:ARG:NE   : 
+Node 711  C:262:ARG:NH1  :  C:2096:HOH:O    
+Node 712  C:262:ARG:NH2  : 
+Node 713  C:263:THR:OG1  : 
+Node 714  C:264:LYS:NZ   :  C:2098:HOH:O    
+Node 715  C:266:ASN:OD1  :  A:2025:HOH:O     A:60:GLN:OE1    
+Node 716  C:266:ASN:ND2  :  A:2025:HOH:O    
+Node 717  C:267:TRP:NE1  :  D:220:GLU:OE1   
+Node 718  C:268:GLN:OE1  : 
+Node 719  C:268:GLN:NE2  :  C:2099:HOH:O    
+Node 720  C:269:LYS:NZ   :  C:2100:HOH:O     A:100:GLU:OE2    A:100:GLU:OE1   
+                            A:62:SER:OG     
+Node 721  C:271:LYS:NZ   : 
+Node 722  C:272:ASN:OD1  : 
+Node 723  C:272:ASN:ND2  : 
+Node 724  D:2:THR:OG1    : 
+Node 725  D:3:GLU:OE1    : 
+Node 726  D:3:GLU:OE2    : 
+Node 727  D:4:LYS:NZ     :  C:2019:HOH:O    
+Node 728  D:5:GLN:OE1    : 
+Node 729  D:5:GLN:NE2    : 
+Node 730  D:7:SER:OG     :  D:2003:HOH:O     D:2002:HOH:O    
+Node 731  D:8:CYS:SG     :  D:2003:HOH:O    
+Node 732  D:9:CYS:SG     : 
+Node 733  D:11:ASP:OD1   :  D:15:ARG:NE      C:29:ASP:OD2    
+Node 734  D:11:ASP:OD2   :  D:15:ARG:NH2    
+Node 735  D:14:ARG:NE    :  D:2005:HOH:O    
+Node 736  D:14:ARG:NH1   : 
+Node 737  D:14:ARG:NH2   :  D:2005:HOH:O    
+Node 738  D:15:ARG:NE    :  D:11:ASP:OD1    
+Node 739  D:15:ARG:NH1   :  C:22:GLU:OE1    
+Node 740  D:15:ARG:NH2   :  D:11:ASP:OD2    
+Node 741  D:19:SER:OG    :  D:2008:HOH:O    
+Node 742  D:20:GLN:OE1   :  C:2011:HOH:O     D:24:ASN:ND2    
+Node 743  D:20:GLN:NE2   :  C:17:ASN:ND2    
+Node 744  D:22:GLU:OE1   : 
+Node 745  D:22:GLU:OE2   : 
+Node 746  D:23:ASP:OD1   : 
+Node 747  D:23:ASP:OD2   : 
+Node 748  D:24:ASN:OD1   :  C:2011:HOH:O    
+Node 749  D:24:ASN:ND2   :  D:2006:HOH:O     D:20:GLN:OE1    
+Node 750  D:30:ASP:OD1   :  D:2011:HOH:O    
+Node 751  D:30:ASP:OD2   :  D:2011:HOH:O    
+Node 752  D:34:ASP:OD1   :  D:2014:HOH:O    
+Node 753  D:34:ASP:OD2   :  D:2014:HOH:O    
+Node 754  D:36:THR:OG1   :  D:2015:HOH:O    
+Node 755  D:37:GLU:OE1   : 
+Node 756  D:37:GLU:OE2   : 
+Node 757  D:38:ASP:OD1   : 
+Node 758  D:38:ASP:OD2   : 
+Node 759  D:41:SER:OG    : 
+Node 760  D:42:SER:OG    : 
+Node 761  D:44:ASP:OD1   : 
+Node 762  D:44:ASP:OD2   :  D:2018:HOH:O    
+Node 763  D:45:GLN:OE1   :  D:2021:HOH:O    
+Node 764  D:45:GLN:NE2   :  D:2010:HOH:O     D:2007:HOH:O    
+Node 765  D:48:LYS:NZ    : 
+Node 766  D:51:TYR:OH    :  D:2024:HOH:O    
+Node 767  D:52:ASP:OD1   : 
+Node 768  D:52:ASP:OD2   :  D:73:SER:OG      D:55:SER:OG     
+Node 769  D:55:SER:OG    :  D:52:ASP:OD2    
+Node 770  D:56:LYS:NZ    :  D:2025:HOH:O    
+Node 771  D:57:LYS:NZ    :  D:2026:HOH:O     D:105:GLU:OE2    D:105:GLU:OE1   
+Node 772  D:58:ASP:OD1   : 
+Node 773  D:58:ASP:OD2   : 
+Node 774  D:59:TYR:OH    : 
+Node 775  D:62:CYS:SG    :  D:65:ASN:OD1    
+Node 776  D:63:ASP:OD1   :  D:2031:HOH:O    
+Node 777  D:63:ASP:OD2   : 
+Node 778  D:64:TYR:OH    : 
+Node 779  D:65:ASN:OD1   :  D:62:CYS:SG     
+Node 780  D:65:ASN:ND2   : 
+Node 781  D:66:ARG:NE    : 
+Node 782  D:66:ARG:NH1   :  D:2031:HOH:O     D:71:TYR:OH     
+Node 783  D:66:ARG:NH2   : 
+Node 784  D:67:ASP:OD1   :  D:2032:HOH:O    
+Node 785  D:67:ASP:OD2   :  D:79:TYR:OH     
+Node 786  D:69:ASP:OD1   : 
+Node 787  D:69:ASP:OD2   : 
+Node 788  D:70:SER:OG    :  D:2034:HOH:O    
+Node 789  D:71:TYR:OH    :  D:2029:HOH:O     D:66:ARG:NH1    
+Node 790  D:72:ARG:NE    : 
+Node 791  D:72:ARG:NH1   :  D:97:GLU:OE1    
+Node 792  D:72:ARG:NH2   :  D:97:GLU:OE2     D:97:GLU:OE1    
+Node 793  D:73:SER:OG    :  D:52:ASP:OD2    
+Node 794  D:75:TRP:NE1   : 
+Node 795  D:76:SER:OG    : 
+Node 796  D:77:ASN:OD1   : 
+Node 797  D:77:ASN:ND2   :  D:2040:HOH:O    
+Node 798  D:78:LYS:NZ    : 
+Node 799  D:79:TYR:OH    :  D:67:ASP:OD2    
+Node 800  D:80:ASP:OD1   :  D:2042:HOH:O    
+Node 801  D:80:ASP:OD2   :  D:2042:HOH:O    
+Node 802  D:84:SER:OG    :  D:2045:HOH:O    
+Node 803  D:87:CYS:SG    : 
+Node 804  D:88:TYR:OH    :  D:2044:HOH:O    
+Node 805  D:90:SER:OG    :  D:123:ASP:OD1   
+Node 806  D:91:SER:OG    :  D:2048:HOH:O    
+Node 807  D:92:LYS:NZ    : 
+Node 808  D:94:ARG:NE    :  D:2040:HOH:O    
+Node 809  D:94:ARG:NH1   :  D:97:GLU:OE1    
+Node 810  D:94:ARG:NH2   :  D:2036:HOH:O     D:2035:HOH:O    
+Node 811  D:95:ASP:OD1   :  D:2048:HOH:O    
+Node 812  D:95:ASP:OD2   : 
+Node 813  D:97:GLU:OE1   :  D:94:ARG:NH1     D:72:ARG:NH2     D:72:ARG:NH1    
+Node 814  D:97:GLU:OE2   :  D:72:ARG:NH2    
+Node 815  D:99:GLN:OE1   :  D:2051:HOH:O    
+Node 816  D:99:GLN:NE2   : 
+Node 817  D:101:ASN:OD1  :  D:2052:HOH:O    
+Node 818  D:101:ASN:ND2  : 
+Node 819  D:102:GLU:OE1  :  D:2053:HOH:O    
+Node 820  D:102:GLU:OE2  :  D:2050:HOH:O    
+Node 821  D:105:GLU:OE1  :  D:2053:HOH:O     D:57:LYS:NZ     
+Node 822  D:105:GLU:OE2  :  D:2054:HOH:O     D:57:LYS:NZ     
+Node 823  D:107:TYR:OH   :  D:223:GLU:OE1    C:255:ARG:NH2   
+Node 824  D:109:ASN:OD1  : 
+Node 825  D:109:ASN:ND2  : 
+Node 826  D:111:TYR:OH   :  C:2098:HOH:O     D:220:GLU:OE2   
+Node 827  D:113:GLU:OE1  :  C:256:ARG:NH1   
+Node 828  D:113:GLU:OE2  :  C:256:ARG:NH1   
+Node 829  D:117:SER:OG   :  D:2054:HOH:O     D:2052:HOH:O    
+Node 830  D:118:SER:OG   : 
+Node 831  D:120:TYR:OH   : 
+Node 832  D:121:CYS:SG   : 
+Node 833  D:122:TRP:NE1  : 
+Node 834  D:123:ASP:OD1  :  D:90:SER:OG     
+Node 835  D:123:ASP:OD2  :  D:2057:HOH:O    
+Node 836  D:125:ASP:OD1  : 
+Node 837  D:125:ASP:OD2  : 
+Node 838  D:126:ASP:OD1  : 
+Node 839  D:126:ASP:OD2  : 
+Node 840  D:127:ASN:OD1  : 
+Node 841  D:127:ASN:ND2  : 
+Node 842  D:135:LYS:NZ   :  D:2059:HOH:O     D:152:ASP:OD2    D:152:ASP:OD1   
+Node 843  D:136:LYS:NZ   :  D:138:GLN:NE2   
+Node 844  D:137:THR:OG1  : 
+Node 845  D:138:GLN:OE1  : 
+Node 846  D:138:GLN:NE2  :  D:136:LYS:NZ    
+Node 847  D:139:ASP:OD1  : 
+Node 848  D:139:ASP:OD2  : 
+Node 849  D:148:ARG:NE   : 
+Node 850  D:148:ARG:NH1  : 
+Node 851  D:148:ARG:NH2  : 
+Node 852  D:150:THR:OG1  :  D:2063:HOH:O    
+Node 853  D:151:TRP:NE1  : 
+Node 854  D:152:ASP:OD1  :  D:2064:HOH:O     D:135:LYS:NZ    
+Node 855  D:152:ASP:OD2  :  D:2058:HOH:O     D:135:LYS:NZ    
+Node 856  D:153:SER:OG   : 
+Node 857  D:155:HIS:ND1  :  D:173:SER:OG    
+Node 858  D:155:HIS:NE2  :  D:223:GLU:OE2   
+Node 859  D:158:GLU:OE1  :  D:160:LYS:NZ    
+Node 860  D:158:GLU:OE2  :  D:2066:HOH:O    
+Node 861  D:160:LYS:NZ   :  D:158:GLU:OE1   
+Node 862  D:163:LYS:NZ   : 
+Node 863  D:164:LYS:NZ   : 
+Node 864  D:165:ASP:OD1  : 
+Node 865  D:165:ASP:OD2  :  D:2067:HOH:O    
+Node 866  D:166:LYS:NZ   :  D:2068:HOH:O     D:204:THR:OG1   
+Node 867  D:169:TYR:OH   :  D:214:ASN:ND2    D:211:HIS:ND1   
+Node 868  D:170:LYS:NZ   :  D:198:GLN:NE2   
+Node 869  D:172:THR:OG1  :  D:2066:HOH:O     D:198:GLN:NE2   
+Node 870  D:173:SER:OG   :  D:155:HIS:ND1   
+Node 871  D:174:THR:OG1  :  D:2018:HOH:O     D:196:THR:OG1   
+Node 872  D:178:SER:OG   :  D:2063:HOH:O    
+Node 873  D:180:GLU:OE1  : 
+Node 874  D:180:GLU:OE2  :  D:190:ASN:OD1   
+Node 875  D:181:THR:OG1  :  D:183:ASN:OD1   
+Node 876  D:182:ASP:OD1  : 
+Node 877  D:182:ASP:OD2  : 
+Node 878  D:183:ASN:OD1  :  D:181:THR:OG1   
+Node 879  D:183:ASN:ND2  :  D:2071:HOH:O    
+Node 880  D:184:ASP:OD1  : 
+Node 881  D:184:ASP:OD2  : 
+Node 882  D:185:ASN:OD1  :  D:2072:HOH:O    
+Node 883  D:185:ASN:ND2  :  D:2071:HOH:O    
+Node 884  D:186:THR:OG1  : 
+Node 885  D:188:LYS:NZ   : 
+Node 886  D:190:ASN:OD1  :  D:180:GLU:OE2   
+Node 887  D:190:ASN:ND2  : 
+Node 888  D:194:SER:OG   : 
+Node 889  D:196:THR:OG1  :  D:174:THR:OG1   
+Node 890  D:197:ARG:NE   : 
+Node 891  D:197:ARG:NH1  : 
+Node 892  D:197:ARG:NH2  :  D:2073:HOH:O    
+Node 893  D:198:GLN:OE1  : 
+Node 894  D:198:GLN:NE2  :  D:2069:HOH:O     D:172:THR:OG1    D:170:LYS:NZ    
+Node 895  D:199:ASP:OD1  :  D:201:LYS:NZ    
+Node 896  D:199:ASP:OD2  :  D:2073:HOH:O    
+Node 897  D:200:GLU:OE1  : 
+Node 898  D:200:GLU:OE2  : 
+Node 899  D:201:LYS:NZ   :  D:2074:HOH:O     D:199:ASP:OD1   
+Node 900  D:202:GLU:OE1  :  D:2068:HOH:O    
+Node 901  D:202:GLU:OE2  : 
+Node 902  D:203:TYR:OH   : 
+Node 903  D:204:THR:OG1  :  D:2067:HOH:O     D:166:LYS:NZ    
+Node 904  D:206:ASN:OD1  : 
+Node 905  D:206:ASN:ND2  : 
+Node 906  D:207:GLU:OE1  : 
+Node 907  D:207:GLU:OE2  : 
+Node 908  D:209:ASP:OD1  :  D:217:LYS:NZ    
+Node 909  D:209:ASP:OD2  : 
+Node 910  D:210:THR:OG1  :  D:2051:HOH:O    
+Node 911  D:211:HIS:ND1  :  D:169:TYR:OH    
+Node 912  D:211:HIS:NE2  : 
+Node 913  D:212:CYS:SG   : 
+Node 914  D:214:ASN:OD1  : 
+Node 915  D:214:ASN:ND2  :  D:169:TYR:OH    
+Node 916  D:217:LYS:NZ   :  D:209:ASP:OD1   
+Node 917  D:220:GLU:OE1  :  C:267:TRP:NE1   
+Node 918  D:220:GLU:OE2  :  D:111:TYR:OH    
+Node 919  D:221:ASP:OD1  : 
+Node 920  D:221:ASP:OD2  :  D:2076:HOH:O     D:2073:HOH:O     D:225:LYS:NZ    
+Node 921  D:223:GLU:OE1  :  D:107:TYR:OH     C:255:ARG:NH2    C:255:ARG:NE    
+Node 922  D:223:GLU:OE2  :  D:155:HIS:NE2   
+Node 923  D:224:SER:OG   :  D:2077:HOH:O     C:2098:HOH:O     C:255:ARG:NH2   
+                            C:255:ARG:NH1   
+Node 924  D:225:LYS:NZ   :  D:2076:HOH:O     D:221:ASP:OD2   
+Node 925  D:227:ARG:NE   :  C:2092:HOH:O    
+Node 926  D:227:ARG:NH1  : 
+Node 927  D:227:ARG:NH2  : 
+Node 928  D:228:GLN:OE1  : 
+Node 929  D:228:GLN:NE2  : 
+Node 930  D:229:THR:OG1  :  D:2078:HOH:O    
+Node 931  D:231:GLU:OE1  : 
+Node 932  D:231:GLU:OE2  : 
+Node 933  D:232:THR:OG1  :  D:2079:HOH:O    
+Node 934  D:234:TYR:OH   : 
+Node 935  D:237:LYS:NZ   :  D:240:GLU:OE2   
+Node 936  D:238:THR:OG1  : 
+Node 937  D:239:LYS:NZ   : 
+Node 938  D:240:GLU:OE1  : 
+Node 939  D:240:GLU:OE2  :  D:237:LYS:NZ    
+Node 940  D:243:ASN:OD1  :  D:2080:HOH:O     C:240:ASP:OD1   
+Node 941  D:243:ASN:ND2  :  C:240:ASP:OD1   
+Node 942  D:244:THR:OG1  : 
+Node 943  D:246:ARG:NE   :  C:130:TYR:OH    
+Node 944  D:246:ARG:NH1  :  C:236:HIS:ND1   
+Node 945  D:246:ARG:NH2  :  C:125:TYR:OH    
+Node 946  D:247:ASN:OD1  : 
+Node 947  D:247:ASN:ND2  : 
+Node 948  D:249:THR:OG1  : 
+Node 949  A:2001:HOH:O   : 
+Node 950  A:2002:HOH:O   : 
+Node 951  A:2003:HOH:O   : 
+Node 952  A:2004:HOH:O   :  A:6:GLU:OE2      A:6:GLU:OE1     
+Node 953  A:2005:HOH:O   :  A:12:THR:OG1    
+Node 954  A:2006:HOH:O   :  A:54:SER:OG     
+Node 955  A:2007:HOH:O   :  A:201:GLN:OE1   
+Node 956  A:2008:HOH:O   :  A:2019:HOH:O     A:55:GLN:NE2     A:55:GLN:OE1    
+Node 957  A:2009:HOH:O   :  A:2010:HOH:O    
+Node 958  A:2010:HOH:O   :  A:2009:HOH:O     A:166:ARG:NH2    A:55:GLN:OE1    
+                            A:51:TYR:OH     
+Node 959  A:2011:HOH:O   :  B:11:ASP:OD1     A:29:ASP:OD1    
+Node 960  A:2012:HOH:O   :  A:31:ARG:NH2     A:31:ARG:NE     
+Node 961  A:2013:HOH:O   :  A:2014:HOH:O    
+Node 962  A:2014:HOH:O   :  A:2013:HOH:O    
+Node 963  A:2015:HOH:O   :  A:2034:HOH:O     A:2017:HOH:O     A:92:HIS:ND1    
+Node 964  A:2016:HOH:O   :  A:2056:HOH:O    
+Node 965  A:2017:HOH:O   :  A:2015:HOH:O     A:76:ASN:ND2     A:76:ASN:OD1    
+Node 966  A:2018:HOH:O   : 
+Node 967  A:2019:HOH:O   :  A:2070:HOH:O     A:2008:HOH:O     A:55:GLN:NE2    
+Node 968  A:2020:HOH:O   :  A:2023:HOH:O     A:2022:HOH:O     A:166:ARG:NH2   
+                            A:166:ARG:NH1    A:155:CYS:SG     A:58:SER:OG     
+Node 969  A:2021:HOH:O   :  A:60:GLN:NE2     A:58:SER:OG     
+Node 970  A:2022:HOH:O   :  A:2065:HOH:O     A:2020:HOH:O     A:155:CYS:SG    
+                            A:58:SER:OG     
+Node 971  A:2023:HOH:O   :  A:2020:HOH:O    
+Node 972  A:2024:HOH:O   :  A:2040:HOH:O    
+Node 973  A:2025:HOH:O   :  A:2029:HOH:O     C:266:ASN:ND2    C:266:ASN:OD1   
+                            A:60:GLN:OE1    
+Node 974  A:2026:HOH:O   : 
+Node 975  A:2027:HOH:O   :  A:2036:HOH:O     A:2030:HOH:O     A:84:ASN:OD1    
+Node 976  A:2028:HOH:O   :  A:84:ASN:ND2     A:63:LYS:NZ     
+Node 977  A:2029:HOH:O   :  A:2025:HOH:O     A:65:SER:OG     
+Node 978  A:2030:HOH:O   :  A:2027:HOH:O     A:81:ASP:OD2     A:81:ASP:OD1    
+Node 979  A:2031:HOH:O   : 
+Node 980  A:2032:HOH:O   :  A:2066:HOH:O    
+Node 981  A:2033:HOH:O   :  A:2042:HOH:O     A:77:ASN:ND2    
+Node 982  A:2034:HOH:O   :  A:2015:HOH:O    
+Node 983  A:2035:HOH:O   :  A:101:ARG:NH2    A:78:GLU:OE2    
+Node 984  A:2036:HOH:O   :  A:2027:HOH:O     A:84:ASN:ND2    
+Node 985  A:2037:HOH:O   :  C:2097:HOH:O     A:100:GLU:OE1    A:86:GLN:NE2    
+Node 986  A:2038:HOH:O   :  A:91:ASP:OD2    
+Node 987  A:2039:HOH:O   :  A:96:GLU:OE2     A:96:GLU:OE1    
+Node 988  A:2040:HOH:O   :  A:2024:HOH:O    
+Node 989  A:2041:HOH:O   : 
+Node 990  A:2042:HOH:O   :  A:2033:HOH:O     A:98:THR:OG1    
+Node 991  A:2043:HOH:O   :  A:2044:HOH:O     A:102:SER:OG    
+Node 992  A:2044:HOH:O   :  A:2043:HOH:O    
+Node 993  A:2045:HOH:O   : 
+Node 994  A:2046:HOH:O   : 
+Node 995  A:2047:HOH:O   :  A:112:GLU:OE1   
+Node 996  A:2048:HOH:O   :  A:2050:HOH:O    
+Node 997  A:2049:HOH:O   :  A:109:GLN:OE1   
+Node 998  A:2050:HOH:O   :  A:2048:HOH:O    
+Node 999  A:2051:HOH:O   :  A:109:GLN:NE2   
+Node 1000  A:2052:HOH:O   :  A:112:GLU:OE2   
+Node 1001  A:2053:HOH:O   :  A:113:GLN:NE2   
+Node 1002  A:2054:HOH:O   :  A:119:ASP:OD2    A:119:ASP:OD1   
+Node 1003  A:2055:HOH:O   :  A:120:GLU:OE1   
+Node 1004  A:2056:HOH:O   :  A:2057:HOH:O     A:2016:HOH:O     A:121:GLU:OE1   
+Node 1005  A:2057:HOH:O   :  A:2056:HOH:O     A:121:GLU:OE1   
+Node 1006  A:2058:HOH:O   :  A:124:LYS:NZ     A:121:GLU:OE1   
+Node 1007  A:2059:HOH:O   : 
+Node 1008  A:2060:HOH:O   : 
+Node 1009  A:2061:HOH:O   :  B:246:ARG:NH2    A:125:TYR:OH    
+Node 1010  A:2062:HOH:O   :  A:127:ASN:OD1    A:126:CYS:SG    
+Node 1011  A:2063:HOH:O   :  A:135:SER:OG     A:127:ASN:OD1   
+Node 1012  A:2064:HOH:O   :  A:154:THR:OG1   
+Node 1013  A:2065:HOH:O   :  A:2022:HOH:O     A:155:CYS:SG    
+Node 1014  A:2066:HOH:O   :  A:2032:HOH:O    
+Node 1015  A:2067:HOH:O   : 
+Node 1016  A:2068:HOH:O   : 
+Node 1017  A:2069:HOH:O   :  A:191:ASN:ND2    A:168:ARG:NH2    A:168:ARG:NE    
+Node 1018  A:2070:HOH:O   :  A:2019:HOH:O     A:168:ARG:NH2   
+Node 1019  A:2071:HOH:O   :  A:172:THR:OG1   
+Node 1020  A:2072:HOH:O   :  A:183:THR:OG1   
+Node 1021  A:2073:HOH:O   :  A:2078:HOH:O     A:174:THR:OG1   
+Node 1022  A:2074:HOH:O   :  A:220:THR:OG1    A:214:SER:OG     A:114:TYR:OH    
+Node 1023  A:2075:HOH:O   : 
+Node 1024  A:2076:HOH:O   : 
+Node 1025  A:2077:HOH:O   :  A:212:SER:OG     A:210:THR:OG1    A:184:SER:OG    
+Node 1026  A:2078:HOH:O   :  A:2073:HOH:O     A:185:ASN:OD1   
+Node 1027  A:2079:HOH:O   :  A:185:ASN:ND2   
+Node 1028  A:2080:HOH:O   :  A:189:GLN:OE1   
+Node 1029  A:2081:HOH:O   :  A:206:THR:OG1    A:204:THR:OG1   
+Node 1030  A:2082:HOH:O   : 
+Node 1031  A:2083:HOH:O   : 
+Node 1032  A:2084:HOH:O   :  B:2002:HOH:O     A:199:ASN:ND2   
+Node 1033  A:2085:HOH:O   :  A:2088:HOH:O     A:2086:HOH:O    
+Node 1034  A:2086:HOH:O   :  B:2048:HOH:O     A:2087:HOH:O     A:2085:HOH:O    
+Node 1035  A:2087:HOH:O   :  A:2086:HOH:O    
+Node 1036  A:2088:HOH:O   :  A:2085:HOH:O     A:207:GLN:OE1   
+Node 1037  A:2089:HOH:O   :  A:212:SER:OG    
+Node 1038  A:2090:HOH:O   : 
+Node 1039  A:2091:HOH:O   :  A:242:ASN:ND2   
+Node 1040  A:2092:HOH:O   : 
+Node 1041  A:2093:HOH:O   : 
+Node 1042  A:2094:HOH:O   : 
+Node 1043  B:2001:HOH:O   : 
+Node 1044  B:2002:HOH:O   :  B:2003:HOH:O     A:2084:HOH:O    
+Node 1045  B:2003:HOH:O   :  B:2002:HOH:O     B:24:ASN:ND2    
+Node 1046  B:2004:HOH:O   : 
+Node 1047  B:2005:HOH:O   :  B:20:GLN:NE2     B:19:SER:OG     
+Node 1048  B:2006:HOH:O   :  B:2017:HOH:O     B:2016:HOH:O    
+Node 1049  B:2007:HOH:O   :  B:45:GLN:OE1    
+Node 1050  B:2008:HOH:O   :  B:2010:HOH:O     B:30:ASP:OD2    
+Node 1051  B:2009:HOH:O   :  B:2010:HOH:O    
+Node 1052  B:2010:HOH:O   :  B:2009:HOH:O     B:2008:HOH:O     B:30:ASP:OD1    
+Node 1053  B:2011:HOH:O   :  B:63:ASP:OD2     B:41:SER:OG     
+Node 1054  B:2012:HOH:O   :  B:2015:HOH:O     B:2014:HOH:O     B:44:ASP:OD1    
+Node 1055  B:2013:HOH:O   :  B:174:THR:OG1    B:44:ASP:OD2    
+Node 1056  B:2014:HOH:O   :  B:2012:HOH:O    
+Node 1057  B:2015:HOH:O   :  B:2012:HOH:O     B:45:GLN:OE1    
+Node 1058  B:2016:HOH:O   :  B:2017:HOH:O     B:2006:HOH:O    
+Node 1059  B:2017:HOH:O   :  B:2018:HOH:O     B:2016:HOH:O     B:2006:HOH:O    
+Node 1060  B:2018:HOH:O   :  B:2023:HOH:O     B:2019:HOH:O     B:2017:HOH:O    
+                            B:80:ASP:OD2     B:59:TYR:OH     
+Node 1061  B:2019:HOH:O   :  B:2018:HOH:O    
+Node 1062  B:2020:HOH:O   : 
+Node 1063  B:2021:HOH:O   :  B:55:SER:OG     
+Node 1064  B:2022:HOH:O   :  B:58:ASP:OD2    
+Node 1065  B:2023:HOH:O   :  B:2018:HOH:O     B:59:TYR:OH     
+Node 1066  B:2024:HOH:O   :  B:66:ARG:NH1     B:63:ASP:OD1    
+Node 1067  B:2025:HOH:O   : 
+Node 1068  B:2026:HOH:O   :  B:70:SER:OG     
+Node 1069  B:2027:HOH:O   :  B:2039:HOH:O     B:2028:HOH:O     B:94:ARG:NH2    
+Node 1070  B:2028:HOH:O   :  B:2027:HOH:O     B:94:ARG:NH2    
+Node 1071  B:2029:HOH:O   :  B:2031:HOH:O     B:2030:HOH:O    
+Node 1072  B:2030:HOH:O   :  B:2029:HOH:O    
+Node 1073  B:2031:HOH:O   :  B:2029:HOH:O     B:94:ARG:NH2     B:94:ARG:NE     
+                            B:77:ASN:ND2    
+Node 1074  B:2032:HOH:O   :  B:80:ASP:OD1    
+Node 1075  B:2033:HOH:O   : 
+Node 1076  B:2034:HOH:O   :  B:2036:HOH:O    
+Node 1077  B:2035:HOH:O   :  B:2038:HOH:O     B:2036:HOH:O     B:88:TYR:OH     
+Node 1078  B:2036:HOH:O   :  B:2035:HOH:O     B:2034:HOH:O    
+Node 1079  B:2037:HOH:O   :  B:84:SER:OG     
+Node 1080  B:2038:HOH:O   :  B:2035:HOH:O    
+Node 1081  B:2039:HOH:O   :  B:2027:HOH:O    
+Node 1082  B:2040:HOH:O   : 
+Node 1083  B:2041:HOH:O   :  B:123:ASP:OD1   
+Node 1084  B:2042:HOH:O   :  B:152:ASP:OD2   
+Node 1085  B:2043:HOH:O   : 
+Node 1086  B:2044:HOH:O   :  B:152:ASP:OD1   
+Node 1087  B:2045:HOH:O   :  B:2046:HOH:O    
+Node 1088  B:2046:HOH:O   :  B:2045:HOH:O    
+Node 1089  B:2047:HOH:O   : 
+Node 1090  B:2048:HOH:O   :  A:2086:HOH:O    
+Node 1091  B:2049:HOH:O   :  B:199:ASP:OD1   
+Node 1092  B:2050:HOH:O   :  B:212:CYS:SG    
+Node 1093  B:2051:HOH:O   :  B:220:GLU:OE1   
+Node 1094  B:2052:HOH:O   :  B:229:THR:OG1    B:228:GLN:NE2   
+Node 1095  B:2053:HOH:O   : 
+Node 1096  B:2054:HOH:O   :  B:232:THR:OG1   
+Node 1097  B:2055:HOH:O   : 
+Node 1098  C:2001:HOH:O   :  D:2013:HOH:O     C:2003:HOH:O    
+Node 1099  C:2002:HOH:O   :  C:2005:HOH:O     C:2003:HOH:O     C:4:ASN:OD1     
+Node 1100  C:2003:HOH:O   :  C:2002:HOH:O     C:2001:HOH:O    
+Node 1101  C:2004:HOH:O   :  C:2006:HOH:O    
+Node 1102  C:2005:HOH:O   :  C:2002:HOH:O    
+Node 1103  C:2006:HOH:O   :  C:2004:HOH:O     C:4:ASN:ND2     
+Node 1104  C:2007:HOH:O   :  C:5:GLN:NE2     
+Node 1105  C:2008:HOH:O   : 
+Node 1106  C:2009:HOH:O   :  C:2030:HOH:O     C:2016:HOH:O     C:2015:HOH:O    
+Node 1107  C:2010:HOH:O   :  C:2011:HOH:O    
+Node 1108  C:2011:HOH:O   :  C:2010:HOH:O     D:24:ASN:OD1     D:20:GLN:OE1    
+                            C:17:ASN:OD1    
+Node 1109  C:2012:HOH:O   :  C:2032:HOH:O    
+Node 1110  C:2013:HOH:O   :  C:2033:HOH:O     C:2032:HOH:O     C:55:GLN:OE1    
+Node 1111  C:2014:HOH:O   :  C:201:GLN:NE2    C:201:GLN:OE1   
+Node 1112  C:2015:HOH:O   :  C:2009:HOH:O     C:166:ARG:NH2    C:55:GLN:NE2    
+                            C:51:TYR:OH     
+Node 1113  C:2016:HOH:O   :  C:2009:HOH:O    
+Node 1114  C:2017:HOH:O   : 
+Node 1115  C:2018:HOH:O   :  C:25:GLU:OE2    
+Node 1116  C:2019:HOH:O   :  D:4:LYS:NZ      
+Node 1117  C:2020:HOH:O   : 
+Node 1118  C:2021:HOH:O   :  C:36:SER:OG     
+Node 1119  C:2022:HOH:O   :  C:38:SER:OG     
+Node 1120  C:2023:HOH:O   :  C:2024:HOH:O    
+Node 1121  C:2024:HOH:O   :  C:2026:HOH:O     C:2023:HOH:O    
+Node 1122  C:2025:HOH:O   :  C:2048:HOH:O     C:76:ASN:OD1    
+Node 1123  C:2026:HOH:O   :  C:2028:HOH:O     C:2024:HOH:O    
+Node 1124  C:2027:HOH:O   :  C:2029:HOH:O    
+Node 1125  C:2028:HOH:O   :  C:2026:HOH:O     C:76:ASN:ND2     C:46:SER:OG     
+Node 1126  C:2029:HOH:O   :  C:2027:HOH:O     C:47:THR:OG1    
+Node 1127  C:2030:HOH:O   :  C:2009:HOH:O     C:95:GLN:NE2     C:52:ASN:OD1    
+Node 1128  C:2031:HOH:O   :  C:2076:HOH:O    
+Node 1129  C:2032:HOH:O   :  C:2071:HOH:O     C:2013:HOH:O     C:2012:HOH:O    
+                            C:55:GLN:OE1    
+Node 1130  C:2033:HOH:O   :  C:2072:HOH:O     C:2013:HOH:O    
+Node 1131  C:2034:HOH:O   :  C:2037:HOH:O     C:2035:HOH:O     C:166:ARG:NH1   
+                            C:155:CYS:SG     C:58:SER:OG     
+Node 1132  C:2035:HOH:O   :  C:2066:HOH:O     C:2036:HOH:O     C:2034:HOH:O    
+                            C:166:ARG:NH2    C:155:CYS:SG     C:58:SER:OG     
+Node 1133  C:2036:HOH:O   :  C:2066:HOH:O     C:2035:HOH:O     C:58:SER:OG     
+Node 1134  C:2037:HOH:O   :  C:2061:HOH:O     C:2034:HOH:O     C:58:SER:OG     
+Node 1135  C:2038:HOH:O   : 
+Node 1136  C:2039:HOH:O   :  C:2073:HOH:O    
+Node 1137  C:2040:HOH:O   : 
+Node 1138  C:2041:HOH:O   : 
+Node 1139  C:2042:HOH:O   : 
+Node 1140  C:2043:HOH:O   :  C:2044:HOH:O     C:149:THR:OG1    C:140:THR:OG1   
+                            C:71:GLU:OE2    
+Node 1141  C:2044:HOH:O   :  C:2043:HOH:O     C:140:THR:OG1    C:71:GLU:OE2    
+Node 1142  C:2045:HOH:O   : 
+Node 1143  C:2046:HOH:O   : 
+Node 1144  C:2047:HOH:O   :  C:77:ASN:ND2    
+Node 1145  C:2048:HOH:O   :  C:2025:HOH:O    
+Node 1146  C:2049:HOH:O   :  C:2050:HOH:O     C:101:ARG:NH2    C:78:GLU:OE2    
+Node 1147  C:2050:HOH:O   :  C:2051:HOH:O     C:2049:HOH:O     C:101:ARG:NH2   
+                            C:101:ARG:NE     C:78:GLU:OE2    
+Node 1148  C:2051:HOH:O   :  C:2050:HOH:O     C:89:THR:OG1    
+Node 1149  C:2052:HOH:O   :  C:2100:HOH:O    
+Node 1150  C:2053:HOH:O   : 
+Node 1151  C:2054:HOH:O   : 
+Node 1152  C:2055:HOH:O   :  C:104:SER:OG    
+Node 1153  C:2056:HOH:O   :  C:119:ASP:OD2    C:119:ASP:OD1   
+Node 1154  C:2057:HOH:O   :  C:121:GLU:OE1   
+Node 1155  C:2058:HOH:O   :  C:124:LYS:NZ     C:121:GLU:OE1   
+Node 1156  C:2059:HOH:O   :  C:127:ASN:OD1    C:126:CYS:SG    
+Node 1157  C:2060:HOH:O   : 
+Node 1158  C:2061:HOH:O   :  C:2037:HOH:O     C:155:CYS:SG     C:154:THR:OG1   
+Node 1159  C:2062:HOH:O   :  C:132:ASN:ND2   
+Node 1160  C:2063:HOH:O   :  C:135:SER:OG     C:126:CYS:SG    
+Node 1161  C:2064:HOH:O   :  C:143:SER:OG    
+Node 1162  C:2065:HOH:O   : 
+Node 1163  C:2066:HOH:O   :  C:2036:HOH:O     C:2035:HOH:O    
+Node 1164  C:2067:HOH:O   : 
+Node 1165  C:2068:HOH:O   :  C:160:ASN:OD1   
+Node 1166  C:2069:HOH:O   : 
+Node 1167  C:2070:HOH:O   :  C:168:ARG:NH2    C:168:ARG:NE    
+Node 1168  C:2071:HOH:O   :  C:2072:HOH:O     C:2032:HOH:O     C:168:ARG:NH2   
+                            C:168:ARG:NH1   
+Node 1169  C:2072:HOH:O   :  C:2078:HOH:O     C:2071:HOH:O     C:2033:HOH:O    
+                            C:191:ASN:OD1    C:168:ARG:NH2   
+Node 1170  C:2073:HOH:O   :  C:2039:HOH:O     C:172:THR:OG1   
+Node 1171  C:2074:HOH:O   :  C:185:ASN:ND2    C:174:THR:OG1   
+Node 1172  C:2075:HOH:O   :  C:2085:HOH:O     C:185:ASN:ND2   
+Node 1173  C:2076:HOH:O   :  C:2031:HOH:O     C:187:LYS:NZ    
+Node 1174  C:2077:HOH:O   :  C:206:THR:OG1   
+Node 1175  C:2078:HOH:O   :  C:2072:HOH:O     C:191:ASN:OD1    C:189:GLN:NE2   
+Node 1176  C:2079:HOH:O   : 
+Node 1177  C:2080:HOH:O   :  D:2006:HOH:O    
+Node 1178  C:2081:HOH:O   :  C:203:ASN:OD1   
+Node 1179  C:2082:HOH:O   : 
+Node 1180  C:2083:HOH:O   :  D:2072:HOH:O     C:208:LYS:NZ    
+Node 1181  C:2084:HOH:O   :  C:2086:HOH:O    
+Node 1182  C:2085:HOH:O   :  C:2075:HOH:O     C:209:GLN:OE1   
+Node 1183  C:2086:HOH:O   :  C:2084:HOH:O     C:211:THR:OG1    C:209:GLN:NE2   
+Node 1184  C:2087:HOH:O   :  C:219:SER:OG    
+Node 1185  C:2088:HOH:O   : 
+Node 1186  C:2089:HOH:O   :  C:242:ASN:ND2   
+Node 1187  C:2090:HOH:O   :  C:240:ASP:OD2   
+Node 1188  C:2091:HOH:O   :  C:241:ASN:OD1   
+Node 1189  C:2092:HOH:O   :  D:227:ARG:NE    
+Node 1190  C:2093:HOH:O   :  D:2056:HOH:O    
+Node 1191  C:2094:HOH:O   : 
+Node 1192  C:2095:HOH:O   :  D:2077:HOH:O    
+Node 1193  C:2096:HOH:O   :  C:262:ARG:NH1   
+Node 1194  C:2097:HOH:O   :  A:2037:HOH:O     C:261:ASN:ND2   
+Node 1195  C:2098:HOH:O   :  D:2077:HOH:O     D:224:SER:OG     D:111:TYR:OH    
+                            C:264:LYS:NZ    
+Node 1196  C:2099:HOH:O   :  C:268:GLN:NE2   
+Node 1197  C:2100:HOH:O   :  C:2052:HOH:O     C:269:LYS:NZ    
+Node 1198  C:2101:HOH:O   : 
+Node 1199  D:2001:HOH:O   :  D:2002:HOH:O    
+Node 1200  D:2002:HOH:O   :  D:2001:HOH:O     D:7:SER:OG      
+Node 1201  D:2003:HOH:O   :  D:8:CYS:SG       D:7:SER:OG      
+Node 1202  D:2004:HOH:O   :  D:2005:HOH:O    
+Node 1203  D:2005:HOH:O   :  D:2004:HOH:O     D:14:ARG:NH2     D:14:ARG:NE     
+Node 1204  D:2006:HOH:O   :  C:2080:HOH:O     D:24:ASN:ND2    
+Node 1205  D:2007:HOH:O   :  D:2029:HOH:O     D:2022:HOH:O     D:2019:HOH:O    
+                            D:45:GLN:NE2    
+Node 1206  D:2008:HOH:O   :  D:19:SER:OG     
+Node 1207  D:2009:HOH:O   : 
+Node 1208  D:2010:HOH:O   :  D:45:GLN:NE2    
+Node 1209  D:2011:HOH:O   :  D:30:ASP:OD2     D:30:ASP:OD1    
+Node 1210  D:2012:HOH:O   :  D:2036:HOH:O    
+Node 1211  D:2013:HOH:O   :  C:2001:HOH:O    
+Node 1212  D:2014:HOH:O   :  D:34:ASP:OD2     D:34:ASP:OD1    
+Node 1213  D:2015:HOH:O   :  D:36:THR:OG1    
+Node 1214  D:2016:HOH:O   : 
+Node 1215  D:2017:HOH:O   : 
+Node 1216  D:2018:HOH:O   :  D:174:THR:OG1    D:44:ASP:OD2    
+Node 1217  D:2019:HOH:O   :  D:2030:HOH:O     D:2007:HOH:O    
+Node 1218  D:2020:HOH:O   : 
+Node 1219  D:2021:HOH:O   :  D:45:GLN:OE1    
+Node 1220  D:2022:HOH:O   :  D:2023:HOH:O     D:2007:HOH:O    
+Node 1221  D:2023:HOH:O   :  D:2022:HOH:O    
+Node 1222  D:2024:HOH:O   :  D:2025:HOH:O     D:51:TYR:OH     
+Node 1223  D:2025:HOH:O   :  D:2024:HOH:O     D:56:LYS:NZ     
+Node 1224  D:2026:HOH:O   :  D:57:LYS:NZ     
+Node 1225  D:2027:HOH:O   :  D:2028:HOH:O    
+Node 1226  D:2028:HOH:O   :  D:2054:HOH:O     D:2027:HOH:O    
+Node 1227  D:2029:HOH:O   :  D:2031:HOH:O     D:2007:HOH:O     D:71:TYR:OH     
+Node 1228  D:2030:HOH:O   :  D:2019:HOH:O    
+Node 1229  D:2031:HOH:O   :  D:2029:HOH:O     D:66:ARG:NH1     D:63:ASP:OD1    
+Node 1230  D:2032:HOH:O   :  D:67:ASP:OD1    
+Node 1231  D:2033:HOH:O   : 
+Node 1232  D:2034:HOH:O   :  D:70:SER:OG     
+Node 1233  D:2035:HOH:O   :  D:2050:HOH:O     D:94:ARG:NH2    
+Node 1234  D:2036:HOH:O   :  D:2038:HOH:O     D:2012:HOH:O     D:94:ARG:NH2    
+Node 1235  D:2037:HOH:O   :  D:2038:HOH:O    
+Node 1236  D:2038:HOH:O   :  D:2040:HOH:O     D:2037:HOH:O     D:2036:HOH:O    
+Node 1237  D:2039:HOH:O   : 
+Node 1238  D:2040:HOH:O   :  D:2038:HOH:O     D:94:ARG:NE      D:77:ASN:ND2    
+Node 1239  D:2041:HOH:O   :  D:2043:HOH:O    
+Node 1240  D:2042:HOH:O   :  D:80:ASP:OD2     D:80:ASP:OD1    
+Node 1241  D:2043:HOH:O   :  D:2041:HOH:O    
+Node 1242  D:2044:HOH:O   :  D:2046:HOH:O     D:88:TYR:OH     
+Node 1243  D:2045:HOH:O   :  D:84:SER:OG     
+Node 1244  D:2046:HOH:O   :  D:2044:HOH:O    
+Node 1245  D:2047:HOH:O   : 
+Node 1246  D:2048:HOH:O   :  D:95:ASP:OD1     D:91:SER:OG     
+Node 1247  D:2049:HOH:O   : 
+Node 1248  D:2050:HOH:O   :  D:2035:HOH:O     D:102:GLU:OE2   
+Node 1249  D:2051:HOH:O   :  D:210:THR:OG1    D:99:GLN:OE1    
+Node 1250  D:2052:HOH:O   :  D:117:SER:OG     D:101:ASN:OD1   
+Node 1251  D:2053:HOH:O   :  D:105:GLU:OE1    D:102:GLU:OE1   
+Node 1252  D:2054:HOH:O   :  D:2028:HOH:O     D:117:SER:OG     D:105:GLU:OE2   
+Node 1253  D:2055:HOH:O   : 
+Node 1254  D:2056:HOH:O   :  C:2093:HOH:O    
+Node 1255  D:2057:HOH:O   :  D:123:ASP:OD2   
+Node 1256  D:2058:HOH:O   :  D:152:ASP:OD2   
+Node 1257  D:2059:HOH:O   :  D:135:LYS:NZ    
+Node 1258  D:2060:HOH:O   : 
+Node 1259  D:2061:HOH:O   :  D:2062:HOH:O    
+Node 1260  D:2062:HOH:O   :  D:2061:HOH:O    
+Node 1261  D:2063:HOH:O   :  D:2065:HOH:O     D:178:SER:OG     D:150:THR:OG1   
+Node 1262  D:2064:HOH:O   :  D:152:ASP:OD1   
+Node 1263  D:2065:HOH:O   :  D:2063:HOH:O    
+Node 1264  D:2066:HOH:O   :  D:172:THR:OG1    D:158:GLU:OE2   
+Node 1265  D:2067:HOH:O   :  D:204:THR:OG1    D:165:ASP:OD2   
+Node 1266  D:2068:HOH:O   :  D:202:GLU:OE1    D:166:LYS:NZ    
+Node 1267  D:2069:HOH:O   :  D:198:GLN:NE2   
+Node 1268  D:2070:HOH:O   : 
+Node 1269  D:2071:HOH:O   :  D:185:ASN:ND2    D:183:ASN:ND2   
+Node 1270  D:2072:HOH:O   :  C:2083:HOH:O     D:185:ASN:OD1   
+Node 1271  D:2073:HOH:O   :  D:221:ASP:OD2    D:199:ASP:OD2    D:197:ARG:NH2   
+Node 1272  D:2074:HOH:O   :  D:201:LYS:NZ    
+Node 1273  D:2075:HOH:O   : 
+Node 1274  D:2076:HOH:O   :  D:225:LYS:NZ     D:221:ASP:OD2   
+Node 1275  D:2077:HOH:O   :  C:2098:HOH:O     C:2095:HOH:O     D:224:SER:OG    
+Node 1276  D:2078:HOH:O   :  D:229:THR:OG1   
+Node 1277  D:2079:HOH:O   :  D:232:THR:OG1   
+Node 1278  D:2080:HOH:O   :  D:243:ASN:OD1   
+Number of Connected PTntw: 710
+Cluster 1:
+	 A:3:SER:OG
+	 A:6:GLU:OE1
+	 A:6:GLU:OE2
+	 A:2004:HOH:O
+END
+Cluster 2:
+	 A:4:ASN:OD1
+END
+Cluster 3:
+	 A:4:ASN:ND2
+END
+Cluster 4:
+	 A:5:GLN:OE1
+END
+Cluster 5:
+	 A:5:GLN:NE2
+END
+Cluster 6:
+	 A:9:GLN:OE1
+END
+Cluster 7:
+	 A:9:GLN:NE2
+END
+Cluster 8:
+	 A:12:THR:OG1
+	 A:2005:HOH:O
+END
+Cluster 9:
+	 A:13:ASN:OD1
+END
+Cluster 10:
+	 A:13:ASN:ND2
+END
+Cluster 11:
+	 A:17:ASN:OD1
+	 B:19:SER:OG
+	 B:20:GLN:NE2
+	 B:2005:HOH:O
+END
+Cluster 12:
+	 A:17:ASN:ND2
+END
+Cluster 13:
+	 A:21:CYS:SG
+END
+Cluster 14:
+	 A:22:GLU:OE1
+	 B:15:ARG:NE
+	 B:15:ARG:NH2
+END
+Cluster 15:
+	 A:22:GLU:OE2
+	 A:164:SER:OG
+	 A:193:HIS:NE2
+END
+Cluster 16:
+	 A:25:GLU:OE1
+END
+Cluster 17:
+	 A:25:GLU:OE2
+END
+Cluster 18:
+	 A:28:SER:OG
+END
+Cluster 19:
+	 A:29:ASP:OD1
+	 A:29:ASP:OD2
+	 B:11:ASP:OD1
+	 B:15:ARG:NH1
+	 A:2011:HOH:O
+END
+Cluster 20:
+	 A:31:ARG:NE
+	 A:31:ARG:NH2
+	 A:2012:HOH:O
+END
+Cluster 21:
+	 A:31:ARG:NH1
+END
+Cluster 22:
+	 A:36:SER:OG
+	 A:38:SER:OG
+END
+Cluster 23:
+	 A:37:GLU:OE1
+END
+Cluster 24:
+	 A:37:GLU:OE2
+END
+Cluster 25:
+	 A:41:ASN:OD1
+END
+Cluster 26:
+	 A:41:ASN:ND2
+END
+Cluster 27:
+	 A:43:SER:OG
+END
+Cluster 28:
+	 A:46:SER:OG
+END
+Cluster 29:
+	 A:47:THR:OG1
+END
+Cluster 30:
+	 A:49:ARG:NE
+	 A:73:GLU:OE1
+	 A:76:ASN:OD1
+	 A:76:ASN:ND2
+	 A:77:ASN:OD1
+	 A:79:TYR:OH
+	 A:92:HIS:ND1
+	 A:2015:HOH:O
+	 A:2017:HOH:O
+	 A:2034:HOH:O
+END
+Cluster 31:
+	 A:49:ARG:NH1
+END
+Cluster 32:
+	 A:49:ARG:NH2
+	 A:73:GLU:OE2
+END
+Cluster 33:
+	 A:50:GLU:OE1
+	 A:50:GLU:OE2
+	 A:70:LYS:NZ
+END
+Cluster 34:
+	 A:51:TYR:OH
+	 A:55:GLN:OE1
+	 A:55:GLN:NE2
+	 A:58:SER:OG
+	 A:60:GLN:NE2
+	 A:153:SER:OG
+	 A:155:CYS:SG
+	 A:166:ARG:NE
+	 A:166:ARG:NH1
+	 A:166:ARG:NH2
+	 A:168:ARG:NE
+	 A:168:ARG:NH2
+	 A:191:ASN:ND2
+	 A:2008:HOH:O
+	 A:2009:HOH:O
+	 A:2010:HOH:O
+	 A:2019:HOH:O
+	 A:2020:HOH:O
+	 A:2021:HOH:O
+	 A:2022:HOH:O
+	 A:2023:HOH:O
+	 A:2065:HOH:O
+	 A:2069:HOH:O
+	 A:2070:HOH:O
+END
+Cluster 35:
+	 A:52:ASN:OD1
+END
+Cluster 36:
+	 A:52:ASN:ND2
+END
+Cluster 37:
+	 A:53:THR:OG1
+END
+Cluster 38:
+	 A:54:SER:OG
+	 A:2006:HOH:O
+END
+Cluster 39:
+	 A:60:GLN:OE1
+	 A:65:SER:OG
+	 C:266:ASN:OD1
+	 C:266:ASN:ND2
+	 A:2025:HOH:O
+	 A:2029:HOH:O
+END
+Cluster 40:
+	 A:61:THR:OG1
+	 A:63:LYS:NZ
+	 A:81:ASP:OD1
+	 A:81:ASP:OD2
+	 A:84:ASN:OD1
+	 A:84:ASN:ND2
+	 A:86:GLN:OE1
+	 A:2027:HOH:O
+	 A:2028:HOH:O
+	 A:2030:HOH:O
+	 A:2036:HOH:O
+END
+Cluster 41:
+	 A:62:SER:OG
+	 A:86:GLN:NE2
+	 A:100:GLU:OE1
+	 A:100:GLU:OE2
+	 C:261:ASN:ND2
+	 C:269:LYS:NZ
+	 A:2037:HOH:O
+	 C:2052:HOH:O
+	 C:2097:HOH:O
+	 C:2100:HOH:O
+END
+Cluster 42:
+	 A:69:THR:OG1
+	 A:138:TYR:OH
+END
+Cluster 43:
+	 A:71:GLU:OE1
+END
+Cluster 44:
+	 A:71:GLU:OE2
+END
+Cluster 45:
+	 A:75:SER:OG
+END
+Cluster 46:
+	 A:77:ASN:ND2
+	 A:98:THR:OG1
+	 A:2033:HOH:O
+	 A:2042:HOH:O
+END
+Cluster 47:
+	 A:78:GLU:OE1
+END
+Cluster 48:
+	 A:78:GLU:OE2
+	 A:101:ARG:NH2
+	 A:2035:HOH:O
+END
+Cluster 49:
+	 A:83:LYS:NZ
+	 A:123:THR:OG1
+END
+Cluster 50:
+	 A:85:LYS:NZ
+END
+Cluster 51:
+	 A:89:THR:OG1
+END
+Cluster 52:
+	 A:90:TYR:OH
+END
+Cluster 53:
+	 A:91:ASP:OD1
+END
+Cluster 54:
+	 A:91:ASP:OD2
+	 A:2038:HOH:O
+END
+Cluster 55:
+	 A:92:HIS:NE2
+END
+Cluster 56:
+	 A:94:LYS:NZ
+END
+Cluster 57:
+	 A:95:GLN:OE1
+END
+Cluster 58:
+	 A:95:GLN:NE2
+END
+Cluster 59:
+	 A:96:GLU:OE1
+	 A:96:GLU:OE2
+	 A:2039:HOH:O
+END
+Cluster 60:
+	 A:101:ARG:NE
+END
+Cluster 61:
+	 A:101:ARG:NH1
+	 A:104:SER:OG
+	 A:106:GLU:OE2
+END
+Cluster 62:
+	 A:102:SER:OG
+	 A:2043:HOH:O
+	 A:2044:HOH:O
+END
+Cluster 63:
+	 A:106:GLU:OE1
+END
+Cluster 64:
+	 A:108:GLU:OE1
+	 A:110:ASP:OD1
+	 A:110:ASP:OD2
+	 A:141:LYS:NZ
+END
+Cluster 65:
+	 A:108:GLU:OE2
+	 A:140:THR:OG1
+END
+Cluster 66:
+	 A:109:GLN:OE1
+	 A:2049:HOH:O
+END
+Cluster 67:
+	 A:109:GLN:NE2
+	 A:2051:HOH:O
+END
+Cluster 68:
+	 A:112:GLU:OE1
+	 A:112:GLU:OE2
+	 A:115:ARG:NE
+	 A:115:ARG:NH1
+	 A:115:ARG:NH2
+	 A:119:ASP:OD1
+	 A:119:ASP:OD2
+	 A:2047:HOH:O
+	 A:2052:HOH:O
+	 A:2054:HOH:O
+END
+Cluster 69:
+	 A:113:GLN:OE1
+END
+Cluster 70:
+	 A:113:GLN:NE2
+	 A:2053:HOH:O
+END
+Cluster 71:
+	 A:114:TYR:OH
+	 A:214:SER:OG
+	 A:220:THR:OG1
+	 A:2074:HOH:O
+END
+Cluster 72:
+	 A:120:GLU:OE1
+	 A:2055:HOH:O
+END
+Cluster 73:
+	 A:120:GLU:OE2
+END
+Cluster 74:
+	 A:121:GLU:OE1
+	 A:121:GLU:OE2
+	 A:124:LYS:NZ
+	 A:2016:HOH:O
+	 A:2056:HOH:O
+	 A:2057:HOH:O
+	 A:2058:HOH:O
+END
+Cluster 75:
+	 A:125:TYR:OH
+	 A:130:TYR:OH
+	 A:167:TRP:NE1
+	 A:169:SER:OG
+	 A:171:TRP:NE1
+	 A:232:GLU:OE1
+	 A:232:GLU:OE2
+	 B:246:ARG:NE
+	 B:246:ARG:NH2
+	 A:2061:HOH:O
+END
+Cluster 76:
+	 A:126:CYS:SG
+	 A:127:ASN:OD1
+	 A:135:SER:OG
+	 A:2062:HOH:O
+	 A:2063:HOH:O
+END
+Cluster 77:
+	 A:127:ASN:ND2
+END
+Cluster 78:
+	 A:128:GLU:OE1
+END
+Cluster 79:
+	 A:128:GLU:OE2
+END
+Cluster 80:
+	 A:129:TYR:OH
+END
+Cluster 81:
+	 A:132:ASN:OD1
+END
+Cluster 82:
+	 A:132:ASN:ND2
+END
+Cluster 83:
+	 A:143:SER:OG
+END
+Cluster 84:
+	 A:144:GLU:OE1
+END
+Cluster 85:
+	 A:144:GLU:OE2
+END
+Cluster 86:
+	 A:147:LYS:NZ
+END
+Cluster 87:
+	 A:149:THR:OG1
+END
+Cluster 88:
+	 A:151:CYS:SG
+END
+Cluster 89:
+	 A:154:THR:OG1
+	 A:2064:HOH:O
+END
+Cluster 90:
+	 A:157:TYR:OH
+END
+Cluster 91:
+	 A:158:LYS:NZ
+END
+Cluster 92:
+	 A:160:ASN:OD1
+END
+Cluster 93:
+	 A:160:ASN:ND2
+END
+Cluster 94:
+	 A:163:TYR:OH
+END
+Cluster 95:
+	 A:168:ARG:NH1
+	 A:189:GLN:OE1
+	 A:2080:HOH:O
+END
+Cluster 96:
+	 A:172:THR:OG1
+	 A:2071:HOH:O
+END
+Cluster 97:
+	 A:173:CYS:SG
+	 A:184:SER:OG
+	 A:210:THR:OG1
+	 A:212:SER:OG
+	 A:2077:HOH:O
+	 A:2089:HOH:O
+END
+Cluster 98:
+	 A:174:THR:OG1
+	 A:185:ASN:OD1
+	 A:2073:HOH:O
+	 A:2078:HOH:O
+END
+Cluster 99:
+	 A:176:LYS:NZ
+END
+Cluster 100:
+	 A:179:SER:OG
+END
+Cluster 101:
+	 A:181:ASN:OD1
+END
+Cluster 102:
+	 A:181:ASN:ND2
+END
+Cluster 103:
+	 A:183:THR:OG1
+	 A:2072:HOH:O
+END
+Cluster 104:
+	 A:185:ASN:ND2
+	 A:209:GLN:OE1
+	 A:2079:HOH:O
+END
+Cluster 105:
+	 A:187:LYS:NZ
+END
+Cluster 106:
+	 A:189:GLN:NE2
+END
+Cluster 107:
+	 A:191:ASN:OD1
+	 A:203:ASN:OD1
+END
+Cluster 108:
+	 A:193:HIS:ND1
+END
+Cluster 109:
+	 A:194:TYR:OH
+	 A:196:GLU:OE1
+END
+Cluster 110:
+	 A:196:GLU:OE2
+END
+Cluster 111:
+	 A:197:ASP:OD1
+END
+Cluster 112:
+	 A:197:ASP:OD2
+END
+Cluster 113:
+	 A:199:ASN:OD1
+	 A:201:GLN:NE2
+END
+Cluster 114:
+	 A:199:ASN:ND2
+	 B:20:GLN:OE1
+	 B:24:ASN:ND2
+	 A:2084:HOH:O
+	 B:2002:HOH:O
+	 B:2003:HOH:O
+END
+Cluster 115:
+	 A:201:GLN:OE1
+	 A:2007:HOH:O
+END
+Cluster 116:
+	 A:203:ASN:ND2
+END
+Cluster 117:
+	 A:204:THR:OG1
+	 A:206:THR:OG1
+	 A:2081:HOH:O
+END
+Cluster 118:
+	 A:207:GLN:OE1
+	 A:2085:HOH:O
+	 A:2086:HOH:O
+	 A:2087:HOH:O
+	 A:2088:HOH:O
+	 B:2048:HOH:O
+END
+Cluster 119:
+	 A:207:GLN:NE2
+END
+Cluster 120:
+	 A:208:LYS:NZ
+END
+Cluster 121:
+	 A:209:GLN:NE2
+END
+Cluster 122:
+	 A:211:THR:OG1
+END
+Cluster 123:
+	 A:216:ASP:OD1
+	 A:216:ASP:OD2
+	 A:218:GLN:OE1
+	 A:219:SER:OG
+END
+Cluster 124:
+	 A:218:GLN:NE2
+END
+Cluster 125:
+	 A:223:ASN:OD1
+END
+Cluster 126:
+	 A:223:ASN:ND2
+END
+Cluster 127:
+	 A:226:LYS:NZ
+END
+Cluster 128:
+	 A:230:LYS:NZ
+END
+Cluster 129:
+	 A:234:ASN:OD1
+END
+Cluster 130:
+	 A:234:ASN:ND2
+END
+Cluster 131:
+	 A:236:HIS:ND1
+	 B:246:ARG:NH1
+END
+Cluster 132:
+	 A:236:HIS:NE2
+	 A:240:ASP:OD1
+	 B:243:ASN:OD1
+	 B:243:ASN:ND2
+END
+Cluster 133:
+	 A:237:THR:OG1
+END
+Cluster 134:
+	 A:240:ASP:OD2
+END
+Cluster 135:
+	 A:241:ASN:OD1
+END
+Cluster 136:
+	 A:241:ASN:ND2
+END
+Cluster 137:
+	 A:242:ASN:OD1
+END
+Cluster 138:
+	 A:242:ASN:ND2
+	 A:2091:HOH:O
+END
+Cluster 139:
+	 A:243:TYR:OH
+	 B:238:THR:OG1
+END
+Cluster 140:
+	 A:244:SER:OG
+END
+Cluster 141:
+	 A:245:THR:OG1
+END
+Cluster 142:
+	 A:248:ASP:OD1
+END
+Cluster 143:
+	 A:248:ASP:OD2
+END
+Cluster 144:
+	 A:249:THR:OG1
+	 A:250:THR:OG1
+END
+Cluster 145:
+	 A:252:LYS:NZ
+END
+Cluster 146:
+	 A:255:ARG:NE
+	 A:255:ARG:NH2
+	 B:107:TYR:OH
+	 B:223:GLU:OE1
+	 B:224:SER:OG
+END
+Cluster 147:
+	 A:255:ARG:NH1
+END
+Cluster 148:
+	 A:256:ARG:NE
+END
+Cluster 149:
+	 A:256:ARG:NH1
+	 B:113:GLU:OE1
+	 B:113:GLU:OE2
+END
+Cluster 150:
+	 A:256:ARG:NH2
+END
+Cluster 151:
+	 A:261:ASN:OD1
+END
+Cluster 152:
+	 A:261:ASN:ND2
+END
+Cluster 153:
+	 A:262:ARG:NE
+END
+Cluster 154:
+	 A:262:ARG:NH1
+END
+Cluster 155:
+	 A:262:ARG:NH2
+END
+Cluster 156:
+	 A:263:THR:OG1
+END
+Cluster 157:
+	 A:264:LYS:NZ
+END
+Cluster 158:
+	 A:266:ASN:OD1
+END
+Cluster 159:
+	 A:266:ASN:ND2
+END
+Cluster 160:
+	 A:267:TRP:NE1
+	 B:220:GLU:OE1
+	 B:2051:HOH:O
+END
+Cluster 161:
+	 A:268:GLN:OE1
+END
+Cluster 162:
+	 A:268:GLN:NE2
+	 B:209:ASP:OD1
+END
+Cluster 163:
+	 A:269:LYS:NZ
+END
+Cluster 164:
+	 B:2:THR:OG1
+	 B:5:GLN:OE1
+END
+Cluster 165:
+	 B:3:GLU:OE1
+END
+Cluster 166:
+	 B:3:GLU:OE2
+END
+Cluster 167:
+	 B:4:LYS:NZ
+END
+Cluster 168:
+	 B:5:GLN:NE2
+END
+Cluster 169:
+	 B:7:SER:OG
+END
+Cluster 170:
+	 B:8:CYS:SG
+END
+Cluster 171:
+	 B:9:CYS:SG
+END
+Cluster 172:
+	 B:11:ASP:OD2
+END
+Cluster 173:
+	 B:14:ARG:NE
+END
+Cluster 174:
+	 B:14:ARG:NH1
+END
+Cluster 175:
+	 B:14:ARG:NH2
+END
+Cluster 176:
+	 B:22:GLU:OE1
+END
+Cluster 177:
+	 B:22:GLU:OE2
+	 B:48:LYS:NZ
+END
+Cluster 178:
+	 B:23:ASP:OD1
+END
+Cluster 179:
+	 B:23:ASP:OD2
+END
+Cluster 180:
+	 B:24:ASN:OD1
+END
+Cluster 181:
+	 B:30:ASP:OD1
+	 B:30:ASP:OD2
+	 B:2008:HOH:O
+	 B:2009:HOH:O
+	 B:2010:HOH:O
+END
+Cluster 182:
+	 B:34:ASP:OD1
+END
+Cluster 183:
+	 B:34:ASP:OD2
+END
+Cluster 184:
+	 B:36:THR:OG1
+END
+Cluster 185:
+	 B:37:GLU:OE1
+END
+Cluster 186:
+	 B:37:GLU:OE2
+END
+Cluster 187:
+	 B:38:ASP:OD1
+END
+Cluster 188:
+	 B:38:ASP:OD2
+END
+Cluster 189:
+	 B:41:SER:OG
+	 B:63:ASP:OD2
+	 B:2011:HOH:O
+END
+Cluster 190:
+	 B:42:SER:OG
+END
+Cluster 191:
+	 B:44:ASP:OD1
+	 B:45:GLN:OE1
+	 B:2007:HOH:O
+	 B:2012:HOH:O
+	 B:2014:HOH:O
+	 B:2015:HOH:O
+END
+Cluster 192:
+	 B:44:ASP:OD2
+	 B:174:THR:OG1
+	 B:196:THR:OG1
+	 B:2013:HOH:O
+END
+Cluster 193:
+	 B:45:GLN:NE2
+END
+Cluster 194:
+	 B:51:TYR:OH
+END
+Cluster 195:
+	 B:52:ASP:OD1
+END
+Cluster 196:
+	 B:52:ASP:OD2
+	 B:55:SER:OG
+	 B:73:SER:OG
+	 B:76:SER:OG
+	 B:2021:HOH:O
+END
+Cluster 197:
+	 B:56:LYS:NZ
+END
+Cluster 198:
+	 B:57:LYS:NZ
+	 B:105:GLU:OE1
+	 B:105:GLU:OE2
+END
+Cluster 199:
+	 B:58:ASP:OD1
+END
+Cluster 200:
+	 B:58:ASP:OD2
+	 B:2022:HOH:O
+END
+Cluster 201:
+	 B:59:TYR:OH
+	 B:80:ASP:OD2
+	 B:2006:HOH:O
+	 B:2016:HOH:O
+	 B:2017:HOH:O
+	 B:2018:HOH:O
+	 B:2019:HOH:O
+	 B:2023:HOH:O
+END
+Cluster 202:
+	 B:62:CYS:SG
+	 B:65:ASN:OD1
+END
+Cluster 203:
+	 B:63:ASP:OD1
+	 B:66:ARG:NH1
+	 B:71:TYR:OH
+	 B:2024:HOH:O
+END
+Cluster 204:
+	 B:64:TYR:OH
+END
+Cluster 205:
+	 B:65:ASN:ND2
+	 B:118:SER:OG
+	 B:120:TYR:OH
+END
+Cluster 206:
+	 B:66:ARG:NE
+END
+Cluster 207:
+	 B:66:ARG:NH2
+END
+Cluster 208:
+	 B:67:ASP:OD1
+END
+Cluster 209:
+	 B:67:ASP:OD2
+END
+Cluster 210:
+	 B:69:ASP:OD1
+END
+Cluster 211:
+	 B:69:ASP:OD2
+END
+Cluster 212:
+	 B:70:SER:OG
+	 B:2026:HOH:O
+END
+Cluster 213:
+	 B:72:ARG:NE
+END
+Cluster 214:
+	 B:72:ARG:NH1
+	 B:72:ARG:NH2
+	 B:94:ARG:NH1
+	 B:97:GLU:OE1
+	 B:97:GLU:OE2
+END
+Cluster 215:
+	 B:75:TRP:NE1
+END
+Cluster 216:
+	 B:77:ASN:OD1
+END
+Cluster 217:
+	 B:77:ASN:ND2
+	 B:94:ARG:NE
+	 B:94:ARG:NH2
+	 B:2027:HOH:O
+	 B:2028:HOH:O
+	 B:2029:HOH:O
+	 B:2030:HOH:O
+	 B:2031:HOH:O
+	 B:2039:HOH:O
+END
+Cluster 218:
+	 B:78:LYS:NZ
+END
+Cluster 219:
+	 B:79:TYR:OH
+END
+Cluster 220:
+	 B:80:ASP:OD1
+	 B:2032:HOH:O
+END
+Cluster 221:
+	 B:84:SER:OG
+	 B:2037:HOH:O
+END
+Cluster 222:
+	 B:87:CYS:SG
+END
+Cluster 223:
+	 B:88:TYR:OH
+	 B:2034:HOH:O
+	 B:2035:HOH:O
+	 B:2036:HOH:O
+	 B:2038:HOH:O
+END
+Cluster 224:
+	 B:90:SER:OG
+	 B:123:ASP:OD2
+END
+Cluster 225:
+	 B:91:SER:OG
+END
+Cluster 226:
+	 B:92:LYS:NZ
+END
+Cluster 227:
+	 B:95:ASP:OD1
+END
+Cluster 228:
+	 B:95:ASP:OD2
+END
+Cluster 229:
+	 B:99:GLN:OE1
+END
+Cluster 230:
+	 B:99:GLN:NE2
+	 B:212:CYS:SG
+	 B:2050:HOH:O
+END
+Cluster 231:
+	 B:101:ASN:OD1
+END
+Cluster 232:
+	 B:101:ASN:ND2
+END
+Cluster 233:
+	 B:102:GLU:OE1
+END
+Cluster 234:
+	 B:102:GLU:OE2
+END
+Cluster 235:
+	 B:109:ASN:OD1
+END
+Cluster 236:
+	 B:109:ASN:ND2
+END
+Cluster 237:
+	 B:111:TYR:OH
+	 B:220:GLU:OE2
+END
+Cluster 238:
+	 B:117:SER:OG
+END
+Cluster 239:
+	 B:121:CYS:SG
+END
+Cluster 240:
+	 B:122:TRP:NE1
+END
+Cluster 241:
+	 B:123:ASP:OD1
+	 B:2041:HOH:O
+END
+Cluster 242:
+	 B:125:ASP:OD1
+END
+Cluster 243:
+	 B:125:ASP:OD2
+END
+Cluster 244:
+	 B:126:ASP:OD1
+END
+Cluster 245:
+	 B:126:ASP:OD2
+END
+Cluster 246:
+	 B:127:ASN:OD1
+END
+Cluster 247:
+	 B:127:ASN:ND2
+END
+Cluster 248:
+	 B:135:LYS:NZ
+	 B:152:ASP:OD1
+	 B:152:ASP:OD2
+	 B:2042:HOH:O
+	 B:2044:HOH:O
+END
+Cluster 249:
+	 B:136:LYS:NZ
+END
+Cluster 250:
+	 B:137:THR:OG1
+END
+Cluster 251:
+	 B:138:GLN:OE1
+END
+Cluster 252:
+	 B:138:GLN:NE2
+END
+Cluster 253:
+	 B:139:ASP:OD1
+END
+Cluster 254:
+	 B:139:ASP:OD2
+END
+Cluster 255:
+	 B:148:ARG:NE
+END
+Cluster 256:
+	 B:148:ARG:NH1
+END
+Cluster 257:
+	 B:148:ARG:NH2
+END
+Cluster 258:
+	 B:150:THR:OG1
+END
+Cluster 259:
+	 B:151:TRP:NE1
+	 B:153:SER:OG
+	 B:223:GLU:OE2
+END
+Cluster 260:
+	 B:155:HIS:ND1
+END
+Cluster 261:
+	 B:155:HIS:NE2
+	 B:173:SER:OG
+END
+Cluster 262:
+	 B:158:GLU:OE1
+END
+Cluster 263:
+	 B:158:GLU:OE2
+END
+Cluster 264:
+	 B:160:LYS:NZ
+END
+Cluster 265:
+	 B:163:LYS:NZ
+END
+Cluster 266:
+	 B:164:LYS:NZ
+END
+Cluster 267:
+	 B:165:ASP:OD1
+END
+Cluster 268:
+	 B:165:ASP:OD2
+END
+Cluster 269:
+	 B:166:LYS:NZ
+END
+Cluster 270:
+	 B:169:TYR:OH
+	 B:211:HIS:ND1
+	 B:214:ASN:ND2
+END
+Cluster 271:
+	 B:170:LYS:NZ
+END
+Cluster 272:
+	 B:172:THR:OG1
+	 B:198:GLN:OE1
+END
+Cluster 273:
+	 B:178:SER:OG
+END
+Cluster 274:
+	 B:180:GLU:OE1
+END
+Cluster 275:
+	 B:180:GLU:OE2
+END
+Cluster 276:
+	 B:181:THR:OG1
+	 B:183:ASN:OD1
+	 B:183:ASN:ND2
+	 B:186:THR:OG1
+END
+Cluster 277:
+	 B:182:ASP:OD1
+END
+Cluster 278:
+	 B:182:ASP:OD2
+END
+Cluster 279:
+	 B:184:ASP:OD1
+END
+Cluster 280:
+	 B:184:ASP:OD2
+END
+Cluster 281:
+	 B:185:ASN:OD1
+END
+Cluster 282:
+	 B:185:ASN:ND2
+END
+Cluster 283:
+	 B:188:LYS:NZ
+	 B:190:ASN:ND2
+END
+Cluster 284:
+	 B:190:ASN:OD1
+END
+Cluster 285:
+	 B:194:SER:OG
+END
+Cluster 286:
+	 B:197:ARG:NE
+END
+Cluster 287:
+	 B:197:ARG:NH1
+END
+Cluster 288:
+	 B:197:ARG:NH2
+END
+Cluster 289:
+	 B:198:GLN:NE2
+END
+Cluster 290:
+	 B:199:ASP:OD1
+	 B:2049:HOH:O
+END
+Cluster 291:
+	 B:199:ASP:OD2
+END
+Cluster 292:
+	 B:200:GLU:OE1
+END
+Cluster 293:
+	 B:200:GLU:OE2
+END
+Cluster 294:
+	 B:201:LYS:NZ
+END
+Cluster 295:
+	 B:202:GLU:OE1
+END
+Cluster 296:
+	 B:202:GLU:OE2
+END
+Cluster 297:
+	 B:203:TYR:OH
+END
+Cluster 298:
+	 B:204:THR:OG1
+END
+Cluster 299:
+	 B:206:ASN:OD1
+END
+Cluster 300:
+	 B:206:ASN:ND2
+END
+Cluster 301:
+	 B:207:GLU:OE1
+END
+Cluster 302:
+	 B:207:GLU:OE2
+END
+Cluster 303:
+	 B:209:ASP:OD2
+END
+Cluster 304:
+	 B:210:THR:OG1
+END
+Cluster 305:
+	 B:211:HIS:NE2
+END
+Cluster 306:
+	 B:214:ASN:OD1
+END
+Cluster 307:
+	 B:217:LYS:NZ
+END
+Cluster 308:
+	 B:221:ASP:OD1
+END
+Cluster 309:
+	 B:221:ASP:OD2
+END
+Cluster 310:
+	 B:225:LYS:NZ
+END
+Cluster 311:
+	 B:227:ARG:NE
+END
+Cluster 312:
+	 B:227:ARG:NH1
+END
+Cluster 313:
+	 B:227:ARG:NH2
+END
+Cluster 314:
+	 B:228:GLN:OE1
+END
+Cluster 315:
+	 B:228:GLN:NE2
+	 B:229:THR:OG1
+	 B:2052:HOH:O
+END
+Cluster 316:
+	 B:231:GLU:OE1
+END
+Cluster 317:
+	 B:231:GLU:OE2
+END
+Cluster 318:
+	 B:232:THR:OG1
+	 B:2054:HOH:O
+END
+Cluster 319:
+	 B:234:TYR:OH
+END
+Cluster 320:
+	 B:237:LYS:NZ
+	 B:240:GLU:OE1
+	 B:240:GLU:OE2
+END
+Cluster 321:
+	 B:239:LYS:NZ
+END
+Cluster 322:
+	 B:244:THR:OG1
+END
+Cluster 323:
+	 B:247:ASN:OD1
+	 B:249:THR:OG1
+END
+Cluster 324:
+	 B:247:ASN:ND2
+END
+Cluster 325:
+	 B:251:ASN:OD1
+END
+Cluster 326:
+	 B:251:ASN:ND2
+END
+Cluster 327:
+	 B:252:SER:OG
+END
+Cluster 328:
+	 C:3:SER:OG
+	 C:6:GLU:OE1
+END
+Cluster 329:
+	 C:4:ASN:OD1
+	 C:2001:HOH:O
+	 C:2002:HOH:O
+	 C:2003:HOH:O
+	 C:2005:HOH:O
+	 D:2013:HOH:O
+END
+Cluster 330:
+	 C:4:ASN:ND2
+	 C:2004:HOH:O
+	 C:2006:HOH:O
+END
+Cluster 331:
+	 C:5:GLN:OE1
+END
+Cluster 332:
+	 C:5:GLN:NE2
+	 C:2007:HOH:O
+END
+Cluster 333:
+	 C:6:GLU:OE2
+END
+Cluster 334:
+	 C:9:GLN:OE1
+END
+Cluster 335:
+	 C:9:GLN:NE2
+END
+Cluster 336:
+	 C:12:THR:OG1
+END
+Cluster 337:
+	 C:13:ASN:OD1
+END
+Cluster 338:
+	 C:13:ASN:ND2
+END
+Cluster 339:
+	 C:17:ASN:OD1
+	 D:20:GLN:OE1
+	 D:24:ASN:OD1
+	 D:24:ASN:ND2
+	 C:2010:HOH:O
+	 C:2011:HOH:O
+	 C:2080:HOH:O
+	 D:2006:HOH:O
+END
+Cluster 340:
+	 C:17:ASN:ND2
+	 D:20:GLN:NE2
+END
+Cluster 341:
+	 C:21:CYS:SG
+END
+Cluster 342:
+	 C:22:GLU:OE1
+	 D:15:ARG:NH1
+END
+Cluster 343:
+	 C:22:GLU:OE2
+	 C:164:SER:OG
+	 C:193:HIS:ND1
+END
+Cluster 344:
+	 C:25:GLU:OE1
+END
+Cluster 345:
+	 C:25:GLU:OE2
+	 C:2018:HOH:O
+END
+Cluster 346:
+	 C:28:SER:OG
+END
+Cluster 347:
+	 C:29:ASP:OD1
+END
+Cluster 348:
+	 C:29:ASP:OD2
+	 D:11:ASP:OD1
+	 D:15:ARG:NE
+END
+Cluster 349:
+	 C:31:ARG:NE
+END
+Cluster 350:
+	 C:31:ARG:NH1
+END
+Cluster 351:
+	 C:31:ARG:NH2
+END
+Cluster 352:
+	 C:36:SER:OG
+	 C:38:SER:OG
+	 C:2021:HOH:O
+	 C:2022:HOH:O
+END
+Cluster 353:
+	 C:37:GLU:OE1
+END
+Cluster 354:
+	 C:37:GLU:OE2
+END
+Cluster 355:
+	 C:41:ASN:OD1
+END
+Cluster 356:
+	 C:41:ASN:ND2
+END
+Cluster 357:
+	 C:43:SER:OG
+END
+Cluster 358:
+	 C:46:SER:OG
+	 C:76:ASN:ND2
+	 C:2023:HOH:O
+	 C:2024:HOH:O
+	 C:2026:HOH:O
+	 C:2028:HOH:O
+END
+Cluster 359:
+	 C:47:THR:OG1
+	 C:2027:HOH:O
+	 C:2029:HOH:O
+END
+Cluster 360:
+	 C:49:ARG:NE
+	 C:49:ARG:NH2
+	 C:73:GLU:OE1
+	 C:73:GLU:OE2
+	 C:79:TYR:OH
+	 C:92:HIS:NE2
+END
+Cluster 361:
+	 C:49:ARG:NH1
+END
+Cluster 362:
+	 C:50:GLU:OE1
+	 C:50:GLU:OE2
+	 C:53:THR:OG1
+	 C:54:SER:OG
+	 C:70:LYS:NZ
+END
+Cluster 363:
+	 C:51:TYR:OH
+	 C:52:ASN:OD1
+	 C:55:GLN:NE2
+	 C:58:SER:OG
+	 C:95:GLN:NE2
+	 C:153:SER:OG
+	 C:154:THR:OG1
+	 C:155:CYS:SG
+	 C:166:ARG:NE
+	 C:166:ARG:NH1
+	 C:166:ARG:NH2
+	 C:2009:HOH:O
+	 C:2015:HOH:O
+	 C:2016:HOH:O
+	 C:2030:HOH:O
+	 C:2034:HOH:O
+	 C:2035:HOH:O
+	 C:2036:HOH:O
+	 C:2037:HOH:O
+	 C:2061:HOH:O
+	 C:2066:HOH:O
+END
+Cluster 364:
+	 C:52:ASN:ND2
+	 C:92:HIS:ND1
+END
+Cluster 365:
+	 C:55:GLN:OE1
+	 C:168:ARG:NE
+	 C:168:ARG:NH1
+	 C:168:ARG:NH2
+	 C:189:GLN:OE1
+	 C:189:GLN:NE2
+	 C:191:ASN:OD1
+	 C:191:ASN:ND2
+	 C:203:ASN:ND2
+	 C:2012:HOH:O
+	 C:2013:HOH:O
+	 C:2032:HOH:O
+	 C:2033:HOH:O
+	 C:2070:HOH:O
+	 C:2071:HOH:O
+	 C:2072:HOH:O
+	 C:2078:HOH:O
+END
+Cluster 366:
+	 C:60:GLN:OE1
+END
+Cluster 367:
+	 C:60:GLN:NE2
+END
+Cluster 368:
+	 C:61:THR:OG1
+	 C:81:ASP:OD1
+	 C:81:ASP:OD2
+	 C:84:ASN:ND2
+	 C:86:GLN:NE2
+END
+Cluster 369:
+	 C:62:SER:OG
+	 C:86:GLN:OE1
+	 C:100:GLU:OE1
+END
+Cluster 370:
+	 C:63:LYS:NZ
+END
+Cluster 371:
+	 C:65:SER:OG
+END
+Cluster 372:
+	 C:69:THR:OG1
+	 C:138:TYR:OH
+END
+Cluster 373:
+	 C:71:GLU:OE1
+END
+Cluster 374:
+	 C:71:GLU:OE2
+	 C:140:THR:OG1
+	 C:149:THR:OG1
+	 C:2043:HOH:O
+	 C:2044:HOH:O
+END
+Cluster 375:
+	 C:75:SER:OG
+	 C:78:GLU:OE1
+END
+Cluster 376:
+	 C:76:ASN:OD1
+	 C:77:ASN:OD1
+	 C:2025:HOH:O
+	 C:2048:HOH:O
+END
+Cluster 377:
+	 C:77:ASN:ND2
+	 C:2047:HOH:O
+END
+Cluster 378:
+	 C:78:GLU:OE2
+	 C:89:THR:OG1
+	 C:101:ARG:NE
+	 C:101:ARG:NH1
+	 C:101:ARG:NH2
+	 C:104:SER:OG
+	 C:106:GLU:OE1
+	 C:106:GLU:OE2
+	 C:2049:HOH:O
+	 C:2050:HOH:O
+	 C:2051:HOH:O
+	 C:2055:HOH:O
+END
+Cluster 379:
+	 C:83:LYS:NZ
+	 C:123:THR:OG1
+END
+Cluster 380:
+	 C:84:ASN:OD1
+END
+Cluster 381:
+	 C:85:LYS:NZ
+END
+Cluster 382:
+	 C:90:TYR:OH
+END
+Cluster 383:
+	 C:91:ASP:OD1
+END
+Cluster 384:
+	 C:91:ASP:OD2
+END
+Cluster 385:
+	 C:94:LYS:NZ
+END
+Cluster 386:
+	 C:95:GLN:OE1
+END
+Cluster 387:
+	 C:96:GLU:OE1
+END
+Cluster 388:
+	 C:96:GLU:OE2
+END
+Cluster 389:
+	 C:98:THR:OG1
+END
+Cluster 390:
+	 C:100:GLU:OE2
+END
+Cluster 391:
+	 C:102:SER:OG
+END
+Cluster 392:
+	 C:108:GLU:OE1
+	 C:141:LYS:NZ
+END
+Cluster 393:
+	 C:108:GLU:OE2
+END
+Cluster 394:
+	 C:109:GLN:OE1
+END
+Cluster 395:
+	 C:109:GLN:NE2
+END
+Cluster 396:
+	 C:110:ASP:OD1
+END
+Cluster 397:
+	 C:110:ASP:OD2
+END
+Cluster 398:
+	 C:112:GLU:OE1
+	 C:115:ARG:NE
+END
+Cluster 399:
+	 C:112:GLU:OE2
+	 C:115:ARG:NH2
+END
+Cluster 400:
+	 C:113:GLN:OE1
+END
+Cluster 401:
+	 C:113:GLN:NE2
+END
+Cluster 402:
+	 C:114:TYR:OH
+END
+Cluster 403:
+	 C:115:ARG:NH1
+	 C:119:ASP:OD1
+	 C:119:ASP:OD2
+	 C:2056:HOH:O
+END
+Cluster 404:
+	 C:120:GLU:OE1
+END
+Cluster 405:
+	 C:120:GLU:OE2
+END
+Cluster 406:
+	 C:121:GLU:OE1
+	 C:121:GLU:OE2
+	 C:124:LYS:NZ
+	 C:2057:HOH:O
+	 C:2058:HOH:O
+END
+Cluster 407:
+	 C:125:TYR:OH
+	 C:130:TYR:OH
+	 C:167:TRP:NE1
+	 C:169:SER:OG
+	 C:171:TRP:NE1
+	 C:232:GLU:OE1
+	 C:232:GLU:OE2
+	 D:246:ARG:NE
+	 D:246:ARG:NH2
+END
+Cluster 408:
+	 C:126:CYS:SG
+	 C:127:ASN:OD1
+	 C:135:SER:OG
+	 C:2059:HOH:O
+	 C:2063:HOH:O
+END
+Cluster 409:
+	 C:127:ASN:ND2
+END
+Cluster 410:
+	 C:128:GLU:OE1
+END
+Cluster 411:
+	 C:128:GLU:OE2
+	 C:129:TYR:OH
+END
+Cluster 412:
+	 C:132:ASN:OD1
+END
+Cluster 413:
+	 C:132:ASN:ND2
+	 C:2062:HOH:O
+END
+Cluster 414:
+	 C:143:SER:OG
+	 C:2064:HOH:O
+END
+Cluster 415:
+	 C:144:GLU:OE1
+END
+Cluster 416:
+	 C:144:GLU:OE2
+END
+Cluster 417:
+	 C:147:LYS:NZ
+END
+Cluster 418:
+	 C:151:CYS:SG
+END
+Cluster 419:
+	 C:157:TYR:OH
+END
+Cluster 420:
+	 C:158:LYS:NZ
+END
+Cluster 421:
+	 C:160:ASN:OD1
+	 C:2068:HOH:O
+END
+Cluster 422:
+	 C:160:ASN:ND2
+END
+Cluster 423:
+	 C:163:TYR:OH
+END
+Cluster 424:
+	 C:172:THR:OG1
+	 C:2039:HOH:O
+	 C:2073:HOH:O
+END
+Cluster 425:
+	 C:173:CYS:SG
+END
+Cluster 426:
+	 C:174:THR:OG1
+	 C:185:ASN:OD1
+	 C:185:ASN:ND2
+	 C:209:GLN:OE1
+	 C:2074:HOH:O
+	 C:2075:HOH:O
+	 C:2085:HOH:O
+END
+Cluster 427:
+	 C:176:LYS:NZ
+END
+Cluster 428:
+	 C:179:SER:OG
+END
+Cluster 429:
+	 C:181:ASN:OD1
+END
+Cluster 430:
+	 C:181:ASN:ND2
+END
+Cluster 431:
+	 C:183:THR:OG1
+END
+Cluster 432:
+	 C:184:SER:OG
+END
+Cluster 433:
+	 C:187:LYS:NZ
+	 C:2031:HOH:O
+	 C:2076:HOH:O
+END
+Cluster 434:
+	 C:193:HIS:NE2
+END
+Cluster 435:
+	 C:194:TYR:OH
+	 C:196:GLU:OE1
+END
+Cluster 436:
+	 C:196:GLU:OE2
+END
+Cluster 437:
+	 C:197:ASP:OD1
+END
+Cluster 438:
+	 C:197:ASP:OD2
+END
+Cluster 439:
+	 C:199:ASN:OD1
+	 C:201:GLN:OE1
+	 C:201:GLN:NE2
+	 C:2014:HOH:O
+END
+Cluster 440:
+	 C:199:ASN:ND2
+END
+Cluster 441:
+	 C:203:ASN:OD1
+	 C:2081:HOH:O
+END
+Cluster 442:
+	 C:204:THR:OG1
+END
+Cluster 443:
+	 C:206:THR:OG1
+	 C:2077:HOH:O
+END
+Cluster 444:
+	 C:207:GLN:OE1
+END
+Cluster 445:
+	 C:207:GLN:NE2
+END
+Cluster 446:
+	 C:208:LYS:NZ
+	 D:185:ASN:OD1
+	 C:2083:HOH:O
+	 D:2072:HOH:O
+END
+Cluster 447:
+	 C:209:GLN:NE2
+	 C:211:THR:OG1
+	 C:2084:HOH:O
+	 C:2086:HOH:O
+END
+Cluster 448:
+	 C:210:THR:OG1
+END
+Cluster 449:
+	 C:212:SER:OG
+END
+Cluster 450:
+	 C:214:SER:OG
+END
+Cluster 451:
+	 C:216:ASP:OD1
+	 C:216:ASP:OD2
+	 C:218:GLN:OE1
+	 C:219:SER:OG
+	 C:2087:HOH:O
+END
+Cluster 452:
+	 C:218:GLN:NE2
+END
+Cluster 453:
+	 C:220:THR:OG1
+END
+Cluster 454:
+	 C:223:ASN:OD1
+END
+Cluster 455:
+	 C:223:ASN:ND2
+END
+Cluster 456:
+	 C:226:LYS:NZ
+END
+Cluster 457:
+	 C:230:LYS:NZ
+END
+Cluster 458:
+	 C:234:ASN:OD1
+END
+Cluster 459:
+	 C:234:ASN:ND2
+END
+Cluster 460:
+	 C:236:HIS:ND1
+	 D:246:ARG:NH1
+END
+Cluster 461:
+	 C:236:HIS:NE2
+END
+Cluster 462:
+	 C:237:THR:OG1
+END
+Cluster 463:
+	 C:240:ASP:OD1
+	 D:243:ASN:OD1
+	 D:243:ASN:ND2
+	 D:2080:HOH:O
+END
+Cluster 464:
+	 C:240:ASP:OD2
+	 C:2090:HOH:O
+END
+Cluster 465:
+	 C:241:ASN:OD1
+	 C:2091:HOH:O
+END
+Cluster 466:
+	 C:241:ASN:ND2
+END
+Cluster 467:
+	 C:242:ASN:OD1
+END
+Cluster 468:
+	 C:242:ASN:ND2
+	 C:2089:HOH:O
+END
+Cluster 469:
+	 C:243:TYR:OH
+END
+Cluster 470:
+	 C:244:SER:OG
+END
+Cluster 471:
+	 C:245:THR:OG1
+END
+Cluster 472:
+	 C:248:ASP:OD1
+	 C:252:LYS:NZ
+END
+Cluster 473:
+	 C:248:ASP:OD2
+END
+Cluster 474:
+	 C:249:THR:OG1
+END
+Cluster 475:
+	 C:250:THR:OG1
+END
+Cluster 476:
+	 C:255:ARG:NE
+	 C:255:ARG:NH1
+	 C:255:ARG:NH2
+	 C:264:LYS:NZ
+	 D:107:TYR:OH
+	 D:111:TYR:OH
+	 D:220:GLU:OE2
+	 D:223:GLU:OE1
+	 D:224:SER:OG
+	 C:2095:HOH:O
+	 C:2098:HOH:O
+	 D:2077:HOH:O
+END
+Cluster 477:
+	 C:256:ARG:NE
+END
+Cluster 478:
+	 C:256:ARG:NH1
+	 D:113:GLU:OE1
+	 D:113:GLU:OE2
+END
+Cluster 479:
+	 C:256:ARG:NH2
+END
+Cluster 480:
+	 C:261:ASN:OD1
+END
+Cluster 481:
+	 C:262:ARG:NE
+END
+Cluster 482:
+	 C:262:ARG:NH1
+	 C:2096:HOH:O
+END
+Cluster 483:
+	 C:262:ARG:NH2
+END
+Cluster 484:
+	 C:263:THR:OG1
+END
+Cluster 485:
+	 C:267:TRP:NE1
+	 D:220:GLU:OE1
+END
+Cluster 486:
+	 C:268:GLN:OE1
+END
+Cluster 487:
+	 C:268:GLN:NE2
+	 C:2099:HOH:O
+END
+Cluster 488:
+	 C:271:LYS:NZ
+END
+Cluster 489:
+	 C:272:ASN:OD1
+END
+Cluster 490:
+	 C:272:ASN:ND2
+END
+Cluster 491:
+	 D:2:THR:OG1
+END
+Cluster 492:
+	 D:3:GLU:OE1
+END
+Cluster 493:
+	 D:3:GLU:OE2
+END
+Cluster 494:
+	 D:4:LYS:NZ
+	 C:2019:HOH:O
+END
+Cluster 495:
+	 D:5:GLN:OE1
+END
+Cluster 496:
+	 D:5:GLN:NE2
+END
+Cluster 497:
+	 D:7:SER:OG
+	 D:8:CYS:SG
+	 D:2001:HOH:O
+	 D:2002:HOH:O
+	 D:2003:HOH:O
+END
+Cluster 498:
+	 D:9:CYS:SG
+END
+Cluster 499:
+	 D:11:ASP:OD2
+	 D:15:ARG:NH2
+END
+Cluster 500:
+	 D:14:ARG:NE
+	 D:14:ARG:NH2
+	 D:2004:HOH:O
+	 D:2005:HOH:O
+END
+Cluster 501:
+	 D:14:ARG:NH1
+END
+Cluster 502:
+	 D:19:SER:OG
+	 D:2008:HOH:O
+END
+Cluster 503:
+	 D:22:GLU:OE1
+END
+Cluster 504:
+	 D:22:GLU:OE2
+END
+Cluster 505:
+	 D:23:ASP:OD1
+END
+Cluster 506:
+	 D:23:ASP:OD2
+END
+Cluster 507:
+	 D:30:ASP:OD1
+	 D:30:ASP:OD2
+	 D:2011:HOH:O
+END
+Cluster 508:
+	 D:34:ASP:OD1
+	 D:34:ASP:OD2
+	 D:2014:HOH:O
+END
+Cluster 509:
+	 D:36:THR:OG1
+	 D:2015:HOH:O
+END
+Cluster 510:
+	 D:37:GLU:OE1
+END
+Cluster 511:
+	 D:37:GLU:OE2
+END
+Cluster 512:
+	 D:38:ASP:OD1
+END
+Cluster 513:
+	 D:38:ASP:OD2
+END
+Cluster 514:
+	 D:41:SER:OG
+END
+Cluster 515:
+	 D:42:SER:OG
+END
+Cluster 516:
+	 D:44:ASP:OD1
+END
+Cluster 517:
+	 D:44:ASP:OD2
+	 D:174:THR:OG1
+	 D:196:THR:OG1
+	 D:2018:HOH:O
+END
+Cluster 518:
+	 D:45:GLN:OE1
+	 D:2021:HOH:O
+END
+Cluster 519:
+	 D:45:GLN:NE2
+	 D:63:ASP:OD1
+	 D:66:ARG:NH1
+	 D:71:TYR:OH
+	 D:2007:HOH:O
+	 D:2010:HOH:O
+	 D:2019:HOH:O
+	 D:2022:HOH:O
+	 D:2023:HOH:O
+	 D:2029:HOH:O
+	 D:2030:HOH:O
+	 D:2031:HOH:O
+END
+Cluster 520:
+	 D:48:LYS:NZ
+END
+Cluster 521:
+	 D:51:TYR:OH
+	 D:56:LYS:NZ
+	 D:2024:HOH:O
+	 D:2025:HOH:O
+END
+Cluster 522:
+	 D:52:ASP:OD1
+END
+Cluster 523:
+	 D:52:ASP:OD2
+	 D:55:SER:OG
+	 D:73:SER:OG
+END
+Cluster 524:
+	 D:57:LYS:NZ
+	 D:101:ASN:OD1
+	 D:102:GLU:OE1
+	 D:105:GLU:OE1
+	 D:105:GLU:OE2
+	 D:117:SER:OG
+	 D:2026:HOH:O
+	 D:2027:HOH:O
+	 D:2028:HOH:O
+	 D:2052:HOH:O
+	 D:2053:HOH:O
+	 D:2054:HOH:O
+END
+Cluster 525:
+	 D:58:ASP:OD1
+END
+Cluster 526:
+	 D:58:ASP:OD2
+END
+Cluster 527:
+	 D:59:TYR:OH
+END
+Cluster 528:
+	 D:62:CYS:SG
+	 D:65:ASN:OD1
+END
+Cluster 529:
+	 D:63:ASP:OD2
+END
+Cluster 530:
+	 D:64:TYR:OH
+END
+Cluster 531:
+	 D:65:ASN:ND2
+END
+Cluster 532:
+	 D:66:ARG:NE
+END
+Cluster 533:
+	 D:66:ARG:NH2
+END
+Cluster 534:
+	 D:67:ASP:OD1
+	 D:2032:HOH:O
+END
+Cluster 535:
+	 D:67:ASP:OD2
+	 D:79:TYR:OH
+END
+Cluster 536:
+	 D:69:ASP:OD1
+END
+Cluster 537:
+	 D:69:ASP:OD2
+END
+Cluster 538:
+	 D:70:SER:OG
+	 D:2034:HOH:O
+END
+Cluster 539:
+	 D:72:ARG:NE
+END
+Cluster 540:
+	 D:72:ARG:NH1
+	 D:72:ARG:NH2
+	 D:94:ARG:NH1
+	 D:97:GLU:OE1
+	 D:97:GLU:OE2
+END
+Cluster 541:
+	 D:75:TRP:NE1
+END
+Cluster 542:
+	 D:76:SER:OG
+END
+Cluster 543:
+	 D:77:ASN:OD1
+END
+Cluster 544:
+	 D:77:ASN:ND2
+	 D:94:ARG:NE
+	 D:94:ARG:NH2
+	 D:102:GLU:OE2
+	 D:2012:HOH:O
+	 D:2035:HOH:O
+	 D:2036:HOH:O
+	 D:2037:HOH:O
+	 D:2038:HOH:O
+	 D:2040:HOH:O
+	 D:2050:HOH:O
+END
+Cluster 545:
+	 D:78:LYS:NZ
+END
+Cluster 546:
+	 D:80:ASP:OD1
+	 D:80:ASP:OD2
+	 D:2042:HOH:O
+END
+Cluster 547:
+	 D:84:SER:OG
+	 D:2045:HOH:O
+END
+Cluster 548:
+	 D:87:CYS:SG
+END
+Cluster 549:
+	 D:88:TYR:OH
+	 D:2044:HOH:O
+	 D:2046:HOH:O
+END
+Cluster 550:
+	 D:90:SER:OG
+	 D:123:ASP:OD1
+END
+Cluster 551:
+	 D:91:SER:OG
+	 D:95:ASP:OD1
+	 D:2048:HOH:O
+END
+Cluster 552:
+	 D:92:LYS:NZ
+END
+Cluster 553:
+	 D:95:ASP:OD2
+END
+Cluster 554:
+	 D:99:GLN:OE1
+	 D:210:THR:OG1
+	 D:2051:HOH:O
+END
+Cluster 555:
+	 D:99:GLN:NE2
+END
+Cluster 556:
+	 D:101:ASN:ND2
+END
+Cluster 557:
+	 D:109:ASN:OD1
+END
+Cluster 558:
+	 D:109:ASN:ND2
+END
+Cluster 559:
+	 D:118:SER:OG
+END
+Cluster 560:
+	 D:120:TYR:OH
+END
+Cluster 561:
+	 D:121:CYS:SG
+END
+Cluster 562:
+	 D:122:TRP:NE1
+END
+Cluster 563:
+	 D:123:ASP:OD2
+	 D:2057:HOH:O
+END
+Cluster 564:
+	 D:125:ASP:OD1
+END
+Cluster 565:
+	 D:125:ASP:OD2
+END
+Cluster 566:
+	 D:126:ASP:OD1
+END
+Cluster 567:
+	 D:126:ASP:OD2
+END
+Cluster 568:
+	 D:127:ASN:OD1
+END
+Cluster 569:
+	 D:127:ASN:ND2
+END
+Cluster 570:
+	 D:135:LYS:NZ
+	 D:152:ASP:OD1
+	 D:152:ASP:OD2
+	 D:2058:HOH:O
+	 D:2059:HOH:O
+	 D:2064:HOH:O
+END
+Cluster 571:
+	 D:136:LYS:NZ
+	 D:138:GLN:NE2
+END
+Cluster 572:
+	 D:137:THR:OG1
+END
+Cluster 573:
+	 D:138:GLN:OE1
+END
+Cluster 574:
+	 D:139:ASP:OD1
+END
+Cluster 575:
+	 D:139:ASP:OD2
+END
+Cluster 576:
+	 D:148:ARG:NE
+END
+Cluster 577:
+	 D:148:ARG:NH1
+END
+Cluster 578:
+	 D:148:ARG:NH2
+END
+Cluster 579:
+	 D:150:THR:OG1
+	 D:178:SER:OG
+	 D:2063:HOH:O
+	 D:2065:HOH:O
+END
+Cluster 580:
+	 D:151:TRP:NE1
+END
+Cluster 581:
+	 D:153:SER:OG
+END
+Cluster 582:
+	 D:155:HIS:ND1
+	 D:173:SER:OG
+END
+Cluster 583:
+	 D:155:HIS:NE2
+	 D:223:GLU:OE2
+END
+Cluster 584:
+	 D:158:GLU:OE1
+	 D:160:LYS:NZ
+END
+Cluster 585:
+	 D:158:GLU:OE2
+	 D:170:LYS:NZ
+	 D:172:THR:OG1
+	 D:198:GLN:NE2
+	 D:2066:HOH:O
+	 D:2069:HOH:O
+END
+Cluster 586:
+	 D:163:LYS:NZ
+END
+Cluster 587:
+	 D:164:LYS:NZ
+END
+Cluster 588:
+	 D:165:ASP:OD1
+END
+Cluster 589:
+	 D:165:ASP:OD2
+	 D:166:LYS:NZ
+	 D:202:GLU:OE1
+	 D:204:THR:OG1
+	 D:2067:HOH:O
+	 D:2068:HOH:O
+END
+Cluster 590:
+	 D:169:TYR:OH
+	 D:211:HIS:ND1
+	 D:214:ASN:ND2
+END
+Cluster 591:
+	 D:180:GLU:OE1
+END
+Cluster 592:
+	 D:180:GLU:OE2
+	 D:190:ASN:OD1
+END
+Cluster 593:
+	 D:181:THR:OG1
+	 D:183:ASN:OD1
+END
+Cluster 594:
+	 D:182:ASP:OD1
+END
+Cluster 595:
+	 D:182:ASP:OD2
+END
+Cluster 596:
+	 D:183:ASN:ND2
+	 D:185:ASN:ND2
+	 D:2071:HOH:O
+END
+Cluster 597:
+	 D:184:ASP:OD1
+END
+Cluster 598:
+	 D:184:ASP:OD2
+END
+Cluster 599:
+	 D:186:THR:OG1
+END
+Cluster 600:
+	 D:188:LYS:NZ
+END
+Cluster 601:
+	 D:190:ASN:ND2
+END
+Cluster 602:
+	 D:194:SER:OG
+END
+Cluster 603:
+	 D:197:ARG:NE
+END
+Cluster 604:
+	 D:197:ARG:NH1
+END
+Cluster 605:
+	 D:197:ARG:NH2
+	 D:199:ASP:OD2
+	 D:221:ASP:OD2
+	 D:225:LYS:NZ
+	 D:2073:HOH:O
+	 D:2076:HOH:O
+END
+Cluster 606:
+	 D:198:GLN:OE1
+END
+Cluster 607:
+	 D:199:ASP:OD1
+	 D:201:LYS:NZ
+	 D:2074:HOH:O
+END
+Cluster 608:
+	 D:200:GLU:OE1
+END
+Cluster 609:
+	 D:200:GLU:OE2
+END
+Cluster 610:
+	 D:202:GLU:OE2
+END
+Cluster 611:
+	 D:203:TYR:OH
+END
+Cluster 612:
+	 D:206:ASN:OD1
+END
+Cluster 613:
+	 D:206:ASN:ND2
+END
+Cluster 614:
+	 D:207:GLU:OE1
+END
+Cluster 615:
+	 D:207:GLU:OE2
+END
+Cluster 616:
+	 D:209:ASP:OD1
+	 D:217:LYS:NZ
+END
+Cluster 617:
+	 D:209:ASP:OD2
+END
+Cluster 618:
+	 D:211:HIS:NE2
+END
+Cluster 619:
+	 D:212:CYS:SG
+END
+Cluster 620:
+	 D:214:ASN:OD1
+END
+Cluster 621:
+	 D:221:ASP:OD1
+END
+Cluster 622:
+	 D:227:ARG:NE
+	 C:2092:HOH:O
+END
+Cluster 623:
+	 D:227:ARG:NH1
+END
+Cluster 624:
+	 D:227:ARG:NH2
+END
+Cluster 625:
+	 D:228:GLN:OE1
+END
+Cluster 626:
+	 D:228:GLN:NE2
+END
+Cluster 627:
+	 D:229:THR:OG1
+	 D:2078:HOH:O
+END
+Cluster 628:
+	 D:231:GLU:OE1
+END
+Cluster 629:
+	 D:231:GLU:OE2
+END
+Cluster 630:
+	 D:232:THR:OG1
+	 D:2079:HOH:O
+END
+Cluster 631:
+	 D:234:TYR:OH
+END
+Cluster 632:
+	 D:237:LYS:NZ
+	 D:240:GLU:OE2
+END
+Cluster 633:
+	 D:238:THR:OG1
+END
+Cluster 634:
+	 D:239:LYS:NZ
+END
+Cluster 635:
+	 D:240:GLU:OE1
+END
+Cluster 636:
+	 D:244:THR:OG1
+END
+Cluster 637:
+	 D:247:ASN:OD1
+END
+Cluster 638:
+	 D:247:ASN:ND2
+END
+Cluster 639:
+	 D:249:THR:OG1
+END
+Cluster 640:
+	 A:2001:HOH:O
+END
+Cluster 641:
+	 A:2002:HOH:O
+END
+Cluster 642:
+	 A:2003:HOH:O
+END
+Cluster 643:
+	 A:2013:HOH:O
+	 A:2014:HOH:O
+END
+Cluster 644:
+	 A:2018:HOH:O
+END
+Cluster 645:
+	 A:2024:HOH:O
+	 A:2040:HOH:O
+END
+Cluster 646:
+	 A:2026:HOH:O
+END
+Cluster 647:
+	 A:2031:HOH:O
+END
+Cluster 648:
+	 A:2032:HOH:O
+	 A:2066:HOH:O
+END
+Cluster 649:
+	 A:2041:HOH:O
+END
+Cluster 650:
+	 A:2045:HOH:O
+END
+Cluster 651:
+	 A:2046:HOH:O
+END
+Cluster 652:
+	 A:2048:HOH:O
+	 A:2050:HOH:O
+END
+Cluster 653:
+	 A:2059:HOH:O
+END
+Cluster 654:
+	 A:2060:HOH:O
+END
+Cluster 655:
+	 A:2067:HOH:O
+END
+Cluster 656:
+	 A:2068:HOH:O
+END
+Cluster 657:
+	 A:2075:HOH:O
+END
+Cluster 658:
+	 A:2076:HOH:O
+END
+Cluster 659:
+	 A:2082:HOH:O
+END
+Cluster 660:
+	 A:2083:HOH:O
+END
+Cluster 661:
+	 A:2090:HOH:O
+END
+Cluster 662:
+	 A:2092:HOH:O
+END
+Cluster 663:
+	 A:2093:HOH:O
+END
+Cluster 664:
+	 A:2094:HOH:O
+END
+Cluster 665:
+	 B:2001:HOH:O
+END
+Cluster 666:
+	 B:2004:HOH:O
+END
+Cluster 667:
+	 B:2020:HOH:O
+END
+Cluster 668:
+	 B:2025:HOH:O
+END
+Cluster 669:
+	 B:2033:HOH:O
+END
+Cluster 670:
+	 B:2040:HOH:O
+END
+Cluster 671:
+	 B:2043:HOH:O
+END
+Cluster 672:
+	 B:2045:HOH:O
+	 B:2046:HOH:O
+END
+Cluster 673:
+	 B:2047:HOH:O
+END
+Cluster 674:
+	 B:2053:HOH:O
+END
+Cluster 675:
+	 B:2055:HOH:O
+END
+Cluster 676:
+	 C:2008:HOH:O
+END
+Cluster 677:
+	 C:2017:HOH:O
+END
+Cluster 678:
+	 C:2020:HOH:O
+END
+Cluster 679:
+	 C:2038:HOH:O
+END
+Cluster 680:
+	 C:2040:HOH:O
+END
+Cluster 681:
+	 C:2041:HOH:O
+END
+Cluster 682:
+	 C:2042:HOH:O
+END
+Cluster 683:
+	 C:2045:HOH:O
+END
+Cluster 684:
+	 C:2046:HOH:O
+END
+Cluster 685:
+	 C:2053:HOH:O
+END
+Cluster 686:
+	 C:2054:HOH:O
+END
+Cluster 687:
+	 C:2060:HOH:O
+END
+Cluster 688:
+	 C:2065:HOH:O
+END
+Cluster 689:
+	 C:2067:HOH:O
+END
+Cluster 690:
+	 C:2069:HOH:O
+END
+Cluster 691:
+	 C:2079:HOH:O
+END
+Cluster 692:
+	 C:2082:HOH:O
+END
+Cluster 693:
+	 C:2088:HOH:O
+END
+Cluster 694:
+	 C:2093:HOH:O
+	 D:2056:HOH:O
+END
+Cluster 695:
+	 C:2094:HOH:O
+END
+Cluster 696:
+	 C:2101:HOH:O
+END
+Cluster 697:
+	 D:2009:HOH:O
+END
+Cluster 698:
+	 D:2016:HOH:O
+END
+Cluster 699:
+	 D:2017:HOH:O
+END
+Cluster 700:
+	 D:2020:HOH:O
+END
+Cluster 701:
+	 D:2033:HOH:O
+END
+Cluster 702:
+	 D:2039:HOH:O
+END
+Cluster 703:
+	 D:2041:HOH:O
+	 D:2043:HOH:O
+END
+Cluster 704:
+	 D:2047:HOH:O
+END
+Cluster 705:
+	 D:2049:HOH:O
+END
+Cluster 706:
+	 D:2055:HOH:O
+END
+Cluster 707:
+	 D:2060:HOH:O
+END
+Cluster 708:
+	 D:2061:HOH:O
+	 D:2062:HOH:O
+END
+Cluster 709:
+	 D:2070:HOH:O
+END
+Cluster 710:
+	 D:2075:HOH:O
+END
