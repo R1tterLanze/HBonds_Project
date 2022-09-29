@@ -1,4 +1,0 @@
-HBOND  C:29:ASP:OD2    --  D:11:ASP:OD1   
-HBOND  D:11:ASP:OD1    --  D:15:ARG:NE    
-HBOND  D:11:ASP:OD1    --  C:29:ASP:OD2   
-HBOND  D:15:ARG:NE     --  D:11:ASP:OD1   

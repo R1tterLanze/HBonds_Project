@@ -1,4 +1,0 @@
-HBOND  A:96:GLU:OE1    --  A:2039:HOH:O   
-HBOND  A:96:GLU:OE2    --  A:2039:HOH:O   
-HBOND  A:2039:HOH:O    --  A:96:GLU:OE2   
-HBOND  A:2039:HOH:O    --  A:96:GLU:OE1   

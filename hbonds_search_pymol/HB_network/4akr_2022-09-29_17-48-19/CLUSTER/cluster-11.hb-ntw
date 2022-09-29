@@ -1,6 +1,0 @@
-HBOND  A:17:ASN:OD1    --  B:20:GLN:NE2   
-HBOND  B:19:SER:OG     --  B:2005:HOH:O   
-HBOND  B:20:GLN:NE2    --  B:2005:HOH:O   
-HBOND  B:20:GLN:NE2    --  A:17:ASN:OD1   
-HBOND  B:2005:HOH:O    --  B:20:GLN:NE2   
-HBOND  B:2005:HOH:O    --  B:19:SER:OG    
