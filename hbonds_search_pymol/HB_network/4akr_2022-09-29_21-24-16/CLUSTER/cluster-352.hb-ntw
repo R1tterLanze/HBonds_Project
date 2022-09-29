@@ -1,0 +1,6 @@
+HBOND  C:36:SER:OG     --  C:2021:HOH:O   
+HBOND  C:36:SER:OG     --  C:38:SER:OG    
+HBOND  C:38:SER:OG     --  C:2022:HOH:O   
+HBOND  C:38:SER:OG     --  C:36:SER:OG    
+HBOND  C:2021:HOH:O    --  C:36:SER:OG    
+HBOND  C:2022:HOH:O    --  C:38:SER:OG    

@@ -1,0 +1,4 @@
+HBOND  C:47:THR:OG1    --  C:2029:HOH:O   
+HBOND  C:2027:HOH:O    --  C:2029:HOH:O   
+HBOND  C:2029:HOH:O    --  C:2027:HOH:O   
+HBOND  C:2029:HOH:O    --  C:47:THR:OG1   
