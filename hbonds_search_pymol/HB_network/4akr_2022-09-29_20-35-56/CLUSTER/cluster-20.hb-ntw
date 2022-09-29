@@ -1,0 +1,4 @@
+HBOND  A:31:ARG:NE     --  A:2012:HOH:O   
+HBOND  A:31:ARG:NH2    --  A:2012:HOH:O   
+HBOND  A:2012:HOH:O    --  A:31:ARG:NH2   
+HBOND  A:2012:HOH:O    --  A:31:ARG:NE    

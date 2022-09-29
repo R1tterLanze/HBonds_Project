@@ -1,0 +1,4 @@
+HBOND  B:99:GLN:NE2    --  B:212:CYS:SG   
+HBOND  B:212:CYS:SG    --  B:2050:HOH:O   
+HBOND  B:212:CYS:SG    --  B:99:GLN:NE2   
+HBOND  B:2050:HOH:O    --  B:212:CYS:SG   
