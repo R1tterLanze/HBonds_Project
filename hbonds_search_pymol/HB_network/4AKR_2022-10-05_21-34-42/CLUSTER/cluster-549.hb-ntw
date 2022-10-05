@@ -1,0 +1,4 @@
+HBOND  D:88:TYR:OH     --  D:2044:HOH:O   
+HBOND  D:2044:HOH:O    --  D:2046:HOH:O   
+HBOND  D:2044:HOH:O    --  D:88:TYR:OH    
+HBOND  D:2046:HOH:O    --  D:2044:HOH:O   

@@ -1,0 +1,6 @@
+HBOND  C:172:ARG:NH2   --  C:412:HOH:O    
+HBOND  C:219:ARG:NE    --  C:412:HOH:O    
+HBOND  C:219:ARG:NH2   --  C:412:HOH:O    
+HBOND  C:412:HOH:O     --  C:219:ARG:NH2  
+HBOND  C:412:HOH:O     --  C:219:ARG:NE   
+HBOND  C:412:HOH:O     --  C:172:ARG:NH2  

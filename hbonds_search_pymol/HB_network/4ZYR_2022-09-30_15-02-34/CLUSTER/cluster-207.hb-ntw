@@ -1,0 +1,4 @@
+HBOND  B:68:ASP:OD2    --  B:131:LYS:NZ   
+HBOND  B:131:LYS:NZ    --  B:346:SER:OG   
+HBOND  B:131:LYS:NZ    --  B:68:ASP:OD2   
+HBOND  B:346:SER:OG    --  B:131:LYS:NZ   

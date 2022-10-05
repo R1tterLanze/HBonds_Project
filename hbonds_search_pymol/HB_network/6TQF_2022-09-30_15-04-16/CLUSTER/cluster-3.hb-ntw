@@ -1,0 +1,4 @@
+HBOND  A:9:SER:OG      --  A:93:ASN:ND2   
+HBOND  A:93:ASN:ND2    --  A:369:GLN:OE1  
+HBOND  A:93:ASN:ND2    --  A:9:SER:OG     
+HBOND  A:369:GLN:OE1   --  A:93:ASN:ND2   

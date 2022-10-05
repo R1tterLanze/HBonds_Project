@@ -1,0 +1,6 @@
+HBOND  A:36:THR:OG1    --  A:412:HOH:O    
+HBOND  A:147:TYR:OH    --  A:436:HOH:O    
+HBOND  A:412:HOH:O     --  A:436:HOH:O    
+HBOND  A:412:HOH:O     --  A:36:THR:OG1   
+HBOND  A:436:HOH:O     --  A:412:HOH:O    
+HBOND  A:436:HOH:O     --  A:147:TYR:OH   

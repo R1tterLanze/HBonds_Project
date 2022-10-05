@@ -1,0 +1,2 @@
+HBOND  A:2:ARG:NE      --  A:31:GLU:OE1   
+HBOND  A:31:GLU:OE1    --  A:2:ARG:NE     

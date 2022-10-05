@@ -1,0 +1,4 @@
+HBOND  A:14:ASP:OD1    --  A:16:SER:OG    
+HBOND  A:16:SER:OG     --  A:413:HOH:O    
+HBOND  A:16:SER:OG     --  A:14:ASP:OD1   
+HBOND  A:413:HOH:O     --  A:16:SER:OG    

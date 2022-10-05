@@ -1,0 +1,4 @@
+HBOND  A:205:GLN:OE1   --  A:421:HOH:O    
+HBOND  A:419:HOH:O     --  A:421:HOH:O    
+HBOND  A:421:HOH:O     --  A:419:HOH:O    
+HBOND  A:421:HOH:O     --  A:205:GLN:OE1  

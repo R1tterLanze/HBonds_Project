@@ -1,0 +1,4 @@
+HBOND  B:19:SER:OG     --  B:83:ARG:NH2   
+HBOND  B:19:SER:OG     --  B:83:ARG:NE    
+HBOND  B:83:ARG:NE     --  B:19:SER:OG    
+HBOND  B:83:ARG:NH2    --  B:19:SER:OG    
