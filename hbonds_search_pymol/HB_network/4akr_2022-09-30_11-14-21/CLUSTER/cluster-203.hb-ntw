@@ -1,6 +1,0 @@
-HBOND  B:63:ASP:OD1    --  B:2024:HOH:O   
-HBOND  B:66:ARG:NH1    --  B:2024:HOH:O   
-HBOND  B:66:ARG:NH1    --  B:71:TYR:OH    
-HBOND  B:71:TYR:OH     --  B:66:ARG:NH1   
-HBOND  B:2024:HOH:O    --  B:66:ARG:NH1   
-HBOND  B:2024:HOH:O    --  B:63:ASP:OD1   

@@ -1,4 +1,0 @@
-HBOND  A:2315:ARG:NH2  --  A:2705:HOH:O   
-HBOND  C:12:DT:O3'     --  A:2705:HOH:O   
-HBOND  A:2705:HOH:O    --  C:12:DT:O3'    
-HBOND  A:2705:HOH:O    --  A:2315:ARG:NH2 

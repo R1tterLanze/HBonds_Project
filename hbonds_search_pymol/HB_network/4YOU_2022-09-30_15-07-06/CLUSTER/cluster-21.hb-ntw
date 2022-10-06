@@ -1,6 +1,0 @@
-HBOND  A:43:LYS:NZ     --  A:60:ASP:OD1   
-HBOND  A:56:GLN:NE2    --  A:60:ASP:OD2   
-HBOND  A:56:GLN:NE2    --  A:60:ASP:OD1   
-HBOND  A:60:ASP:OD1    --  A:56:GLN:NE2   
-HBOND  A:60:ASP:OD1    --  A:43:LYS:NZ    
-HBOND  A:60:ASP:OD2    --  A:56:GLN:NE2   

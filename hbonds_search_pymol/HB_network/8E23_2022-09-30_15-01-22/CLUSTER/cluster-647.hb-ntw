@@ -1,4 +1,0 @@
-HBOND  D:2251:ASN:OD1  --  F:12:DT:O2     
-HBOND  E:7:DA:N3       --  F:12:DT:O2     
-HBOND  F:12:DT:O2      --  E:7:DA:N3      
-HBOND  F:12:DT:O2      --  D:2251:ASN:OD1 

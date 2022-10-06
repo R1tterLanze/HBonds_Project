@@ -1,6 +1,0 @@
-HBOND  A:3:SER:OG      --  A:6:GLU:OE1    
-HBOND  A:6:GLU:OE1     --  A:2004:HOH:O   
-HBOND  A:6:GLU:OE1     --  A:3:SER:OG     
-HBOND  A:6:GLU:OE2     --  A:2004:HOH:O   
-HBOND  A:2004:HOH:O    --  A:6:GLU:OE2    
-HBOND  A:2004:HOH:O    --  A:6:GLU:OE1    

@@ -1,4 +1,0 @@
-HBOND  B:9:DG:N2       --  C:10:DA:N3     
-HBOND  B:9:DG:N2       --  C:9:DC:O2      
-HBOND  C:9:DC:O2       --  B:9:DG:N2      
-HBOND  C:10:DA:N3      --  B:9:DG:N2      

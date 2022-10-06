@@ -1,4 +1,0 @@
-HBOND  A:22:GLU:OE1    --  B:15:ARG:NH2   
-HBOND  A:22:GLU:OE1    --  B:15:ARG:NE    
-HBOND  B:15:ARG:NE     --  A:22:GLU:OE1   
-HBOND  B:15:ARG:NH2    --  A:22:GLU:OE1   

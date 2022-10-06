@@ -1,6 +1,0 @@
-HBOND  A:2:ARG:NH1     --  A:411:HOH:O    
-HBOND  A:75:ASP:OD1    --  A:411:HOH:O    
-HBOND  A:75:ASP:OD2    --  A:411:HOH:O    
-HBOND  A:411:HOH:O     --  A:75:ASP:OD2   
-HBOND  A:411:HOH:O     --  A:75:ASP:OD1   
-HBOND  A:411:HOH:O     --  A:2:ARG:NH1    
