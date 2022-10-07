@@ -1,6 +1,0 @@
-HBOND  D:51:TYR:OH     --  D:2024:HOH:O   
-HBOND  D:56:LYS:NZ     --  D:2025:HOH:O   
-HBOND  D:2024:HOH:O    --  D:2025:HOH:O   
-HBOND  D:2024:HOH:O    --  D:51:TYR:OH    
-HBOND  D:2025:HOH:O    --  D:2024:HOH:O   
-HBOND  D:2025:HOH:O    --  D:56:LYS:NZ    

@@ -1,0 +1,6 @@
+HBOND  A:65:THR:OG1    --  A:203:HOH:O    
+HBOND  A:65:THR:OG1    --  A:68:GLU:OE1   
+HBOND  A:68:GLU:OE1    --  A:201:HOH:O    
+HBOND  A:68:GLU:OE1    --  A:65:THR:OG1   
+HBOND  A:201:HOH:O     --  A:68:GLU:OE1   
+HBOND  A:203:HOH:O     --  A:65:THR:OG1   

@@ -1,0 +1,6 @@
+HBOND  A:32:TYR:OH     --  A:220:HOH:O    
+HBOND  A:32:TYR:OH     --  A:41:TYR:OH    
+HBOND  A:41:TYR:OH     --  A:220:HOH:O    
+HBOND  A:41:TYR:OH     --  A:32:TYR:OH    
+HBOND  A:220:HOH:O     --  A:41:TYR:OH    
+HBOND  A:220:HOH:O     --  A:32:TYR:OH    

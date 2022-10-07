@@ -1,4 +1,0 @@
-HBOND  A:50:GLU:OE1    --  A:70:LYS:NZ    
-HBOND  A:50:GLU:OE2    --  A:70:LYS:NZ    
-HBOND  A:70:LYS:NZ     --  A:50:GLU:OE2   
-HBOND  A:70:LYS:NZ     --  A:50:GLU:OE1   
