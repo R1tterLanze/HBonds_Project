@@ -5,7 +5,7 @@
 
 # ### Initialization
 
-# In[185]:
+# In[16]:
 
 
 import pandas as pd
@@ -19,7 +19,7 @@ from datetime import datetime
 
 # ### Functions
 
-# In[186]:
+# In[17]:
 
 
 """
@@ -76,7 +76,7 @@ def hbsearch(pdbstr:str) -> pd.DataFrame():
 
 # # HB-Search
 
-# In[187]:
+# In[18]:
 
 
 def changeDirectory(programDirectory: str = "."):
@@ -93,7 +93,7 @@ def changeDirectory(programDirectory: str = "."):
     #cwd = os.getcwd()
 
 
-# In[188]:
+# In[19]:
 
 
 def useObject(input_molecule: str):
@@ -108,7 +108,7 @@ def useObject(input_molecule: str):
     cmd.save(os.path.normpath(f"./pdb_files/{input_molecule}.pdb"), input_molecule)
 
 
-# In[189]:
+# In[20]:
 
 
 def removeObject(input_molecule: str):
@@ -121,7 +121,7 @@ def removeObject(input_molecule: str):
     os.remove(os.path.normpath(f"./pdb_files/{input_molecule}.pdb"))
 
 
-# In[190]:
+# In[21]:
 
 
 def fetchPDB(pdbID: str, object_name: str = ""):
@@ -145,7 +145,7 @@ def fetchPDB(pdbID: str, object_name: str = ""):
     cmd.fetch(pdbID, name = object_name, type = "pdb")
 
 
-# In[191]:
+# In[22]:
 
 
 def startHBsearch(molecule: str, hb_file: str, solvent_key:str, pse_file:str, connections: str) -> str:
@@ -171,7 +171,7 @@ def startHBsearch(molecule: str, hb_file: str, solvent_key:str, pse_file:str, co
     return hbs_output
 
 
-# In[192]:
+# In[23]:
 
 
 def readInHBS(hbs_output: str) -> pd.DataFrame():
@@ -197,7 +197,7 @@ def readInHBS(hbs_output: str) -> pd.DataFrame():
     return df
 
 
-# In[193]:
+# In[24]:
 
 
 def prepareLists(dataframe: pd.DataFrame) -> List:
@@ -226,7 +226,7 @@ def prepareLists(dataframe: pd.DataFrame) -> List:
     return acceptor, donor
 
 
-# In[194]:
+# In[25]:
 
 
 def displayDistances(acceptor: List, donor: List, object_name: str, run_information:str) -> None:
@@ -246,7 +246,7 @@ def displayDistances(acceptor: List, donor: List, object_name: str, run_informat
     for i in range(len(acceptor)):        
         cmd.distance(f"{run_information}_{object_name}_hydrogenBond_{i}", #Name of the distance line object
                      f"{object_name}//{acceptor[i][0]}/{acceptor[i][1]}/{acceptor[i][3]}", #Acceptor molecule. Tuple entries of acceptor list ordered by PyMol selection format.
-                     f"{object_name}//{donor[i][0]}/{donor[i][1]}/{donor[i][3]}", )        #Donor molecule. Tuple entries of acceptor list ordered by PyMol selection format.
+                     f"{object_name}//{donor[i][0]}/{donor[i][1]}/{donor[i][3]}")        #Donor molecule. Tuple entries of acceptor list ordered by PyMol selection format.
         
         #Creates a list containing each distance object. Faciliates further adjustments of the distance line objects. 
         bondList.append(f"{run_information}_{object_name}_hydrogenBond_{i}")
@@ -257,7 +257,7 @@ def displayDistances(acceptor: List, donor: List, object_name: str, run_informat
     cmd.hide("labels", f"{run_information}_{object_name}_HydrogenBonds")
 
 
-# In[195]:
+# In[26]:
 
 
 def showSticks(acceptor: List, donor: List, object_name: str, run_information: str):
@@ -283,7 +283,7 @@ def showSticks(acceptor: List, donor: List, object_name: str, run_information: s
     cmd.deselect() #Selection is deselected for better clarity and to spare the user deselecting selection by him-/herself.
 
 
-# In[196]:
+# In[27]:
 
 
 def hbsearch(molecule:str, molecule_name: str = "", directory:str = ".", 
@@ -329,7 +329,7 @@ def hbsearch(molecule:str, molecule_name: str = "", directory:str = ".",
         removeObject(molecule)
 
 
-# In[197]:
+# In[28]:
 
 
 #Creation of command in PyMol.
@@ -338,7 +338,7 @@ cmd.extend("hbsearch", hbsearch) #When read in in PyMol the script creates a com
 
 # # HB-Network - Initialization
 
-# In[198]:
+# In[29]:
 
 
 class saveBot:
@@ -350,7 +350,7 @@ class saveBot:
 save = saveBot()
 
 
-# In[199]:
+# In[30]:
 
 
 def createDirectory(molecule_name:str) -> str:
@@ -376,7 +376,7 @@ def createDirectory(molecule_name:str) -> str:
     return directory_name
 
 
-# In[200]:
+# In[31]:
 
 
 def createHBnetwork(molecule: str, directory_name: str, hb_file: str = "hb-define.txt", 
@@ -412,7 +412,7 @@ def createHBnetwork(molecule: str, directory_name: str, hb_file: str = "hb-defin
     return hbn_output
 
 
-# In[201]:
+# In[32]:
 
 
 def cleanHBnetwork(directory_name: str):
@@ -437,7 +437,7 @@ def cleanHBnetwork(directory_name: str):
     
 
 
-# In[202]:
+# In[33]:
 
 
 def indexHbnetwork(hbn_output: str):
@@ -487,7 +487,7 @@ def indexHbnetwork(hbn_output: str):
     return cluster_dict
 
 
-# In[203]:
+# In[34]:
 
 
 def initiateHBnetwork(molecule:str, molecule_name = "", directory:str = ".", 
@@ -540,13 +540,13 @@ def initiateHBnetwork(molecule:str, molecule_name = "", directory:str = ".",
         removeObject(molecule)  
 
 
-# In[204]:
+# In[35]:
 
 
-initiateHBnetwork("4AIM")
+initiateHBnetwork("4akr")
 
 
-# In[205]:
+# In[36]:
 
 
 cmd.extend("initiateHBnetwork", initiateHBnetwork)
@@ -554,7 +554,7 @@ cmd.extend("initiateHBnetwork", initiateHBnetwork)
 
 # # HB-Network PyMol-Display
 
-# In[206]:
+# In[37]:
 
 
 def readoutHBnetwork(query: str, checkFor: str = "RESIDUE" ) -> str:
@@ -589,7 +589,7 @@ def readoutHBnetwork(query: str, checkFor: str = "RESIDUE" ) -> str:
                                         #Returns blank list, if no cluster, the residue participates, were found.
 
 
-# In[207]:
+# In[38]:
 
 
 def readInHBN(cluster_file_output: str) -> pd.DataFrame:
@@ -612,7 +612,7 @@ def readInHBN(cluster_file_output: str) -> pd.DataFrame:
     return df_cluster
 
 
-# In[208]:
+# In[39]:
 
 
 def prepareDataFrameHBnetwork(destination_cluster_list: str) -> pd.DataFrame:
@@ -658,7 +658,7 @@ def prepareDataFrameHBnetwork(destination_cluster_list: str) -> pd.DataFrame:
     return hBond_cluster_dataframe
 
 
-# In[209]:
+# In[42]:
 
 
 def showNetwork(query: str, checkFor = "RESIDUE"):
@@ -674,30 +674,34 @@ def showNetwork(query: str, checkFor = "RESIDUE"):
     
     else:
         acceptor, donor = prepareLists(hbn_dataframe)
-
+        print(acceptor)
+        print(donor)
     #
     molecule_selection = save.molecule_name_save
         
     #
-    run_information = f"HB_network_{query}"
-    
+    run_information = f"HB_network"
+    print(run_information)
     displayDistances(acceptor, donor, molecule_selection, run_information)
     showSticks(acceptor, donor, molecule_selection, run_information)
 
 
-# In[210]:
+showNetwork("A/9/")
+
+
+# In[ ]:
 
 
 cmd.extend("showNetwork", showNetwork)
 
 
-# In[211]:
+# In[ ]:
 
 
 print(os.getcwd())
 
 
-# In[184]:
+# In[ ]:
 
 
 """<!--       _
