@@ -5,7 +5,7 @@
 
 # ### Initialization
 
-# In[16]:
+# In[1]:
 
 
 import pandas as pd
@@ -19,7 +19,7 @@ from datetime import datetime
 
 # ### Functions
 
-# In[17]:
+# In[2]:
 
 
 """
@@ -74,57 +74,179 @@ def hbsearch(pdbstr:str) -> pd.DataFrame():
 #cmd.extend('hbsearch', hbsearch)"""
 
 
+# # Error Classes
+
 # # HB-Search
 
-# In[18]:
+# In[3]:
+
+
+class DirectoryError(Exception):
+    
+    def __init__(self, *args):
+
+        if args:
+            self.message = args[0]
+        else:
+            self.message = None
+    
+    def __str__(self):
+
+        if self.message:
+            return self.message
+        else:
+            return "DirectoryError has been raised"
+        
+
+
+# In[4]:
+
+
+class SelectionError(Exception):
+    
+    def __init__(self, *args):
+
+        if args:
+            self.message = args[0]
+        else:
+            self.message = None
+    
+    def __str__(self):
+
+        if self.message:
+            return self.message
+        else:
+            return "SelectionError has been raised"
+        
+
+
+# In[5]:
+
+
+class ProcessError(Exception):
+    
+    def __init__(self, *args):
+
+        if args:
+            self.message = args[0]
+        else:
+            self.message = None
+    
+    def __str__(self):
+
+        if self.message:
+            return self.message
+        else:
+            return "ProcessError has been raised"
+        
+
+
+# In[6]:
+
+
+class InputError(Exception):
+    
+    def __init__(self, *args):
+
+        if args:
+            self.message = args[0]
+        else:
+            self.message = None
+    
+    def __str__(self):
+
+        if self.message:
+            return self.message
+        else:
+            return "Input has been raised"
+        
+
+
+# In[7]:
 
 
 def changeDirectory(programDirectory: str = "."):
+    #Check if directory is the right one. Like check if the needed programs are there and the needed folders:
+    #Needed folders: Darwin, HBnetwork, Linux,pdb_files, Windows, hb-define.txt, hb-search_script.py, 
+    #period-table-info.txt, README.md
+    #If not in correct folder, say to direct into correct folder
+    #Tell user in which directory he is
     """
     Changes working directory to the folder containing the needed programs. 
     Path to program folder needs to be entered if started from other location
     :param programDirectory: Path to the program folder. Standard: Set to current working directroy
     """
     
+    #Checking if all files/folder for HBsearch and HBnetwork run are present
+    #Here: Defining which files are of utmost necessity
+    NEEDED_FOLDERS = ["Darwin", "HB_network", "Linux", "pdb_files", "Windows"]
+    NEEDED_FILES = ["hb-define.txt", "period-table-info.txt"]
+       
+    path = os.path.normpath(programDirectory) #Path converted suitable to current operating system
+    
+    if not os.path.exists(path): #Checks if entered path does exist.
+        raise DirectoryError("Entered path does not exists")
+    
+    #List to be iterated over for file/directory existance checking
+    required_items = NEEDED_FILES + NEEDED_FOLDERS
+    #Checking if all required folders/files are present.
+    #######Program files like hb-search will be checked for their existance later on.
+    for i in required_items:
+        if not os.path.exists(os.path.normpath(f"{path}/{i}")):
+            raise DirectoryError(f"Wrong directory or folders/files are missing/renamed. You are currently in {os.getcwd()}.\nPlease change to correct directory by using the \"directory\" attribute when running the program.\nExample: hbsearch 4awn, directory = Path")
+    
+   
     #Changes working directory to the entered path adjusted to the operating system used.
-    cmd.cd(os.path.normpath(programDirectory))
-    #os.chdir(os.path.normpath(programDirectory)) #can be deleted?
-    # Usefull if we want to give an error! To tell the person in which directory they are located!
-    #cwd = os.getcwd()
+    cmd.cd(path)
 
 
-# In[19]:
+# In[8]:
 
 
 def useObject(input_molecule: str):
+    #Say when the object user wants to use does not exist.
     """
     Enables to use a chosen object of the pymol session for HBsearch/HBnetwork.
     Saves the chosen object as pdb-file in the pdb_files folder of the program folder
     under the name of the object.
     :param input_molecule: pymol object name of the structure that should be used for the HBsearch/HBnetwork run
     """
-    
+    #Get list of all objects of the current PyMol session
+    object_list = cmd.get_object_list("(all)")
+    #Check if the object to be used exists.
+    if input_molecule not in object_list:
+        raise SelectionError(f"The object \"{input_molecule}\" does not exist.")
+        
     #Saves pymol object by its name in the pdb_files folder.
     cmd.save(os.path.normpath(f"./pdb_files/{input_molecule}.pdb"), input_molecule)
 
 
-# In[20]:
+# In[9]:
 
 
 def removeObject(input_molecule: str):
+    #Say when there is no such object to be removed.
     """
     Removes pdb-file of chosen object name. Used after HBsearch run for deleting unwanted data.
     :param input_molecule: Name of the molecule to be removed.
     """
+    #Dont really need the following. Otherwise the whole program wouldnt work. But maybe someone manages to get this far so...
+    #Get list of all objects of the current PyMol session
+    object_list = cmd.get_object_list("(all)")
+    #Check if the object to be used exists.
+    if input_molecule not in object_list:
+        raise SelectionError(f"The object \"{input_molecule}\" does not exist and cant therefore be removed")
     
     #Removes pdb-file from pdb_files ordner by entered name.
     os.remove(os.path.normpath(f"./pdb_files/{input_molecule}.pdb"))
 
 
-# In[21]:
+# In[10]:
 
 
 def fetchPDB(pdbID: str, object_name: str = ""):
+    #Error, when PDB-ID is nonexistant.
+    #Error when objectname already exists.
     """
     Fetched PDB-file by PDB-ID to pymol session and sets object name in pymol session.
     PDB-file is saved under the PDB-ID in pdb_files folder.
@@ -134,7 +256,15 @@ def fetchPDB(pdbID: str, object_name: str = ""):
     :param object_name: Name the pdb file shoudl be displayed as in the pymol session.
     """
     
+    
+    #Get list of all objects of the current PyMol session
+    object_list = cmd.get_object_list("(all)")
+    #Check if the object name to be used already exists.
+    if object_name in object_list:
+        raise SelectionError(f"The object \"{object_name}\" already exists.")
+    
     #Checks if a specific name is chosen. If no name is chosen, file will be named after the PDB-ID.
+    #If object name with PDB ID as name already exists PyMol handles it. 
     if object_name == "":
         object_name = pdbID
         
@@ -145,10 +275,12 @@ def fetchPDB(pdbID: str, object_name: str = ""):
     cmd.fetch(pdbID, name = object_name, type = "pdb")
 
 
-# In[22]:
+# In[11]:
 
 
 def startHBsearch(molecule: str, hb_file: str, solvent_key:str, pse_file:str, connections: str) -> str:
+    #Raise Error, when gives out zeroNullError or something like that. Most likely program cant handle that molecule.
+    #Raise error, when file could not be found --> Probably in wrong directory.
     """
     Starts the HBsearch run. HBsearch finds hydrogen bonds based on a set of parameters based on the chemical nature
     of the atoms of the protein/cofactor/nucleic acid (maximal Van-der-Waals radii and maximal covalent radii) and their distances to each other.
@@ -166,15 +298,30 @@ def startHBsearch(molecule: str, hb_file: str, solvent_key:str, pse_file:str, co
     # Determine operation system to start correct HBsearch application.
     system = platform.system()
     # Executing hb_search with chosen parameters
-    hbs_output = subprocess.run(os.path.normpath(f"./{system}/hb-search -hb {hb_file} -solv {solvent_key} -con {connections} ./pdb_files/{molecule}.pdb"), capture_output=True, shell=True, check = True, text = True).stdout
+    
+    #Paths to input files
+    path_PDB = os.path.normpath(f"./pdb_files/{molecule}.pdb")
+    path_hb_file = os.path.normpath(f"./{hb_file}")
+    path_pse_file = os.path.normpath(f"./{pse_file}")
+    #Putting all paths into one list for iterating
+    paths = [path_PDB, path_hb_file, path_pse_file]
+    for i in paths:
+        if not os.path.exists(i):
+            raise FileNotFoundError(f"File \"{i}\" does not exist")
+    
+    try:
+        hbs_output = subprocess.run(os.path.normpath(f"./{system}/hb-search -hb {hb_file} -solv {solvent_key} -con {connections} ./pdb_files/{molecule}.pdb"), capture_output=True, shell=True, check = True, text = True).stdout
+    except subprocess.CalledProcessError:
+        raise ProcessError("hb-search could not be run. Try with PDB-ID \"4AWN\" to make sure program works properly.")
     
     return hbs_output
 
 
-# In[23]:
+# In[12]:
 
 
 def readInHBS(hbs_output: str) -> pd.DataFrame():
+    #Here could also be errors, but dont know which. Wait for the testing. 
     """
     Reads in HBsearch output and converts it to pandas dataframe for further processing.
     :param hbs_output: HBsearch output as string:
@@ -197,13 +344,15 @@ def readInHBS(hbs_output: str) -> pd.DataFrame():
     return df
 
 
-# In[24]:
+# In[37]:
 
 
-def prepareLists(dataframe: pd.DataFrame) -> List:
+def prepareLists(dataframe: pd.DataFrame, water_connections: str) -> List:
+    #Dont know what could go wrong here.
     """
     Extracts the acceptors and donors from the HBsearch/HBnetwork output into separate lists.
     :param dataframe: Dataframe containing the HBsearch/HBnetwork output splitted into columns.
+    :param water_connections: Define if hydrogen bridges with water molecules involved should be considered. "0" for NO, "1" for YES.
     :return acceptor: Returns list with acceptor atoms in hydrogen bond with complementary indexes to their partner in the donor list.
     :return donor: Returns list with donor atoms in hydrogen bond with complemenary indexes to their partner in the acceptor list.
     """
@@ -211,31 +360,69 @@ def prepareLists(dataframe: pd.DataFrame) -> List:
     #Extracting important acceptor and donor entries from dataframe containing HBsearch results as separate lists.
     acceptor_pre = list(dataframe["ACC"])
     donor_pre = list(dataframe ["DONO"])
-    
+
     #Creating lists empty lists for further use. Lists should contain later entries from acceptor and donor entries, respectively, separated by the chain, residue, residue ID, and atom. 
     acceptor = []
     donor = []
     
+    #Entries that can occur when solvent key is not set to "NONE". Have to be filtered out, since no specific atom is participating in Hbond.
+    solvent_connections_list = ["SOLV", "POS", "NEG"]
+    
     #Separates entries for acceptors in HBsearch output by chain, residue, residue ID, and atom for faciliated reorganisation for PyMol input.
     for i in range(len(acceptor_pre)):#only one list can be used for iteration of list index, since each acceptor needs a donor to form a hydrogen bond. So acceptor and donor list need to have same length.
+        
+        #When special solvent keys other than "NONE" are used it may occur to hbonds between non defined atoms. Here they are filtered out
+        if acceptor_pre[i] in solvent_connections_list:
+            continue
+        
+        #Appending processed atom selection to acceptor list
         acceptor.append(tuple(acceptor_pre[i].split(":")))
+        
     #Separates entries for donors in HBsearch output by chain, residue, residue ID, and atom for faciliated reorganisation for PyMol input.    
     for j in range(len(donor_pre)):
+        
+        #Separates entries for donors in HBsearch output by chain, residue, residue ID, and atom for faciliated reorganisation for PyMol input.
+        if donor_pre[j] in solvent_connections_list:
+            continue
+        
+        #Appending processed atom selection to donor list    
         donor.append(tuple(donor_pre[j].split(":")))
-
+    
+    #Deleting entries with hydrogen bonds to water molecules.
+    if water_connections == "0":
+        #Creating list with indexes to be popped
+        pop_list = []
+        
+        #Append entry indexes containing water to pop_list
+        for k in range(len(acceptor)):
+            if acceptor[k][2] == "HOH":
+                pop_list.append(k)
+                
+            if donor[k][2] == "HOH":
+                pop_list.append(k)
+        
+        #Removing duplicates from pop_list
+        pop_list = list(dict.fromkeys(pop_list)) #Remove duplicates from list
+        
+        #Deleting entries containing water.
+        for index in sorted(pop_list, reverse = True): #Reverse list is used to obtain order of indexes.
+            acceptor.pop(index)
+            donor.pop(index)
+        
     return acceptor, donor
 
 
-# In[25]:
+# In[38]:
 
 
 def displayDistances(acceptor: List, donor: List, object_name: str, run_information:str) -> None:
+    #Maybe object already exists error or something like that. should be all working. Dont know what could possibly go wrong.
     """
     Displays the hydrogen bonds of the hydrogen bond acceptors and their respective 
     donors found by the HBsearch run as distances without labeling in PyMol.
     :param acceptor: Lists of acceptor atoms with complementary index to their respective donors in donor list. Entry tuples contain chain, residue, residue ID and atom.
     :param donor:  Lists of donor atoms with complementary index to their respective donors in acceptor list. Entry tuples contain chain, residue, residue ID and atom.
-    :param object_name: Name of program this function is used in.
+    :param object_name: Name of object this function is used on.
     :param run_information: Displays in the selection of sticks, which program was used. In case of HBnetwork, additionally the search query is shown.
     """
     
@@ -243,7 +430,8 @@ def displayDistances(acceptor: List, donor: List, object_name: str, run_informat
     bondList = []
     
     #Displays connection between the acceptor atom and the respective donor atom in pymol. Therfore, creates distance line object
-    for i in range(len(acceptor)):        
+    for i in range(len(acceptor)):
+        
         cmd.distance(f"{run_information}_{object_name}_hydrogenBond_{i}", #Name of the distance line object
                      f"{object_name}//{acceptor[i][0]}/{acceptor[i][1]}/{acceptor[i][3]}", #Acceptor molecule. Tuple entries of acceptor list ordered by PyMol selection format.
                      f"{object_name}//{donor[i][0]}/{donor[i][1]}/{donor[i][3]}")        #Donor molecule. Tuple entries of acceptor list ordered by PyMol selection format.
@@ -257,10 +445,11 @@ def displayDistances(acceptor: List, donor: List, object_name: str, run_informat
     cmd.hide("labels", f"{run_information}_{object_name}_HydrogenBonds")
 
 
-# In[26]:
+# In[39]:
 
 
 def showSticks(acceptor: List, donor: List, object_name: str, run_information: str):
+    #Should also be working without exceptions. lets wait for the testing.
     """
     Displays the residues participating in hydrogen bonds as sticks in PyMol.
     :param acceptor: Lists of acceptor atoms with complementary index to their respective donors in donor list. Entry tuples contain chain, residue, residue ID and atom.
@@ -283,12 +472,14 @@ def showSticks(acceptor: List, donor: List, object_name: str, run_information: s
     cmd.deselect() #Selection is deselected for better clarity and to spare the user deselecting selection by him-/herself.
 
 
-# In[27]:
+# In[ ]:
 
 
 def hbsearch(molecule:str, molecule_name: str = "", directory:str = ".", 
-         use_object: str = "0", remove_object: str = "1", hb_file: str = "hb-define.txt", 
+         use_object: str = "0", remove_object: str = "0", water_connections:str = "0", hb_file: str = "hb-define.txt", 
          solvent_key:str = "NONE", pse_file:str ="period-table-info.txt", connections: str = "0"):
+    #use string.casefold() or string.casefold().upper() to ensure correct inputs.
+    #Check for correct inputs and form. Guide the user by the hand. 
     """
     Runs HBsearch using a given biomolecule (either fetched by the PDB-ID or using an object of the PyMol session)
     and displays the hydrogen bonds occuring in the molecule.
@@ -297,11 +488,31 @@ def hbsearch(molecule:str, molecule_name: str = "", directory:str = ".",
     :param directory: Directory of the program folder. Directes working directory in PyMol to entered directory. Obsolete when script is started from program folder and HBsearch is started without changing the directory. Standard set to current working directory (".").
     :param use_object: If an object in the PyMol session has to be used for the HBsearch run. 0: No; 1: Yes. Standard set to 0. If set to 0. Molecule will be fetched by PDB-ID.
     :param remove_object: If created PDB-file in pdb_files folder should be deleted after HBsearch run. 0: No; 1: Yes. Standard set to 0.
+    :param water_connections: Define if hydrogen bridges with water molecules involved should be considered. "0" for NO, "1" for YES.
     :param hb_file: HB-file sued to define possible hydrogen bond interactions. Standard set to hb-define.txt file
     :param solvent_key: If hydrogen bond bridges with solvent should be considered. Standard NONE: No solvent H-Bonds. Further possible: HOMO: Homogenous solvent; MEMB: Membrane environment.
     :param pse_file: File containing the chemical nature of the atoms. Standard set to period-table.info. To create own one see standard file for structure.
     :param connections: If special connections should be taken into account. Here: Hydrogen bonds that would not be recognized by parameters, but could be possible due to rotation of the residues. If connections = 1: Special conncetions will be taken into account. Standard set to 0: No special connectoins will be taken into account.
     """
+    
+    #Allowed inputs for various variables.
+    allowed_use_object = ["0", "1"]
+    allowed_remove_object = ["0", "1"]
+    allowed_water_connections = ["0", "1"]
+    allowed_solvent_key = ["NONE", "HOMO","MEMB"]
+    allowed_connections = ["0", "1"]
+    
+    #Checking if user inputs are allowed.
+    if use_object not in allowed_use_object:
+        raise InputError(f"{use_object} is not allowed as input for\"use_object\". Only \"0\" and \"1\" are possible inputs")
+    if remove_object not in allowed_remove_object:
+        raise InputError(f"{remove_object} is not allowed as input for \"remove_object\". Only \"0\" and \"1\" are possible inputs")    
+    if water_connections not in allowed_water_connections:
+        raise InputError(f"{water_connections} is not allowed as input for\"water_connections\". Only \"0\" and \"1\" are possible inputs")
+    if solvent_key not in allowed_solvent_key:
+        raise InputError(f"{solvent_key} is not allowed as input for \"solvent_key\". Only \"NONE\", \"HOMO\" and \"MEMB\" are possible inputs")
+    if connections not in allowed_connections:
+        raise InputError(f"{connections} is not allowed as input for \"connections\". Only \"0\" and \"1\" are possible inputs")
     
     changeDirectory(directory) #Change directory to program folder directory. Needed PyMol directory is not set to program folder for HBsearch run
     
@@ -311,10 +522,9 @@ def hbsearch(molecule:str, molecule_name: str = "", directory:str = ".",
     elif use_object == "1": #User wants to use own object.
         useObject(molecule) #Object with entered name is saved as pdb-file in the pdb_files folder and is used for the following HBsearch run
     
-    
     hbs_output = startHBsearch(molecule, hb_file, solvent_key, pse_file, connections) #Starts an HBsearch run with given parameters. Output is stored
     hbs_dataframe = readInHBS(hbs_output) #Converts HBsearch run to dataframe
-    acceptor, donor = prepareLists(hbs_dataframe) #Prepares acceptor and donor lists for displaying in PyMol
+    acceptor, donor = prepareLists(hbs_dataframe, water_connections) #Prepares acceptor and donor lists for displaying in PyMol
     
     run_information = "HBsearch" #Which program is run. Needed for displayDistances() and showSticks()
     
@@ -329,7 +539,7 @@ def hbsearch(molecule:str, molecule_name: str = "", directory:str = ".",
         removeObject(molecule)
 
 
-# In[28]:
+# In[17]:
 
 
 #Creation of command in PyMol.
@@ -338,7 +548,7 @@ cmd.extend("hbsearch", hbsearch) #When read in in PyMol the script creates a com
 
 # # HB-Network - Initialization
 
-# In[29]:
+# In[18]:
 
 
 class saveBot:
@@ -350,7 +560,7 @@ class saveBot:
 save = saveBot()
 
 
-# In[30]:
+# In[19]:
 
 
 def createDirectory(molecule_name:str) -> str:
@@ -376,7 +586,7 @@ def createDirectory(molecule_name:str) -> str:
     return directory_name
 
 
-# In[31]:
+# In[20]:
 
 
 def createHBnetwork(molecule: str, directory_name: str, hb_file: str = "hb-define.txt", 
@@ -412,7 +622,7 @@ def createHBnetwork(molecule: str, directory_name: str, hb_file: str = "hb-defin
     return hbn_output
 
 
-# In[32]:
+# In[21]:
 
 
 def cleanHBnetwork(directory_name: str):
@@ -437,7 +647,7 @@ def cleanHBnetwork(directory_name: str):
     
 
 
-# In[33]:
+# In[22]:
 
 
 def indexHbnetwork(hbn_output: str):
@@ -487,14 +697,22 @@ def indexHbnetwork(hbn_output: str):
     return cluster_dict
 
 
-# In[34]:
+# In[23]:
 
 
 def initiateHBnetwork(molecule:str, molecule_name = "", directory:str = ".", 
          use_object: str = "0", remove_object = "0", hb_file: str = "hb-define.txt", 
-         solvent_key:str = "NONE", pse_file:str ="period-table-info.txt", connections: str = "0"):
+         solvent_key:str = "NONE", pse_file:str ="period-table-info.txt", connections: str = "0") -> None:
     """
-    
+    Initiates the HBnetwork run. Creates index directory containing all atoms participating in hydrogen bonds with their
+    respective cluster. Needed for further showNetwork runs.
+    Index dictionary, molecule name, as well as Cluster directory is saved in object "save" of class saveBot.
+    :param molecule: Strucutre used for HBsearch run. HBnetwork is run on the same molecule using the output of HBsearch.
+    :param directory_name: Saving folder for the HBnetwork run in HB_network subfolder in the program folder. 
+    :param hb_file: HB-file sued to define possible hydrogen bond interactions. Standard set to hb-define.txt file
+    :param solvent_key: If hydrogen bond bridges with solvent should be considered. Standard NONE: No solvent H-Bonds. Further possible: HOMO: Homogenous solvent; MEMB: Membrane environment.
+    :param pse_file: File containing the chemical nature of the atoms. Standard set to period-table.info. To create own one see standard file for structure.
+    :param connections: If special connections should be taken into account. Here: Hydrogen bonds that would not be recognized by parameters, but could be possible due to rotation of the residues. If connections = 1: Special conncetions will be taken into account. Standard set to 0: No special connectoins will be taken into account.
     """
     
     changeDirectory(directory) #Change directory to program folder directory. Needed PyMol directory is not set to program folder for HBnetwork run
@@ -518,7 +736,7 @@ def initiateHBnetwork(molecule:str, molecule_name = "", directory:str = ".",
     #Could also be deleted, since not necessairy for function.
     #cleanHBnetwork(directory_name)
     
-    #Created cluster dictionary serving as an indexing dictionary later on
+    #Created cluster dictionary serving as an indexing dictionary later on. Dictionary is saved in object "save".
     #Most important step for initalization.
     hbn_cluster_dict = indexHbnetwork(hbn_output)
     
@@ -526,11 +744,11 @@ def initiateHBnetwork(molecule:str, molecule_name = "", directory:str = ".",
                                             #True ouput of function, since this function should be called only once for each HBnetwork.
                                             #Searches should be possible without reoccuring initation runs. Therefore saving output in object.
     
-    #
+    #Checking which molecule name should be saved for later use in the showNetwork() function.
     if molecule_name == "": #Checking if custom molecule name was entered: If no name was entered, PDB-ID or saved object name is used.
-        save.molecule_name_save = molecule #
+        save.molecule_name_save = molecule #saving PDB-ID of fetched molecule as molecule name or name of saved object is use_object = 1.
     else: #When molecule name was entered, PyMol strucutre object posses molecule name. So this is used for following PyMol selection based commands.
-        save.molecule_name_save = molecule_name #
+        save.molecule_name_save = molecule_name #saving molecule_name as the object name used by showNetwork(). Applies, if fetched strucutre is named.
     
     
     
@@ -540,25 +758,31 @@ def initiateHBnetwork(molecule:str, molecule_name = "", directory:str = ".",
         removeObject(molecule)  
 
 
-# In[35]:
+# In[ ]:
 
 
-initiateHBnetwork("4akr")
 
 
-# In[36]:
+
+# In[24]:
 
 
+#Creates a pymol command starting initiateHBnetwork().
 cmd.extend("initiateHBnetwork", initiateHBnetwork)
 
 
 # # HB-Network PyMol-Display
 
-# In[37]:
+# In[25]:
 
 
 def readoutHBnetwork(query: str, checkFor: str = "RESIDUE" ) -> str:
-    
+    """
+    Checks the index dictionary for hydrogen bond clusters, the query atom/residue participates and returns them in a list.
+    :param query: The residue/atom of which the hydrogen cluster should be displayed in PyMol. Format: Chain/Residue ID/ for displaying clusters the whole residue participates. Chain/Residue ID/atom for displaying clusters the chosen atom participates.
+    :param checkFor: Viable inputs are: ATOM and RESIDUE. Input determines if clusters where just the atom participates should be shown or the cluster where the whole residue participates.
+    :return destination_cluster_list: List with all hydrogen bond cluster the residue/atom participates in.
+    """
     #Checks if only hydrogen network for atom or whole residue should be shown
     #Reads out dictionary, which Cluster files to check
     #How should the user input b Chain:ResIDAtom. Best would be PyMol input:
@@ -589,12 +813,14 @@ def readoutHBnetwork(query: str, checkFor: str = "RESIDUE" ) -> str:
                                         #Returns blank list, if no cluster, the residue participates, were found.
 
 
-# In[38]:
+# In[26]:
 
 
 def readInHBN(cluster_file_output: str) -> pd.DataFrame:
     """
-    
+    Given cluster files output genereted by HBnetwork is converted to a dataframe for furhter processing in following functions.
+    :param cluster_file_output: Output of cluster file that should be conferted to pandas dataframe.
+    :return df_cluster: Returns converted cluster file output as pandas dataframe.
     """
     
     
@@ -612,10 +838,17 @@ def readInHBN(cluster_file_output: str) -> pd.DataFrame:
     return df_cluster
 
 
-# In[39]:
+# In[27]:
 
 
 def prepareDataFrameHBnetwork(destination_cluster_list: str) -> pd.DataFrame:
+    """
+    Iterates through all cluster files indicated in cluster list, containing all clusters a residue/atom participates,
+    processes them via readInHBN() to dataframes and appends all output dataframes to one, which is used for displaying
+    connections and showing participating residues as sticks later on.
+    :param destination_cluster_list: List containing all clusters a residue/atom participates.
+    :return hBond_cluster_dataframe: Returns dataframe with all acceptor/donor relationships of all clusters a residue/atom participates.
+    """
 
     #Get directory from global variable
     #Reads out files with given file names
@@ -628,6 +861,7 @@ def prepareDataFrameHBnetwork(destination_cluster_list: str) -> pd.DataFrame:
     #--> Therfore append everything to an acceptor and donor list returning to prepareList
     #--> When no dataframe is empyt --> Atom /Residue does not participate in any hydrogen bonds
     
+    #Extracts directory, where HBnetwork run is saved from "save" object
     directory = save.directory_name_save
     
     #Directory, where cluster files for initiation run are saved
@@ -636,7 +870,7 @@ def prepareDataFrameHBnetwork(destination_cluster_list: str) -> pd.DataFrame:
     #Creating empty DataFrame. All dataframes created by reading out the generated cluster files is appended to this dataframe
     hBond_cluster_dataframe = pd.DataFrame()
     
-    #
+    #Iterates through all files indicated in the cluster list containing all clusters a residue/atom participates.
     for file in destination_cluster_list: #Iterating over given clusters.
         
         #Save path to cluster file for reading in.
@@ -646,62 +880,71 @@ def prepareDataFrameHBnetwork(destination_cluster_list: str) -> pd.DataFrame:
         with open(cluster_dir,"r") as cluster_file:
             cluster_output = cluster_file.read()
             
-        cluster_output = cluster_output.strip()
+        cluster_output = cluster_output.strip() #Cluster file is stripped, since last blanc line is interfering with creation of dataframe.
         
         #Processing cluster file output to dataframe
-        if cluster_output:
-            new_cluster_df = readInHBN(cluster_output)
-        else:
+        if cluster_output: #Checks if cluster contains any hydrogen bonds.
+            new_cluster_df = readInHBN(cluster_output) #Processes cluster file output to dataframe
+        else: #If cluster is empty -> Continueing with next cluster of list.
             continue
-            
+        
+        #Appending all dataframes from output of cluster files to one dataframe containing all acceptor/donor relationships
+        #of all clusters the residue/atom participates.
         hBond_cluster_dataframe = pd.concat([hBond_cluster_dataframe, new_cluster_df], ignore_index = True) 
+    
     return hBond_cluster_dataframe
 
 
-# In[42]:
+# In[28]:
 
 
-def showNetwork(query: str, checkFor = "RESIDUE"):
-    pass
-    ####### Learn objects. Save data like dictionary, directory name and co. as objects -->Classes, Objects
-    destination_cluster_list = readoutHBnetwork(query, checkFor)
+def showNetwork(query: str, checkFor = "RESIDUE") -> None:
+    """
+    Displays the hydrogen bridges between accetors and donors of all clusters the query residue/atom participates in PyMol.
+    Before started initializeHBnetwork needs to be performed with the object of choice.
+    :param query: The residue/atom of which the hydrogen bond network should be displayed in PyMol. Format: Chain/Residue ID/ for displaying clusters the whole residue participates. Chain/Residue ID/atom for displaying clusters the chosen atom participates.
+    :param checkFor: Determines if hydrogen networks of the whole residue or just the atom should be displayed. Viable inputs: ATOM or RESIDUE.
+    """
     
+    #Prepares the list of all clusters the residue/atom participates.
+    destination_cluster_list = readoutHBnetwork(query, checkFor)
+    #Processes the cluster file outputs of respective clusters to dataframes and appends them to one single dataframe.
     hbn_dataframe = prepareDataFrameHBnetwork(destination_cluster_list)
     
-    if hbn_dataframe.empty:
+    #Prepares acceptor/donor lists using the dataframe.
+    if hbn_dataframe.empty: #Check if dataframe is empty. In case it is empty --> Stop function. Show notification.
         print(f"This {checkFor} does not participate in any hydrogen bonds")
         return None
     
     else:
-        acceptor, donor = prepareLists(hbn_dataframe)
-        print(acceptor)
-        print(donor)
-    #
+        acceptor, donor = prepareLists(hbn_dataframe) #Preparing acceptor/donor lists of hydrogen network
+
+    #Extracting the object name of the object initializeHBnetwork was performed on from saving object "save".
     molecule_selection = save.molecule_name_save
         
-    #
-    run_information = f"HB_network"
-    print(run_information)
+    #Preparing the query name for better differentiation in PyMol. 
+    query_adj = query.replace("/", "\\") #Need to change direction, since PyMol otherwise recognizes the selection name as the first distance. Dont know why.
+    run_information = f"HB_network_{query_adj}" #Displaying in distance and stick representation names that HBnetwork was used and which residue/atom was targeted.
+    
+    #Displays the hydrogen bonds between acceptors and donors of a hydrogen network of a chosen residue/atom.
     displayDistances(acceptor, donor, molecule_selection, run_information)
     showSticks(acceptor, donor, molecule_selection, run_information)
 
 
-showNetwork("A/9/")
+# In[29]:
 
 
-# In[ ]:
-
-
+#Creates PyMol command for showNetwork().
 cmd.extend("showNetwork", showNetwork)
 
 
-# In[ ]:
+# In[30]:
 
 
 print(os.getcwd())
 
 
-# In[ ]:
+# In[31]:
 
 
 """<!--       _
