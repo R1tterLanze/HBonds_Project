@@ -1,13 +1,14 @@
-# HBonds_Project
+#HBonds_Project
 This program is a PyMol script calculating which atoms in a protein interact via hydrogen bonds and displays the results in PyMol.
 
 ##Installation
+
 To use this program, you will need to have the latest version of Python (best would be Anaconda) and PyMol, as well as the Pandas library, installed on your computer.
 
 
 To install the latest version of Python, follow these steps:
 
-Download the Python installer from the official website and run it to begin the installation process.
+Download the Python or Anaconda installer from the official website and run it to begin the installation process.
 Follow the prompts to complete the installation.
 
 
@@ -142,15 +143,22 @@ ARGUMENTS:
 query = 			The atom or residue of which the hydrogen bond network cluster should be displayed
 				Form for atoms as query: Chain/Residue ID/Atom e.g. A/6/OG
 				Form for residues: Chain/Residue ID/ e.g. A/38/ (last "/" important here to close query)
+				Multiple queries of the same type can be given at once by seperating them with with a space (" ").
 
 checkFor =			Determines if the clusters of the whole residue should be displayed or only for the atom
 				Possible inputs: 	"RESIDUE" for displaying the clusters a residue participates.
 							"ATOM" for displaying the cluster an atom participates.
 
-Limitations
-This program is intended for use with protein structures in the PDB format. It may not work with other types of structures or file formats.
 
-In addition, the program relies on a set of predefined criteria for identifying hydrogen bonds, which may not be suitable for all protein structures. As such, the results produced by the program should be interpreted with caution.
+
+The initialized Network can be replaced by a new one by usage of the "initiateHBnetwork" command.
+To delete all files of the currently initialized network, the "removeNetwork" command can be used.
+
+
+Limitations
+This program is intended for use with protein structures in the PDB format. Further riboproteins and nucleic acids can be used. It may not work with other types of structures or file formats.
+
+In addition, the program relies on a set of predefined criteria for identifying hydrogen bonds, which may not be suitable for all protein structures and contexts. As such, the results produced by the program should be interpreted with caution.
 
 License
 This program is provided under the terms of the MIT License. See the LICENSE file for details.
